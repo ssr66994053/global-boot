@@ -1,0 +1,2 @@
+providerLogFilter=com.yiji.boot.dubbo.ProviderLogFilter
+consumerCacheFilter=com.yiji.boot.dubbo.cache.ConsumerCacheFilter

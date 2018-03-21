@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.yiji.boot.mybatis.MybatisAutoConfiguration,\
+com.yiji.boot.mybatis.PageHelperAutoConfiguration,\
+com.yiji.boot.mybatis.MapperAutoConfiguration
+
+com.yiji.boot.core.init.ComponentInitializer=com.yiji.boot.mybatis.MybatisComponentInitializer

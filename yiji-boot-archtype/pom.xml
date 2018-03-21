@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.yiji.archetype</groupId>
+    <artifactId>yiji-boot-archetype</artifactId>
+    <version>1.2-SNAPSHOT</version>
+    <packaging>maven-archetype</packaging>
+
+    <name>yiji-boot-archetype</name>
+
+    <build>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.archetype</groupId>
+                <artifactId>archetype-packaging</artifactId>
+                <version>2.2</version>
+            </extension>
+        </extensions>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+            </plugin>
+        </plugins>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-archetype-plugin</artifactId>
+                    <version>2.4</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>2.6</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>2.8.2</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <description>Centrepoint is a basic but useful application that sets up a
+        dashboard of project information from Maven, Archiva and
+        Continuum.
+    </description>
+
+    <url>http://maven.apache.org</url>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <distributionManagement>
+                <snapshotRepository>
+                    <id>nexus-snapshot</id>
+                    <name>Internal snapshot Repository</name>
+                    <url>http://192.168.45.35:8081/nexus/content/repositories/snapshots/</url>
+                </snapshotRepository>
+                <repository>
+                    <id>nexus-releases</id>
+                    <name>Internal Release Repository</name>
+                    <url>http://192.168.45.35:8081/nexus/content/repositories/releases/</url>
+                </repository>
+            </distributionManagement>
+        </profile>
+        <profile>
+            <id>online</id>
+            <distributionManagement>
+                <snapshotRepository>
+                    <id>nexus-snapshot</id>
+                    <name>Internal snapshot Repository</name>
+                    <url>http://192.168.45.199:8081/nexus/content/repositories/snapshots/</url>
+                </snapshotRepository>
+                <repository>
+                    <id>nexus-releases</id>
+                    <name>Internal Release Repository</name>
+                    <url>http://192.168.45.199:8081/nexus/content/repositories/releases/</url>
+                </repository>
+            </distributionManagement>
+        </profile>
+    </profiles>
+</project>

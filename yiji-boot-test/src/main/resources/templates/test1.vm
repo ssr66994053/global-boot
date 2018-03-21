@@ -1,0 +1,54 @@
+<sessionId>$sessionId</sessionId>
+#csrfInputHidden()
+
+<script>
+
+    var token = $("meta[name='X-CSRF-TOKEN']").attr("content");
+    $(document).ajaxSend(function (e, xhr, options) {
+        xhr.setRequestHeader("X-CSRF-TOKEN", token);
+    });
+</script>
+
+$now
+<br/>
+<date>$dateUtil.simpleFormat($now)</date>
+
+
+#set( $codeList = ["PERSONAL","BUSINESS"] )
+#set( $enumName = "com.yjf.common.customer.enums.CustomerTypeEnum" )
+#enumMessageByList($enumName,$codeList)
+
+<select name="testSelect">
+    #foreach($status in $!enumUtil.getEnumList($enum))
+        <option value="$status.code">$status.message</option>
+    #end
+</select>
+
+<select name="testSelect2">
+    #foreach($status in $!yijiEnumUtil.getEnumList("com.yjf.common.customer.enums.CustomerTypeEnum"))
+        <option value="$status.code">$status.message</option>
+    #end
+</select>
+
+<springUrl>#springUrl("a.html")</springUrl>
+
+<xss>$!esc.html("<script>alert(111)</script>")</xss>
+
+$data
+
+
+$!orderBase.date
+
+$!orderBase.date()
+
+
+#set( $list = ["pine", "oak", "maple"])
+#foreach ($element in $list)
+    $velocityCount
+This is $element.<br>
+#end
+
+<stringutil>$stringUtils.mask("18580039996")
+    <stringutil/>
+
+

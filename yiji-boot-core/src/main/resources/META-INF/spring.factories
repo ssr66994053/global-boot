@@ -1,0 +1,27 @@
+org.springframework.boot.SpringApplicationRunListener=\
+com.yiji.boot.core.listener.YijiApplicationRunListener,\
+com.yiji.boot.core.hera.HeraSpringApplicationRunListener,\
+com.yiji.boot.core.dependency.DependencyCheckRunListener
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.yiji.boot.core.configuration.LogAutoConfiguration,\
+com.yiji.boot.core.configuration.HeraAutoConfiguration
+#logger initializer
+com.yiji.boot.core.log.initializer.LogInitializer=\
+com.yiji.boot.core.log.initializer.ConsoleLogInitializer,\
+com.yiji.boot.core.log.initializer.FileInfoLogInitializer,\
+com.yiji.boot.core.log.initializer.FileErrorLogInitializer,\
+com.yiji.boot.core.log.initializer.AutoConfigurationReportLogInitializer,\
+com.yiji.boot.core.log.initializer.LevelLogInitializer,\
+com.yiji.boot.core.log.initializer.CommonLogLevelSettingLogInitializer,\
+com.yiji.boot.core.log.initializer.BusinessLogInitializer,\
+com.yiji.boot.core.log.initializer.ThreadPoolLogInitializer,\
+com.yiji.boot.core.log.initializer.HeraLogInitializer
+org.springframework.context.ApplicationContextInitializer=\
+com.yiji.boot.core.init.ComponentExtensionContextInitializer,\
+com.yiji.boot.core.listener.HolderInitApplicationContextInitializer
+org.springframework.context.ApplicationListener=\
+com.yiji.boot.core.listener.AppPidApplicationListener,\
+com.yiji.boot.core.log.AnsiSupportApplicationListener,\
+com.yiji.boot.core.listener.AppHttpPortApplicationListener
+com.yjf.common.dependency.DependencyChecker=\
+com.yiji.boot.core.dependency.YijiBootBaseDenpendencyChecker

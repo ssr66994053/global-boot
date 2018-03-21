@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="xxx">
+        <file>${yiji.log.path}/xxx.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${yiji.log.path}/xxx.log.%d{yyyy-MM-dd}.%i</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>1024MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${yiji.log.pattern.str}</pattern>
+        </encoder>
+    </appender>
+    <appender class="com.yjf.common.log.LogbackAsyncAppender" name="async-xxx">
+        <appender-ref ref="xxx"/>
+    </appender>
+    <logger name="com.yiji">
+        <appender-ref ref="async-xxx"/>
+    </logger>
+</configuration>

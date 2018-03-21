@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>yiji-parent</artifactId>
+        <groupId>com.yiji</groupId>
+        <version>3.1-SNAPSHOT</version>
+    </parent>
+    <groupId>com.yiji.boot</groupId>
+    <artifactId>yiji-boot-parent</artifactId>
+    <version>1.2-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>yiji-boot-parent</name>
+    <description>yiji custom component for Spring Boot</description>
+    <modules>
+        <module>yiji-boot-core</module>
+        <module>yiji-boot-test</module>
+        <module>yiji-boot-starters</module>
+        <module>yiji-boot-archtype</module>
+        <module>yiji-boot-configuration-processor</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <!-- generate ide properties prompt-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
+</project>

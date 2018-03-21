@@ -1,0 +1,12 @@
+<h1>errorPage</h1>
+
+timestamp=${timestamp}
+<br/>
+status=${status}
+<br/>
+exception=${exception}
+<br/>
+message=${message}
+<br/>
+path=${path}
+<br/>

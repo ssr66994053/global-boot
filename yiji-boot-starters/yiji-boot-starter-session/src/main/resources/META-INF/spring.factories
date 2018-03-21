@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.yiji.boot.session.YedisHttpSessionConfiguration
+com.yiji.boot.core.init.ComponentInitializer=com.yiji.boot.session.SessionComponentInitializer

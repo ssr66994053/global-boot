@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yiji.boot.test.mybatis.mapper.CityMapperWithXml">
+    <!--  新增记录  -->
+    <insert id="addCity" parameterType="city" useGeneratedKeys="true" keyProperty="id">
+        insert into city(id,name) VALUES(#{id},#{name})
+    </insert>
+    <!--  查询单条记录  -->
+    <select id="findCityById" parameterType="long" resultType="city">
+        select * from city where id = #{id}
+    </select>
+    <!--  查询所有记录  -->
+    <select id="findAll" resultType="city">
+        select * from city
+    </select>
+    <!--  删除记录  -->
+    <delete id="delCity" parameterType="long">
+        delete from city where id = #{id}
+    </delete>
+    <delete id="delAllXML" >
+        delete from city
+    </delete>
+
+</mapper>

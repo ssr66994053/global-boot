@@ -1,0 +1,1138 @@
+{
+  "version": 23,
+  "style": "dark",
+  "rows": [
+    {
+      "title": "New row",
+      "panels": [
+        {
+          "bars": false,
+          "timeFrom": null,
+          "links": [],
+          "isNew": true,
+          "nullPointMode": "connected",
+          "renderer": "flot",
+          "linewidth": 2,
+          "steppedLine": false,
+          "id": 4,
+          "fill": 1,
+          "span": 12,
+          "title": "fastdfs.storage.NumActive",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "legend": {
+            "total": false,
+            "show": true,
+            "max": false,
+            "min": false,
+            "current": false,
+            "values": false,
+            "avg": false
+          },
+          "targets": [
+            {
+              "errors": {},
+              "tags": {
+                "host": "*",
+                "appName": "*"
+              },
+              "aggregator": "avg",
+              "metric": "fastdfs.storage.NumActive",
+              "currentTagKey": "",
+              "downsampleInterval": "",
+              "downsampleAggregator": "avg",
+              "refId": "A",
+              "currentTagValue": ""
+            }
+          ],
+          "seriesOverrides": [],
+          "percentage": false,
+          "type": "graph",
+          "x-axis": true,
+          "error": false,
+          "editable": true,
+          "grid": {
+            "leftMax": null,
+            "threshold2": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "threshold1": null,
+            "leftLogBase": 1,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)",
+            "rightMin": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "leftMin": null
+          },
+          "stack": false,
+          "y-axis": true,
+          "timeShift": null,
+          "aliasColors": {},
+          "lines": true,
+          "points": false,
+          "datasource": null,
+          "pointradius": 5,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "editable": true,
+      "collapse": false,
+      "height": "250px"
+    },
+    {
+      "title": "New row",
+      "panels": [
+        {
+          "bars": false,
+          "timeFrom": null,
+          "links": [],
+          "isNew": true,
+          "nullPointMode": "connected",
+          "renderer": "flot",
+          "linewidth": 2,
+          "steppedLine": false,
+          "id": 3,
+          "fill": 1,
+          "span": 12,
+          "title": "redis.cache.NumActive",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "legend": {
+            "total": false,
+            "show": true,
+            "max": false,
+            "min": false,
+            "current": false,
+            "values": false,
+            "avg": false
+          },
+          "targets": [
+            {
+              "errors": {},
+              "hide": false,
+              "tags": {
+                "host": "*",
+                "appName": "*"
+              },
+              "aggregator": "avg",
+              "metric": "redis.cache.NumActive",
+              "currentTagKey": "",
+              "downsampleAggregator": "avg",
+              "refId": "B",
+              "currentTagValue": ""
+            }
+          ],
+          "seriesOverrides": [],
+          "percentage": false,
+          "type": "graph",
+          "x-axis": true,
+          "error": false,
+          "editable": true,
+          "grid": {
+            "leftMax": null,
+            "threshold2": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "threshold1": null,
+            "leftLogBase": 1,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)",
+            "rightMin": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "leftMin": null
+          },
+          "stack": false,
+          "y-axis": true,
+          "timeShift": null,
+          "aliasColors": {},
+          "lines": true,
+          "points": false,
+          "datasource": null,
+          "pointradius": 5,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "editable": true,
+      "collapse": false,
+      "height": "250px"
+    },
+    {
+      "title": "New row",
+      "panels": [
+        {
+          "bars": false,
+          "timeFrom": null,
+          "links": [],
+          "isNew": true,
+          "nullPointMode": "connected",
+          "renderer": "flot",
+          "linewidth": 2,
+          "steppedLine": false,
+          "id": 2,
+          "fill": 1,
+          "span": 12,
+          "title": "tomcat.connectionCount",
+          "tooltip": {
+            "shared": true,
+            "value_type": "individual"
+          },
+          "legend": {
+            "total": false,
+            "show": true,
+            "max": false,
+            "min": false,
+            "current": false,
+            "values": false,
+            "avg": false
+          },
+          "targets": [
+            {
+              "errors": {},
+              "tags": {
+                "host": "*",
+                "appName": "*"
+              },
+              "aggregator": "avg",
+              "metric": "tomcat.connectionCount",
+              "currentTagKey": "",
+              "downsampleAggregator": "avg",
+              "refId": "A",
+              "currentTagValue": ""
+            }
+          ],
+          "seriesOverrides": [
+            {}
+          ],
+          "percentage": false,
+          "type": "graph",
+          "repeat": "metrics",
+          "x-axis": true,
+          "error": false,
+          "editable": true,
+          "grid": {
+            "leftMax": null,
+            "threshold2": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "threshold1": null,
+            "leftLogBase": 1,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)",
+            "rightMin": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "leftMin": null
+          },
+          "stack": true,
+          "y-axis": true,
+          "timeShift": null,
+          "aliasColors": {},
+          "lines": true,
+          "points": false,
+          "datasource": null,
+          "pointradius": 5,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "editable": true,
+      "collapse": false,
+      "height": "250px"
+    },
+    {
+      "title": "New row",
+      "panels": [
+        {
+          "bars": false,
+          "timeFrom": null,
+          "links": [],
+          "isNew": true,
+          "nullPointMode": "connected",
+          "renderer": "flot",
+          "linewidth": 2,
+          "steppedLine": false,
+          "id": 4,
+          "fill": 1,
+          "span": 12,
+          "title": "fastdfs.storage.NumActive",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "legend": {
+            "total": false,
+            "show": true,
+            "max": false,
+            "min": false,
+            "current": false,
+            "values": false,
+            "avg": false
+          },
+          "targets": [
+            {
+              "errors": {},
+              "tags": {
+                "host": "*",
+                "appName": "*"
+              },
+              "aggregator": "avg",
+              "metric": "fastdfs.storage.NumActive",
+              "currentTagKey": "",
+              "downsampleInterval": "",
+              "downsampleAggregator": "avg",
+              "refId": "A",
+              "currentTagValue": ""
+            }
+          ],
+          "seriesOverrides": [],
+          "percentage": false,
+          "type": "graph",
+          "x-axis": true,
+          "error": false,
+          "editable": true,
+          "grid": {
+            "leftMax": null,
+            "threshold2": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "threshold1": null,
+            "leftLogBase": 1,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)",
+            "rightMin": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "leftMin": null
+          },
+          "stack": false,
+          "y-axis": true,
+          "timeShift": null,
+          "aliasColors": {},
+          "lines": true,
+          "points": false,
+          "datasource": null,
+          "pointradius": 5,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "editable": true,
+      "collapse": false,
+      "height": "250px"
+    },
+    {
+      "title": "New row",
+      "panels": [
+        {
+          "bars": false,
+          "timeFrom": null,
+          "links": [],
+          "isNew": true,
+          "nullPointMode": "connected",
+          "renderer": "flot",
+          "linewidth": 2,
+          "steppedLine": false,
+          "id": 4,
+          "fill": 1,
+          "span": 12,
+          "title": "fastdfs.storage.NumActive",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "legend": {
+            "total": false,
+            "show": true,
+            "max": false,
+            "min": false,
+            "current": false,
+            "values": false,
+            "avg": false
+          },
+          "targets": [
+            {
+              "errors": {},
+              "tags": {
+                "host": "*",
+                "appName": "*"
+              },
+              "aggregator": "avg",
+              "metric": "fastdfs.storage.NumActive",
+              "currentTagKey": "",
+              "downsampleInterval": "",
+              "downsampleAggregator": "avg",
+              "refId": "A",
+              "currentTagValue": ""
+            }
+          ],
+          "seriesOverrides": [],
+          "percentage": false,
+          "type": "graph",
+          "x-axis": true,
+          "error": false,
+          "editable": true,
+          "grid": {
+            "leftMax": null,
+            "threshold2": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "threshold1": null,
+            "leftLogBase": 1,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)",
+            "rightMin": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "leftMin": null
+          },
+          "stack": false,
+          "y-axis": true,
+          "timeShift": null,
+          "aliasColors": {},
+          "lines": true,
+          "points": false,
+          "datasource": null,
+          "pointradius": 5,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "editable": true,
+      "collapse": false,
+      "height": "250px"
+    },
+    {
+      "title": "New row",
+      "panels": [
+        {
+          "bars": false,
+          "timeFrom": null,
+          "links": [],
+          "isNew": true,
+          "nullPointMode": "connected",
+          "renderer": "flot",
+          "linewidth": 2,
+          "steppedLine": false,
+          "id": 4,
+          "fill": 1,
+          "span": 12,
+          "title": "fastdfs.storage.NumActive",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "legend": {
+            "total": false,
+            "show": true,
+            "max": false,
+            "min": false,
+            "current": false,
+            "values": false,
+            "avg": false
+          },
+          "targets": [
+            {
+              "errors": {},
+              "tags": {
+                "host": "*",
+                "appName": "*"
+              },
+              "aggregator": "avg",
+              "metric": "fastdfs.storage.NumActive",
+              "currentTagKey": "",
+              "downsampleInterval": "",
+              "downsampleAggregator": "avg",
+              "refId": "A",
+              "currentTagValue": ""
+            }
+          ],
+          "seriesOverrides": [],
+          "percentage": false,
+          "type": "graph",
+          "x-axis": true,
+          "error": false,
+          "editable": true,
+          "grid": {
+            "leftMax": null,
+            "threshold2": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "threshold1": null,
+            "leftLogBase": 1,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)",
+            "rightMin": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "leftMin": null
+          },
+          "stack": false,
+          "y-axis": true,
+          "timeShift": null,
+          "aliasColors": {},
+          "lines": true,
+          "points": false,
+          "datasource": null,
+          "pointradius": 5,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "editable": true,
+      "collapse": false,
+      "height": "250px"
+    },
+    {
+      "title": "New row",
+      "panels": [
+        {
+          "bars": false,
+          "timeFrom": null,
+          "links": [],
+          "isNew": true,
+          "nullPointMode": "connected",
+          "renderer": "flot",
+          "linewidth": 2,
+          "steppedLine": false,
+          "id": 4,
+          "fill": 1,
+          "span": 12,
+          "title": "fastdfs.storage.NumActive",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "legend": {
+            "total": false,
+            "show": true,
+            "max": false,
+            "min": false,
+            "current": false,
+            "values": false,
+            "avg": false
+          },
+          "targets": [
+            {
+              "errors": {},
+              "tags": {
+                "host": "*",
+                "appName": "*"
+              },
+              "aggregator": "avg",
+              "metric": "fastdfs.storage.NumActive",
+              "currentTagKey": "",
+              "downsampleInterval": "",
+              "downsampleAggregator": "avg",
+              "refId": "A",
+              "currentTagValue": ""
+            }
+          ],
+          "seriesOverrides": [],
+          "percentage": false,
+          "type": "graph",
+          "x-axis": true,
+          "error": false,
+          "editable": true,
+          "grid": {
+            "leftMax": null,
+            "threshold2": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "threshold1": null,
+            "leftLogBase": 1,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)",
+            "rightMin": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "leftMin": null
+          },
+          "stack": false,
+          "y-axis": true,
+          "timeShift": null,
+          "aliasColors": {},
+          "lines": true,
+          "points": false,
+          "datasource": null,
+          "pointradius": 5,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "editable": true,
+      "collapse": false,
+      "height": "250px"
+    },
+    {
+      "title": "New row",
+      "panels": [
+        {
+          "bars": false,
+          "timeFrom": null,
+          "links": [],
+          "isNew": true,
+          "nullPointMode": "connected",
+          "renderer": "flot",
+          "linewidth": 2,
+          "steppedLine": false,
+          "id": 4,
+          "fill": 1,
+          "span": 12,
+          "title": "fastdfs.storage.NumActive",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "legend": {
+            "total": false,
+            "show": true,
+            "max": false,
+            "min": false,
+            "current": false,
+            "values": false,
+            "avg": false
+          },
+          "targets": [
+            {
+              "errors": {},
+              "tags": {
+                "host": "*",
+                "appName": "*"
+              },
+              "aggregator": "avg",
+              "metric": "fastdfs.storage.NumActive",
+              "currentTagKey": "",
+              "downsampleInterval": "",
+              "downsampleAggregator": "avg",
+              "refId": "A",
+              "currentTagValue": ""
+            }
+          ],
+          "seriesOverrides": [],
+          "percentage": false,
+          "type": "graph",
+          "x-axis": true,
+          "error": false,
+          "editable": true,
+          "grid": {
+            "leftMax": null,
+            "threshold2": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "threshold1": null,
+            "leftLogBase": 1,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)",
+            "rightMin": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "leftMin": null
+          },
+          "stack": false,
+          "y-axis": true,
+          "timeShift": null,
+          "aliasColors": {},
+          "lines": true,
+          "points": false,
+          "datasource": null,
+          "pointradius": 5,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "editable": true,
+      "collapse": false,
+      "height": "250px"
+    },
+    {
+      "title": "New row",
+      "panels": [
+        {
+          "bars": false,
+          "timeFrom": null,
+          "links": [],
+          "isNew": true,
+          "nullPointMode": "connected",
+          "renderer": "flot",
+          "linewidth": 2,
+          "steppedLine": false,
+          "id": 4,
+          "fill": 1,
+          "span": 12,
+          "title": "fastdfs.storage.NumActive",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "legend": {
+            "total": false,
+            "show": true,
+            "max": false,
+            "min": false,
+            "current": false,
+            "values": false,
+            "avg": false
+          },
+          "targets": [
+            {
+              "errors": {},
+              "tags": {
+                "host": "*",
+                "appName": "*"
+              },
+              "aggregator": "avg",
+              "metric": "fastdfs.storage.NumActive",
+              "currentTagKey": "",
+              "downsampleInterval": "",
+              "downsampleAggregator": "avg",
+              "refId": "A",
+              "currentTagValue": ""
+            }
+          ],
+          "seriesOverrides": [],
+          "percentage": false,
+          "type": "graph",
+          "x-axis": true,
+          "error": false,
+          "editable": true,
+          "grid": {
+            "leftMax": null,
+            "threshold2": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "threshold1": null,
+            "leftLogBase": 1,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)",
+            "rightMin": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "leftMin": null
+          },
+          "stack": false,
+          "y-axis": true,
+          "timeShift": null,
+          "aliasColors": {},
+          "lines": true,
+          "points": false,
+          "datasource": null,
+          "pointradius": 5,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "editable": true,
+      "collapse": false,
+      "height": "250px"
+    },
+    {
+      "title": "New row",
+      "panels": [
+        {
+          "bars": false,
+          "timeFrom": null,
+          "links": [],
+          "isNew": true,
+          "nullPointMode": "connected",
+          "renderer": "flot",
+          "linewidth": 2,
+          "steppedLine": false,
+          "id": 4,
+          "fill": 1,
+          "span": 12,
+          "title": "fastdfs.storage.NumActive",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "legend": {
+            "total": false,
+            "show": true,
+            "max": false,
+            "min": false,
+            "current": false,
+            "values": false,
+            "avg": false
+          },
+          "targets": [
+            {
+              "errors": {},
+              "tags": {
+                "host": "*",
+                "appName": "*"
+              },
+              "aggregator": "avg",
+              "metric": "fastdfs.storage.NumActive",
+              "currentTagKey": "",
+              "downsampleInterval": "",
+              "downsampleAggregator": "avg",
+              "refId": "A",
+              "currentTagValue": ""
+            }
+          ],
+          "seriesOverrides": [],
+          "percentage": false,
+          "type": "graph",
+          "x-axis": true,
+          "error": false,
+          "editable": true,
+          "grid": {
+            "leftMax": null,
+            "threshold2": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "threshold1": null,
+            "leftLogBase": 1,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)",
+            "rightMin": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "leftMin": null
+          },
+          "stack": false,
+          "y-axis": true,
+          "timeShift": null,
+          "aliasColors": {},
+          "lines": true,
+          "points": false,
+          "datasource": null,
+          "pointradius": 5,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "editable": true,
+      "collapse": false,
+      "height": "250px"
+    },
+    {
+      "title": "New row",
+      "panels": [
+        {
+          "bars": false,
+          "timeFrom": null,
+          "links": [],
+          "isNew": true,
+          "nullPointMode": "connected",
+          "renderer": "flot",
+          "linewidth": 2,
+          "steppedLine": false,
+          "id": 4,
+          "fill": 1,
+          "span": 12,
+          "title": "fastdfs.storage.NumActive",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "legend": {
+            "total": false,
+            "show": true,
+            "max": false,
+            "min": false,
+            "current": false,
+            "values": false,
+            "avg": false
+          },
+          "targets": [
+            {
+              "errors": {},
+              "tags": {
+                "host": "*",
+                "appName": "*"
+              },
+              "aggregator": "avg",
+              "metric": "fastdfs.storage.NumActive",
+              "currentTagKey": "",
+              "downsampleInterval": "",
+              "downsampleAggregator": "avg",
+              "refId": "A",
+              "currentTagValue": ""
+            }
+          ],
+          "seriesOverrides": [],
+          "percentage": false,
+          "type": "graph",
+          "x-axis": true,
+          "error": false,
+          "editable": true,
+          "grid": {
+            "leftMax": null,
+            "threshold2": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "threshold1": null,
+            "leftLogBase": 1,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)",
+            "rightMin": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "leftMin": null
+          },
+          "stack": false,
+          "y-axis": true,
+          "timeShift": null,
+          "aliasColors": {},
+          "lines": true,
+          "points": false,
+          "datasource": null,
+          "pointradius": 5,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "editable": true,
+      "collapse": false,
+      "height": "250px"
+    },
+    {
+      "title": "New row",
+      "panels": [
+        {
+          "bars": false,
+          "timeFrom": null,
+          "links": [],
+          "isNew": true,
+          "nullPointMode": "connected",
+          "renderer": "flot",
+          "linewidth": 2,
+          "steppedLine": false,
+          "id": 4,
+          "fill": 1,
+          "span": 12,
+          "title": "fastdfs.storage.NumActive",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "legend": {
+            "total": false,
+            "show": true,
+            "max": false,
+            "min": false,
+            "current": false,
+            "values": false,
+            "avg": false
+          },
+          "targets": [
+            {
+              "errors": {},
+              "tags": {
+                "host": "*",
+                "appName": "*"
+              },
+              "aggregator": "avg",
+              "metric": "fastdfs.storage.NumActive",
+              "currentTagKey": "",
+              "downsampleInterval": "",
+              "downsampleAggregator": "avg",
+              "refId": "A",
+              "currentTagValue": ""
+            }
+          ],
+          "seriesOverrides": [],
+          "percentage": false,
+          "type": "graph",
+          "x-axis": true,
+          "error": false,
+          "editable": true,
+          "grid": {
+            "leftMax": null,
+            "threshold2": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "threshold1": null,
+            "leftLogBase": 1,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)",
+            "rightMin": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "leftMin": null
+          },
+          "stack": false,
+          "y-axis": true,
+          "timeShift": null,
+          "aliasColors": {},
+          "lines": true,
+          "points": false,
+          "datasource": null,
+          "pointradius": 5,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "editable": true,
+      "collapse": false,
+      "height": "250px"
+    },
+    {
+      "title": "New row",
+      "panels": [
+        {
+          "bars": false,
+          "timeFrom": null,
+          "links": [],
+          "isNew": true,
+          "nullPointMode": "connected",
+          "renderer": "flot",
+          "linewidth": 2,
+          "steppedLine": false,
+          "id": 4,
+          "fill": 1,
+          "span": 12,
+          "title": "fastdfs.storage.NumActive",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "legend": {
+            "total": false,
+            "show": true,
+            "max": false,
+            "min": false,
+            "current": false,
+            "values": false,
+            "avg": false
+          },
+          "targets": [
+            {
+              "errors": {},
+              "tags": {
+                "host": "*",
+                "appName": "*"
+              },
+              "aggregator": "avg",
+              "metric": "fastdfs.storage.NumActive",
+              "currentTagKey": "",
+              "downsampleInterval": "",
+              "downsampleAggregator": "avg",
+              "refId": "A",
+              "currentTagValue": ""
+            }
+          ],
+          "seriesOverrides": [],
+          "percentage": false,
+          "type": "graph",
+          "x-axis": true,
+          "error": false,
+          "editable": true,
+          "grid": {
+            "leftMax": null,
+            "threshold2": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "threshold1": null,
+            "leftLogBase": 1,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)",
+            "rightMin": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "leftMin": null
+          },
+          "stack": false,
+          "y-axis": true,
+          "timeShift": null,
+          "aliasColors": {},
+          "lines": true,
+          "points": false,
+          "datasource": null,
+          "pointradius": 5,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "editable": true,
+      "collapse": false,
+      "height": "250px"
+    }
+  ],
+  "templating": {
+    "list": [
+      {
+        "regex": "",
+        "tagValuesQuery": "*",
+        "multi": true,
+        "name": "tomcat_connectionCount",
+        "tags": [],
+        "type": "query",
+        "allFormat": "wildcard",
+        "refresh": true,
+        "options": [
+          {
+            "text": "All",
+            "selected": true,
+            "value": "*"
+          }
+        ],
+        "current": {
+          "text": "All",
+          "value": "*"
+        },
+        "datasource": null,
+        "query": "tomcat.connectionCount",
+        "useTags": true,
+        "tagsQuery": "appName",
+        "multiFormat": "regex values",
+        "includeAll": true
+      }
+    ]
+  },
+  "links": [],
+  "tags": [
+    "mytag"
+  ],
+  "hideControls": false,
+  "title": "Metrics",
+  "editable": true,
+  "refresh": false,
+  "annotations": {
+    "list": []
+  },
+  "originalTitle": "Metrics",
+  "timepicker": {
+    "time_options": [
+      "5m",
+      "15m",
+      "1h",
+      "6h",
+      "12h",
+      "24h",
+      "2d",
+      "7d",
+      "30d"
+    ],
+    "now": true,
+    "refresh_intervals": [
+      "5s",
+      "10s",
+      "30s",
+      "1m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "1d"
+    ]
+  },
+  "sharedCrosshair": false,
+  "time": {
+    "to": "now",
+    "from": "now-1h"
+  },
+  "timezone": "browser",
+  "schemaVersion": 8,
+  "id": 1
+}

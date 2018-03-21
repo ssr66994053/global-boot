@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>yiji-boot-starters</artifactId>
+        <groupId>com.yiji.boot</groupId>
+        <version>1.2-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>yiji-boot-starter-boss</artifactId>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.yiji.boot</groupId>
+            <artifactId>yiji-boot-starter-amqp</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.yiji.boot</groupId>
+            <artifactId>yiji-boot-starter-dubbo</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.yiji.boot</groupId>
+            <artifactId>yiji-boot-starter-session</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.yiji.boot</groupId>
+            <artifactId>yiji-boot-starter-web</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.yiji.boot</groupId>
+            <artifactId>yiji-boot-starter-yedis</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.yjf.marmot</groupId>
+            <artifactId>marmot-client</artifactId>
+            <version>3.0.0</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>*</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>-java</artifactId>
+                    <groupId>org.rarefied.</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>xmemcached</artifactId>
+                    <groupId>com.googlecode.xmemcached</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>yjf-common-util</artifactId>
+                    <groupId>com.yjf.common</groupId>
+                </exclusion>
+
+                <exclusion>
+                    <artifactId>amqp-client</artifactId>
+                    <groupId>com.rabbitmq</groupId>
+                </exclusion>
+
+                <exclusion>
+                    <artifactId>spring-rabbit</artifactId>
+                    <groupId>org.springframework.amqp</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>yiji-yedis</artifactId>
+                    <groupId>com.yiji.framework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>*</artifactId>
+                    <groupId>ch.qos.logback</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>*</artifactId>
+                    <groupId>org.apache.shiro</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.yjf.permission</groupId>
+            <artifactId>permission-facade</artifactId>
+            <version>2.0.0.20160125</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>*</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>yjf-common-util</artifactId>
+                    <groupId>com.yjf.common</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

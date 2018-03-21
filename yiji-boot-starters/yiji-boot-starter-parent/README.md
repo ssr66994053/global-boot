@@ -1,0 +1,1 @@
+此module用于应用继承，所有的yiji-boot应用必须继承此module。
