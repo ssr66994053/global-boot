@@ -1,0 +1,93 @@
+{
+  "groups": [
+    {
+      "name": "yiji.fastdfs",
+      "type": "com.yiji.boot.fastdfs.FastdfsProperties",
+      "sourceType": "com.yiji.boot.fastdfs.FastdfsProperties"
+    },
+    {
+      "name": "yiji.fastdfs.pool",
+      "type": "com.yiji.boot.fastdfs.FastdfsProperties$Pool",
+      "sourceType": "com.yiji.boot.fastdfs.FastdfsProperties",
+      "sourceMethod": "getPool()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "yiji.fastdfs.connectTimeout",
+      "type": "java.lang.Integer",
+      "description": "可选: 创建连接超时时间，单位second, 默认5s",
+      "sourceType": "com.yiji.boot.fastdfs.FastdfsProperties",
+      "defaultValue": 5
+    },
+    {
+      "name": "yiji.fastdfs.downloadHost",
+      "type": "java.lang.String",
+      "description": "必填: 文件资源下载域名，如fastdfs.yijifu.net",
+      "sourceType": "com.yiji.boot.fastdfs.FastdfsProperties",
+      "defaultValue": "127.0.0.1:80"
+    },
+    {
+      "name": "yiji.fastdfs.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用此组件",
+      "sourceType": "com.yiji.boot.fastdfs.FastdfsProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "yiji.fastdfs.encryptedDownloadHost",
+      "type": "java.lang.String",
+      "description": "可选: 加密文件资源下载域名，如ppm.yijifu.net",
+      "sourceType": "com.yiji.boot.fastdfs.FastdfsProperties",
+      "defaultValue": "127.0.0.1:80"
+    },
+    {
+      "name": "yiji.fastdfs.encryptedGroups",
+      "type": "java.lang.String",
+      "description": "可选: 所以对文件进行加密的组，多个组以逗号分隔",
+      "sourceType": "com.yiji.boot.fastdfs.FastdfsProperties"
+    },
+    {
+      "name": "yiji.fastdfs.healthCheckGroup",
+      "type": "java.lang.String",
+      "description": "可选: 设置了healthCheckGroup的话，组件健康检查时，只检查指定group存储服务",
+      "sourceType": "com.yiji.boot.fastdfs.FastdfsProperties"
+    },
+    {
+      "name": "yiji.fastdfs.networkTimeOut",
+      "type": "java.lang.Integer",
+      "description": "可选: 数据连接超时时间，单位second，默认30s",
+      "sourceType": "com.yiji.boot.fastdfs.FastdfsProperties",
+      "defaultValue": 30
+    },
+    {
+      "name": "yiji.fastdfs.pool.maxIdlePerNode",
+      "type": "java.lang.Integer",
+      "description": "可选：单个服务结点最大空闲连接数，默认为1",
+      "sourceType": "com.yiji.boot.fastdfs.FastdfsProperties$Pool",
+      "defaultValue": 1
+    },
+    {
+      "name": "yiji.fastdfs.pool.maxTotal",
+      "type": "java.lang.Integer",
+      "description": "可选: 最大连接数, 默认为200",
+      "sourceType": "com.yiji.boot.fastdfs.FastdfsProperties$Pool",
+      "defaultValue": 200
+    },
+    {
+      "name": "yiji.fastdfs.pool.maxTotalPerNode",
+      "type": "java.lang.Integer",
+      "description": "可选：单个服务结点最大连接数，默认为3",
+      "sourceType": "com.yiji.boot.fastdfs.FastdfsProperties$Pool",
+      "defaultValue": 3
+    },
+    {
+      "name": "yiji.fastdfs.trackerAddress",
+      "type": "java.lang.String",
+      "description": "必填：服务器地址和端口, 如: 127.0.0.1:22122",
+      "sourceType": "com.yiji.boot.fastdfs.FastdfsProperties",
+      "defaultValue": "localhost:22122"
+    }
+  ],
+  "hints": []
+}

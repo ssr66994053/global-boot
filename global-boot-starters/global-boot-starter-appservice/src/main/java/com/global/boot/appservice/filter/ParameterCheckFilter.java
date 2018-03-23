@@ -7,13 +7,13 @@
  * 修订记录:
  * qiubo@yiji.com 2016-09-22 10:50 创建
  */
-package com.yiji.boot.appservice.filter;
+package com.global.boot.appservice.filter;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import com.yiji.boot.appservice.AppService;
-import com.yiji.boot.filterchain.Filter;
-import com.yiji.boot.filterchain.FilterChain;
+import com.global.boot.appservice.AppService;
+import com.global.boot.filterchain.Filter;
+import com.global.boot.filterchain.FilterChain;
 import com.yjf.common.lang.exception.AppException;
 import com.yjf.common.lang.exception.Exceptions;
 import com.yjf.common.lang.validator.YJFValidatorFactory;

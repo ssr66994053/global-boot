@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2017-01-18 16:16 创建
  */
-package com.yiji.boot.dubbo.cache;
+package com.global.boot.dubbo.cache;
 
 /**
  * @author qiubo@yiji.com

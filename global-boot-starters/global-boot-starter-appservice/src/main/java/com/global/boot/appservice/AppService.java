@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-09-22 15:26 创建
  */
-package com.yiji.boot.appservice;
+package com.global.boot.appservice;
 
 import org.springframework.stereotype.Service;
 

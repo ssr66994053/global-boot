@@ -2,7 +2,7 @@
  * www.yiji.com Inc.
  * Copyright (c) 2015 All Rights Reserved
  */
-package com.yiji.boot.core;
+package com.global.boot.core;
 
 /*
  * 修订记录:

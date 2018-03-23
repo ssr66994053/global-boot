@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-20 16:14 创建
  *
  */
-package com.yiji.boot.dubbo;
+package com.global.boot.dubbo;
 
 import com.alibaba.dubbo.common.Constants;
 import lombok.Data;

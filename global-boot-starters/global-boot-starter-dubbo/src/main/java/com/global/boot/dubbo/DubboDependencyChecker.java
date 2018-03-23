@@ -7,9 +7,9 @@
  * 修订记录:
  * qiubo@yiji.com 2016-05-17 19:50 创建
  */
-package com.yiji.boot.dubbo;
+package com.global.boot.dubbo;
 
-import com.yiji.boot.core.AppConfigException;
+import com.global.boot.core.AppConfigException;
 import com.yjf.common.dependency.DependencyChecker;
 import org.springframework.core.env.Environment;
 

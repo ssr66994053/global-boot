@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-06-10 19:17 创建
  *
  */
-package com.yiji.boot.core;
+package com.global.boot.core;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -8,15 +8,15 @@
  * yanglie@yiji.com 2015-08-20 14:03 创建
  *
  */
-package com.yiji.boot.yedis;
+package com.global.boot.yedis;
 
 import com.google.common.collect.Lists;
-import com.yiji.boot.core.metrics.GenericObjectPoolMetrics;
-import com.yiji.boot.yedis.spring.cache.YijiCachingConfigurer;
-import com.yiji.framework.yedis.support.YedisCacheManager;
-import com.yiji.framework.yedis.support.YedisConnectionFactory;
-import com.yiji.framework.yedis.support.YedisSerializer;
-import com.yiji.framework.yedis.support.YedisStringKeySerializer;
+import com.global.boot.core.metrics.GenericObjectPoolMetrics;
+import com.global.boot.yedis.spring.cache.YijiCachingConfigurer;
+import com.global.framework.yedis.support.YedisCacheManager;
+import com.global.framework.yedis.support.YedisConnectionFactory;
+import com.global.framework.yedis.support.YedisSerializer;
+import com.global.framework.yedis.support.YedisStringKeySerializer;
 import com.yjf.common.portrait.model.IOResource;
 import com.yjf.common.portrait.model.TCPEndpoint;
 import org.slf4j.LoggerFactory;

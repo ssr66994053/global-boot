@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-06 15:41 创建
  *
  */
-package com.yiji.boot.dubbo;
+package com.global.boot.dubbo;
 
 import com.alibaba.dubbo.common.Constants;
 import com.alibaba.dubbo.config.*;
@@ -16,14 +16,14 @@ import com.alibaba.dubbo.config.spring.AnnotationBean;
 import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import com.yiji.boot.core.AppConfigException;
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.core.CommonProperties;
-import com.yiji.boot.core.EnvironmentHolder;
-import com.yiji.boot.core.listener.AppInfoWriter;
-import com.yiji.framework.hera.client.exception.HeraException;
-import com.yiji.framework.hera.client.listener.Event;
-import com.yiji.framework.hera.client.listener.ValueTrigger;
+import com.global.boot.core.AppConfigException;
+import com.global.boot.core.Apps;
+import com.global.boot.core.CommonProperties;
+import com.global.boot.core.EnvironmentHolder;
+import com.global.boot.core.listener.AppInfoWriter;
+//import com.global.framework.hera.client.exception.HeraException;
+//import com.global.framework.hera.client.listener.Event;
+//import com.global.framework.hera.client.listener.ValueTrigger;
 import com.yjf.common.dubbo.DubboRemoteProxyFacotry;
 import com.yjf.common.dubbo.DubboShutdownApplicationListener;
 import com.yjf.common.portrait.model.IOResource;
@@ -51,7 +51,7 @@ import java.util.Map;
 @EnableConfigurationProperties({ DubboProperties.class, CommonProperties.class })
 @AutoConfigureOrder(Ordered.HIGHEST_PRECEDENCE)
 @ConditionalOnProperty(value = "yiji.dubbo.enable", matchIfMissing = true)
-public class DubboAutoConfiguration implements InitializingBean, ValueTrigger, IOResource<TCPEndpoint> {
+public class DubboAutoConfiguration implements InitializingBean, IOResource<TCPEndpoint> {
 
 	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(DubboAutoConfiguration.class);
 	public static final String DEFAULT_SCAN_PACAKGE = "com.yiji.boot," + Apps.getBasePackage();
@@ -252,16 +252,16 @@ public class DubboAutoConfiguration implements InitializingBean, ValueTrigger, I
 		return new DubboHealthIndicator();
 	}
 	
-	@Override
-	public void onChange(Event event) throws HeraException {
-		event.ifPresent("yiji.dubbo.provider.maxThreads", maxThreads -> {
-			if (YijiDubboThreadPool.threadPoolExecutor != null) {
-				YijiDubboThreadPool.threadPoolExecutor.setMaximumPoolSize(Integer.valueOf(maxThreads));
-				logger.info("hera设置dubbo maxThreads={}", maxThreads);
-			}
-			
-		});
-	}
+//	@Override
+//	public void onChange(Event event) throws HeraException {
+//		event.ifPresent("yiji.dubbo.provider.maxThreads", maxThreads -> {
+//			if (YijiDubboThreadPool.threadPoolExecutor != null) {
+//				YijiDubboThreadPool.threadPoolExecutor.setMaximumPoolSize(Integer.valueOf(maxThreads));
+//				logger.info("hera设置dubbo maxThreads={}", maxThreads);
+//			}
+//			
+//		});
+//	}
 	
 	@Override
 	public List<TCPEndpoint> endpoints() {

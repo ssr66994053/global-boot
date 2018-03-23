@@ -7,10 +7,10 @@
  * 修订记录:
  * qiubo@yiji.com 2016-09-22 11:19 创建
  */
-package com.yiji.boot.appservice.filter;
+package com.global.boot.appservice.filter;
 
-import com.yiji.boot.filterchain.Filter;
-import com.yiji.boot.filterchain.FilterChain;
+import com.global.boot.filterchain.Filter;
+import com.global.boot.filterchain.FilterChain;
 import com.yjf.common.lang.exception.Exceptions;
 import org.springframework.core.Ordered;
 

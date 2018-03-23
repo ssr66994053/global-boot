@@ -8,11 +8,11 @@
  * qzhanbo@yiji.com 2015-08-21 17:01 创建
  *
  */
-package com.yiji.boot.dubbo;
+package com.global.boot.dubbo;
 
 import ch.qos.logback.classic.Level;
-import com.yiji.boot.core.log.LogbackConfigurator;
-import com.yiji.boot.core.log.initializer.AbstractLogInitializer;
+import com.global.boot.core.log.LogbackConfigurator;
+import com.global.boot.core.log.initializer.AbstractLogInitializer;
 
 /**
  * 修改dubbo monitor的日志级别

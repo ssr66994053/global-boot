@@ -7,10 +7,10 @@
  * 修订记录:
  * qiubo@yiji.com 2016-11-04 13:51 创建
  */
-package com.yiji.boot.actuator;
+package com.global.boot.actuator;
 
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.core.listener.YijiApplicationRunListener;
+import com.global.boot.core.Apps;
+import com.global.boot.core.listener.YijiApplicationRunListener;
 import com.yjf.common.concurrent.MonitoredThreadPool;
 import com.yjf.common.concurrent.MonitoredThreadPoolExecutor;
 import com.yjf.common.env.Env;

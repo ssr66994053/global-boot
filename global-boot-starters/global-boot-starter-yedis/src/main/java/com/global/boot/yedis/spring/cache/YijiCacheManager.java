@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-11-05 07:03 创建
  */
-package com.yiji.boot.yedis.spring.cache;
+package com.global.boot.yedis.spring.cache;
 
 import com.google.common.collect.Lists;
 import org.springframework.cache.Cache;

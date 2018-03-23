@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-09-10 10:28 创建
  *
  */
-package com.yiji.boot.core.init;
+package com.global.boot.core.init;
 
 import com.google.common.collect.Lists;
 

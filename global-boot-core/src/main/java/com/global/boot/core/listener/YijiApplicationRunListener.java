@@ -8,18 +8,18 @@
  * qzhanbo@yiji.com 2015-06-12 10:42 创建
  *
  */
-package com.yiji.boot.core.listener;
+package com.global.boot.core.listener;
 
 import ch.qos.logback.classic.LoggerContext;
 import com.google.common.base.Preconditions;
 import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
-import com.yiji.boot.core.AppConfigException;
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.core.EnvironmentHolder;
-import com.yiji.boot.core.YijiBootApplication;
-import com.yiji.boot.core.log.YijiLogbackLoggingSystem;
-import com.yiji.boot.core.log.initializer.ConsoleLogInitializer;
+import com.global.boot.core.AppConfigException;
+import com.global.boot.core.Apps;
+import com.global.boot.core.EnvironmentHolder;
+import com.global.boot.core.YijiBootApplication;
+import com.global.boot.core.log.YijiLogbackLoggingSystem;
+import com.global.boot.core.log.initializer.ConsoleLogInitializer;
 import com.yjf.common.env.Env;
 import com.yjf.common.id.CodeGenerator;
 import com.yjf.common.lang.ip.IPUtil;
@@ -52,7 +52,7 @@ import java.util.List;
  */
 public class YijiApplicationRunListener implements SpringApplicationRunListener, PriorityOrdered {
 	
-	private static List<String> disabledPackageName = Lists.newArrayList("", "com.yiji", "com.yjf", "com.yiji.boot");
+	private static List<String> disabledPackageName = Lists.newArrayList("", "com.global", "com.yjf", "com.global.boot");
 	
 	public YijiApplicationRunListener(SpringApplication application, String[] args) {
 		application.setRegisterShutdownHook(false);

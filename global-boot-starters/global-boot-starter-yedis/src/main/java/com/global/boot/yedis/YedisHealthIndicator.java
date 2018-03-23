@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-10-29 18:27 创建
  *
  */
-package com.yiji.boot.yedis;
+package com.global.boot.yedis;
 
 import org.springframework.boot.actuate.health.AbstractHealthIndicator;
 import org.springframework.boot.actuate.health.Health;

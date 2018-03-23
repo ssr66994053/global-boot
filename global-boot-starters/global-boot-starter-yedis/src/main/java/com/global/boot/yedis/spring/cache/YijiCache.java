@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-11-05 07:04 创建
  */
-package com.yiji.boot.yedis.spring.cache;
+package com.global.boot.yedis.spring.cache;
 
 import org.springframework.cache.Cache;
 import org.springframework.data.redis.cache.DefaultRedisCachePrefix;

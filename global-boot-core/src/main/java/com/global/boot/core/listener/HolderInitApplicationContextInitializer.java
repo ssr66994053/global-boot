@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-08-24 17:18 创建
  */
-package com.yiji.boot.core.listener;
+package com.global.boot.core.listener;
 
 import com.yjf.common.spring.ApplicationContextHolder;
 import org.springframework.context.ApplicationContextInitializer;

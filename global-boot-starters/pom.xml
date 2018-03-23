@@ -24,17 +24,23 @@
         <module>global-boot-starter-security</module>
         <module>global-boot-starter-mybatis</module>
         <module>global-boot-starter-fastdfs</module>
-        <module>global-boot-starter-cs</module>
         <module>global-boot-starter-test</module>
+        <!--  
+        <module>global-boot-starter-cs</module>
         <module>global-boot-starter-boss</module>
         <module>global-boot-starter-postman</module>
+        -->
         <module>global-boot-starter-metrics</module>
         <module>global-boot-starter-actuator</module>
         <module>global-boot-starter-shiro</module>
+        <!--  
         <module>global-boot-starter-offlinelocks</module>
+        -->
         <module>global-boot-starter-filterchain</module>
         <module>global-boot-starter-rocketmq</module>
+        <!--  
         <module>global-boot-starter-cas</module>
+        -->
         <module>global-boot-starter-appservice</module>
     </modules>
     <dependencies>

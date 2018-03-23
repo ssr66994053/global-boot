@@ -8,13 +8,13 @@
  * qzhanbo@yiji.com 2015-08-12 17:43 创建
  *
  */
-package com.yiji.boot.core.log;
+package com.global.boot.core.log;
 
 import ch.qos.logback.classic.LoggerContext;
 import ch.qos.logback.core.util.OptionHelper;
-import com.yiji.boot.core.AppConfigException;
-import com.yiji.boot.core.listener.YijiApplicationRunListener;
-import com.yiji.boot.core.log.initializer.LogInitializer;
+import com.global.boot.core.AppConfigException;
+import com.global.boot.core.listener.YijiApplicationRunListener;
+import com.global.boot.core.log.initializer.LogInitializer;
 import com.yjf.common.env.Env;
 import org.slf4j.ILoggerFactory;
 import org.slf4j.impl.StaticLoggerBinder;
@@ -34,7 +34,7 @@ import java.security.ProtectionDomain;
 import java.util.List;
 
 import static ch.qos.logback.classic.PatternLayout.defaultConverterMap;
-import static com.yiji.boot.core.configuration.LogAutoConfiguration.LogProperties.pattern;
+import static com.global.boot.core.configuration.LogAutoConfiguration.LogProperties.pattern;
 
 /**
  * @author qiubo@yiji.com

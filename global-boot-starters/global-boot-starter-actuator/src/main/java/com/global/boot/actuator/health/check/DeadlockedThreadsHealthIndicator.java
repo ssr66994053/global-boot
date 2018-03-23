@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-10-29 21:17 创建
  *
  */
-package com.yiji.boot.actuator.health.check;
+package com.global.boot.actuator.health.check;
 
 import org.springframework.boot.actuate.health.AbstractHealthIndicator;
 import org.springframework.boot.actuate.health.Health;

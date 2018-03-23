@@ -7,12 +7,12 @@
  * 修订记录:
  * qiubo@yiji.com 2016-01-08 17:36 创建
  */
-package com.yiji.boot.core.log.initializer;
+package com.global.boot.core.log.initializer;
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.Appender;
-import com.yiji.boot.core.log.LogbackConfigurator;
+import com.global.boot.core.log.LogbackConfigurator;
 import com.yjf.common.log.BusinessLogger;
 import com.yjf.common.log.LogbackAsyncAppender;
 

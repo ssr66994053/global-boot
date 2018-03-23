@@ -1,4 +1,4 @@
-package com.yiji.boot.amqp;/*
+package com.global.boot.amqp;/*
 * www.yiji.com Inc.
 * Copyright (c) 2014 All Rights Reserved
 */

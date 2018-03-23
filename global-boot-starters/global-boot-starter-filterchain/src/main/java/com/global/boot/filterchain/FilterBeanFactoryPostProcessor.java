@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-02-19 00:43 创建
  */
-package com.yiji.boot.filterchain;
+package com.global.boot.filterchain;
 
 import com.google.common.base.Splitter;
 import org.springframework.beans.BeansException;

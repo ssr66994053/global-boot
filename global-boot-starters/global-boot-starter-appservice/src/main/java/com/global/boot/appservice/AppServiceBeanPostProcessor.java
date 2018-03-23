@@ -7,12 +7,12 @@
  * 修订记录:
  * qiubo@yiji.com 2016-09-21 22:39 创建
  */
-package com.yiji.boot.appservice;
+package com.global.boot.appservice;
 
 import com.google.common.base.Splitter;
-import com.yiji.boot.appservice.ex.ExceptionHandler;
-import com.yiji.boot.appservice.ex.ExceptionHandlers;
-import com.yiji.boot.appservice.filter.AppServiceFilterChain;
+import com.global.boot.appservice.ex.ExceptionHandler;
+import com.global.boot.appservice.ex.ExceptionHandlers;
+import com.global.boot.appservice.filter.AppServiceFilterChain;
 import com.yjf.common.lang.exception.Exceptions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

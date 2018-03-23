@@ -16,8 +16,8 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.framework</groupId>
-            <artifactId>yiji-yedis</artifactId>
+            <groupId>com.global.framework</groupId>
+            <artifactId>global-yedis</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.session</groupId>

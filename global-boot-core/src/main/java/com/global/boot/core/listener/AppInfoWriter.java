@@ -7,10 +7,10 @@
  * 修订记录:
  * qiubo@yiji.com 2016-11-01 10:58 创建
  */
-package com.yiji.boot.core.listener;
+package com.global.boot.core.listener;
 
-import com.yiji.boot.core.AppConfigException;
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.AppConfigException;
+import com.global.boot.core.Apps;
 import org.springframework.util.Assert;
 
 import java.io.File;

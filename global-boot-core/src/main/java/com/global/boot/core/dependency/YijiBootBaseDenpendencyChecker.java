@@ -7,10 +7,10 @@
  * 修订记录:
  * qiubo@yiji.com 2016-05-17 19:41 创建
  */
-package com.yiji.boot.core.dependency;
+package com.global.boot.core.dependency;
 
-import com.yiji.boot.core.AppConfigException;
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.AppConfigException;
+import com.global.boot.core.Apps;
 import com.yjf.common.dependency.DependencyChecker;
 import org.springframework.core.env.Environment;
 

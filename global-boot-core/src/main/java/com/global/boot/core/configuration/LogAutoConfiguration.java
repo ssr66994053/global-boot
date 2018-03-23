@@ -8,9 +8,9 @@
  * qzhanbo@yiji.com 2015-08-14 16:11 创建
  *
  */
-package com.yiji.boot.core.configuration;
+package com.global.boot.core.configuration;
 
-import com.yiji.boot.core.EnvironmentHolder;
+import com.global.boot.core.EnvironmentHolder;
 import com.yjf.common.env.Env;
 import org.springframework.boot.bind.RelaxedPropertyResolver;
 import org.springframework.boot.context.properties.ConfigurationProperties;

@@ -1,0 +1,9 @@
+com\global\boot\yedis\spring\cache\YijiCacheErrorHandler.class
+com\global\boot\yedis\YedisProperties.class
+com\global\boot\yedis\YedisAutoConfiguration.class
+com\global\boot\yedis\spring\cache\YijiCache.class
+com\global\boot\yedis\spring\cache\YijiCacheManager.class
+com\global\boot\yedis\YedisHealthIndicator.class
+com\global\boot\yedis\YedisProperties$Pool.class
+com\global\boot\yedis\spring\cache\YijiCachingConfigurer.class
+META-INF\spring-configuration-metadata.json

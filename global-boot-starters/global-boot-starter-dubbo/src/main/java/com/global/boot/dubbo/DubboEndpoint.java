@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-04-23 18:21 创建
  */
-package com.yiji.boot.dubbo;
+package com.global.boot.dubbo;
 
 import com.alibaba.dubbo.config.spring.AnnotationBean;
 import com.alibaba.dubbo.config.spring.ReferenceBean;

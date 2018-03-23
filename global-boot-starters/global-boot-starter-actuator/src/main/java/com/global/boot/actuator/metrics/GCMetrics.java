@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-04-24 01:11 创建
  */
-package com.yiji.boot.actuator.metrics;
+package com.global.boot.actuator.metrics;
 
 import org.springframework.boot.actuate.endpoint.PublicMetrics;
 import org.springframework.boot.actuate.metrics.Metric;

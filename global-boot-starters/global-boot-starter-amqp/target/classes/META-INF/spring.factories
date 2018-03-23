@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.global.boot.amqp.RabbitCustomAutoConfiguration
+com.global.boot.core.init.ComponentInitializer=com.global.boot.amqp.RabbitComponentInitializer

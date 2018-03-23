@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2017-01-18 16:24 创建
  */
-package com.yiji.boot.dubbo.cache;
+package com.global.boot.dubbo.cache;
 
 import com.alibaba.dubbo.rpc.Invocation;
 import com.alibaba.dubbo.rpc.Invoker;

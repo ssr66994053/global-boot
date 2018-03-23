@@ -7,12 +7,12 @@
  * 修订记录:
  * qiubo@yiji.com 2016-09-22 10:56 创建
  */
-package com.yiji.boot.appservice.filter;
+package com.global.boot.appservice.filter;
 
-import com.yiji.boot.appservice.ex.ExceptionContext;
-import com.yiji.boot.appservice.ex.ExceptionHandlers;
-import com.yiji.boot.filterchain.Filter;
-import com.yiji.boot.filterchain.FilterChain;
+import com.global.boot.appservice.ex.ExceptionContext;
+import com.global.boot.appservice.ex.ExceptionHandlers;
+import com.global.boot.filterchain.Filter;
+import com.global.boot.filterchain.FilterChain;
 import com.yjf.common.lang.enums.CommonErrorCode;
 import com.yjf.common.lang.exception.SystemException;
 import com.yjf.common.lang.result.StandardResultInfo;

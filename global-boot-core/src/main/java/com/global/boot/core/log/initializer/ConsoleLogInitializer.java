@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-12 22:05 创建
  *
  */
-package com.yiji.boot.core.log.initializer;
+package com.global.boot.core.log.initializer;
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.Logger;
@@ -17,14 +17,14 @@ import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.Appender;
 import ch.qos.logback.core.ConsoleAppender;
 import com.google.common.base.Charsets;
-import com.yiji.boot.core.configuration.LogAutoConfiguration;
-import com.yiji.boot.core.log.LogbackConfigurator;
+import com.global.boot.core.configuration.LogAutoConfiguration;
+import com.global.boot.core.log.LogbackConfigurator;
 import com.yjf.common.env.Env;
 import org.apache.commons.lang.SystemUtils;
 
 import java.util.Iterator;
 
-import static com.yiji.boot.core.configuration.LogAutoConfiguration.LogProperties.consoleEnable;
+import static com.global.boot.core.configuration.LogAutoConfiguration.LogProperties.consoleEnable;
 
 /**
  * 配置应用控制台日志输出，应用日志不需要配置ConsoleAppender，由此类按照规则配置

@@ -7,9 +7,9 @@
  * 修订记录:
  * qiubo@yiji.com 2016-09-22 10:47 创建
  */
-package com.yiji.boot.appservice.filter;
+package com.global.boot.appservice.filter;
 
-import com.yiji.boot.filterchain.Context;
+import com.global.boot.filterchain.Context;
 import org.aopalliance.intercept.MethodInvocation;
 
 /**

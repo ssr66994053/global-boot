@@ -1,0 +1,7 @@
+com\global\boot\amqp\RabbitExtensionProperties.class
+com\global\boot\amqp\RabbitComponentInitializer.class
+com\global\boot\amqp\RabbitHealthIndicator.class
+com\global\boot\amqp\RabbitThreadPoolProperties.class
+com\global\boot\amqp\KyroMessageConverter.class
+com\global\boot\amqp\RabbitCustomAutoConfiguration.class
+META-INF\spring-configuration-metadata.json

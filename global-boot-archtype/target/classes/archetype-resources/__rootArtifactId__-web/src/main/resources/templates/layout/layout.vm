@@ -1,0 +1,12 @@
+#set ($JQ="$")
+<!DOCTYPE HTML>
+<html>
+<head>
+    #csrfMeta()
+    #parse("layout/header.vm")
+</head>
+<body style="overflow: hidden;">
+<div id="loading">
+    ${screen_content}
+</body>
+</html>

@@ -8,28 +8,31 @@
  * qzhanbo@yiji.com 2015-10-27 12:26 创建
  *
  */
-package com.yiji.boot.actuator;
+package com.global.boot.actuator;
 
 import com.google.common.collect.Lists;
-import com.yiji.boot.actuator.acl.ActuatorACLFilter;
-import com.yiji.boot.actuator.controller.ActuatorIndexController;
-import com.yiji.boot.actuator.controller.LogOperateServlet;
-import com.yiji.boot.actuator.endpoint.IOEndpoint;
-import com.yiji.boot.actuator.endpoint.JarEndpoint;
-import com.yiji.boot.actuator.health.check.DeadlockedThreadsHealthIndicator;
-import com.yiji.boot.actuator.health.check.MemoryStatusHealthIndicator;
-import com.yiji.boot.actuator.health.check.SystemLoadHealthIndicator;
-import com.yiji.boot.actuator.health.check.ThreadsCountHealthIndicator;
-import com.yiji.boot.actuator.health.guard.HealthGuard;
-import com.yiji.boot.actuator.health.guard.HealthGuardStartingListener;
-import com.yiji.boot.actuator.metrics.GCMetrics;
-import com.yiji.boot.actuator.metrics.file.MetricsFileWriter;
-import com.yiji.boot.actuator.metrics.opentsdb.OpenTsdbProperties;
-import com.yiji.boot.actuator.metrics.opentsdb.YijiTsdbGaugeWriter;
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.core.hera.HeraStarter;
-import com.yiji.framework.watcher.http.adaptor.web.WatcherServlet;
-import com.yiji.framework.watcher.spring.SpringApplicationContextHolder;
+import com.global.boot.actuator.acl.ActuatorACLFilter;
+import com.global.boot.actuator.controller.ActuatorIndexController;
+import com.global.boot.actuator.controller.LogOperateServlet;
+import com.global.boot.actuator.endpoint.IOEndpoint;
+import com.global.boot.actuator.endpoint.JarEndpoint;
+import com.global.boot.actuator.health.check.DeadlockedThreadsHealthIndicator;
+import com.global.boot.actuator.health.check.MemoryStatusHealthIndicator;
+import com.global.boot.actuator.health.check.SystemLoadHealthIndicator;
+import com.global.boot.actuator.health.check.ThreadsCountHealthIndicator;
+
+//import com.global.boot.actuator.health.guard.HealthGuard;
+//import com.global.boot.actuator.health.guard.HealthGuardStartingListener;
+
+
+import com.global.boot.actuator.metrics.GCMetrics;
+import com.global.boot.actuator.metrics.file.MetricsFileWriter;
+import com.global.boot.actuator.metrics.opentsdb.OpenTsdbProperties;
+//import com.global.boot.actuator.metrics.opentsdb.YijiTsdbGaugeWriter;
+import com.global.boot.core.Apps;
+//import com.global.boot.core.hera.HeraStarter;
+//import com.yiji.framework.watcher.http.adaptor.web.WatcherServlet;
+//import com.yiji.framework.watcher.spring.SpringApplicationContextHolder;
 import com.yjf.common.id.CodeGenerator;
 import com.yjf.common.portrait.model.Endpoint;
 import com.yjf.common.portrait.model.HTTPEndpoint;
@@ -96,20 +99,20 @@ public class ActuatorAutoConfiguration {
 		return filterRegistrationBean;
 	}
 	
-	@ConditionalOnWebApplication
-	@Bean
-	public ServletRegistrationBean actuatorWatcherServlet() {
-		WatcherServlet watcherServlet = new WatcherServlet(Apps.getAppName());
-		ServletRegistrationBean servletRegistrationBean = new ServletRegistrationBean(watcherServlet, "/mgt/watcher/*");
-		servletRegistrationBean.setName("watcherServlet");
-		return servletRegistrationBean;
-	}
-	
-	@ConditionalOnMissingBean(SpringApplicationContextHolder.class)
-	@Bean
-	public SpringApplicationContextHolder registerActuatorWatcherSpringApplicationContextHolder() {
-		return new SpringApplicationContextHolder();
-	}
+//	@ConditionalOnWebApplication
+//	@Bean
+//	public ServletRegistrationBean actuatorWatcherServlet() {
+//		WatcherServlet watcherServlet = new WatcherServlet(Apps.getAppName());
+//		ServletRegistrationBean servletRegistrationBean = new ServletRegistrationBean(watcherServlet, "/mgt/watcher/*");
+//		servletRegistrationBean.setName("watcherServlet");
+//		return servletRegistrationBean;
+//	}
+//	
+//	@ConditionalOnMissingBean(SpringApplicationContextHolder.class)
+//	@Bean
+//	public SpringApplicationContextHolder registerActuatorWatcherSpringApplicationContextHolder() {
+//		return new SpringApplicationContextHolder();
+//	}
 	
 	/**
 	 * 禁用applicationContextIdFilter,在我们的场景没有什么卵用
@@ -129,23 +132,23 @@ public class ActuatorAutoConfiguration {
 		return null;
 	}
 	
-	@Bean(name = "healthGuard")
-	public HealthGuard healthGuard() {
-		return new HealthGuard();
-	}
-	
-	@Bean
-	public ApplicationListener healthGuardStartingListener() {
-		return new HealthGuardStartingListener();
-	}
-	
-	@ExportMetricWriter
-	@Bean(name = "tsdbGaugeWriter")
-	public YijiTsdbGaugeWriter tsdbGaugeWriter(OpenTsdbProperties properties) {
-		System.setProperty("spring.metrics.export.triggers.tsdbGaugeWriter.excludes", properties.getValidExcludes());
-		System.setProperty("spring.metrics.export.triggers.tsdbGaugeWriter.delayMillis", "15000");
-		return new YijiTsdbGaugeWriter(properties.getValidateUrls());
-	}
+//	@Bean(name = "healthGuard")
+//	public HealthGuard healthGuard() {
+//		return new HealthGuard();
+//	}
+//	
+//	@Bean
+//	public ApplicationListener healthGuardStartingListener() {
+//		return new HealthGuardStartingListener();
+//	}
+//	
+//	@ExportMetricWriter
+//	@Bean(name = "tsdbGaugeWriter")
+//	public YijiTsdbGaugeWriter tsdbGaugeWriter(OpenTsdbProperties properties) {
+//		System.setProperty("spring.metrics.export.triggers.tsdbGaugeWriter.excludes", properties.getValidExcludes());
+//		System.setProperty("spring.metrics.export.triggers.tsdbGaugeWriter.delayMillis", "15000");
+//		return new YijiTsdbGaugeWriter(properties.getValidateUrls());
+//	}
 	
 	@Bean
 	public MetricsEndpointMetricReader metricsEndpointMetricReader(	MetricsEndpoint endpoint,
@@ -179,25 +182,25 @@ public class ActuatorAutoConfiguration {
 		return new IOEndpoint();
 	}
 	
-	@Bean
-	public IOResource<Endpoint> heraResouces() {
-		return () -> {
-			List<Endpoint> endpoints = Lists.newArrayList();
-			if (HeraStarter.isHeraEnable()) {
-				TCPEndpoint tcpEndpoint = new TCPEndpoint();
-				tcpEndpoint.parseIpAndPort(System.getProperty(Apps.HERA_ZK_URL));
-				tcpEndpoint.setName("zk");
-				tcpEndpoint.setDesc("hera");
-				endpoints.add(tcpEndpoint);
-			}
-			HTTPEndpoint httpEndpoint = new HTTPEndpoint();
-			httpEndpoint.setUrl(CodeGenerator.getHeraRegisterUrl());
-			httpEndpoint.setName("register");
-			httpEndpoint.setDesc("hera");
-			endpoints.add(httpEndpoint);
-			return endpoints;
-		};
-	}
+//	@Bean
+//	public IOResource<Endpoint> heraResouces() {
+//		return () -> {
+//			List<Endpoint> endpoints = Lists.newArrayList();
+//			if (HeraStarter.isHeraEnable()) {
+//				TCPEndpoint tcpEndpoint = new TCPEndpoint();
+//				tcpEndpoint.parseIpAndPort(System.getProperty(Apps.HERA_ZK_URL));
+//				tcpEndpoint.setName("zk");
+//				tcpEndpoint.setDesc("hera");
+//				endpoints.add(tcpEndpoint);
+//			}
+//			HTTPEndpoint httpEndpoint = new HTTPEndpoint();
+//			httpEndpoint.setUrl(CodeGenerator.getHeraRegisterUrl());
+//			httpEndpoint.setName("register");
+//			httpEndpoint.setDesc("hera");
+//			endpoints.add(httpEndpoint);
+//			return endpoints;
+//		};
+//	}
 	
 	@Bean
 	public GCMetrics gcMetrics() {

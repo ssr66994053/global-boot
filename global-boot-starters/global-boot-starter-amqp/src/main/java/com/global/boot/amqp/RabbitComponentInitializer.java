@@ -8,10 +8,10 @@
  * yanglie@yiji.com 2016-01-16 08:47 创建
  *
  */
-package com.yiji.boot.amqp;
+package com.global.boot.amqp;
 
 import com.google.common.collect.Lists;
-import com.yiji.boot.core.init.ComponentInitializer;
+import com.global.boot.core.init.ComponentInitializer;
 import org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration;
 import org.springframework.context.ConfigurableApplicationContext;
 

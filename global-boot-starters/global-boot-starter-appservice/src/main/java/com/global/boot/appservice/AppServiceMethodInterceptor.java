@@ -7,11 +7,11 @@
  * 修订记录:
  * qiubo@yiji.com 2016-09-23 10:36 创建
  */
-package com.yiji.boot.appservice;
+package com.global.boot.appservice;
 
 import com.google.common.collect.Sets;
-import com.yiji.boot.appservice.filter.AppServiceContext;
-import com.yiji.boot.appservice.filter.AppServiceFilterChain;
+import com.global.boot.appservice.filter.AppServiceContext;
+import com.global.boot.appservice.filter.AppServiceFilterChain;
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
 

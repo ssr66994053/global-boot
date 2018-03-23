@@ -8,9 +8,9 @@
  * qzhanbo@yiji.com 2015-09-10 11:23 创建
  *
  */
-package com.yiji.boot.dubbo;
+package com.global.boot.dubbo;
 
-import com.yiji.boot.core.init.ComponentInitializer;
+import com.global.boot.core.init.ComponentInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 
 /**

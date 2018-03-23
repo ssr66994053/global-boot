@@ -9,12 +9,12 @@
  *
  */
 
-package com.yiji.boot.amqp;
+package com.global.boot.amqp;
 
 import com.google.common.collect.Lists;
-import com.yiji.framework.hera.client.exception.HeraException;
-import com.yiji.framework.hera.client.listener.Event;
-import com.yiji.framework.hera.client.listener.ValueTrigger;
+//import com.yiji.framework.hera.client.exception.HeraException;
+//import com.yiji.framework.hera.client.listener.Event;
+//import com.yiji.framework.hera.client.listener.ValueTrigger;
 import com.yjf.common.concurrent.MonitoredThreadPool;
 import com.yjf.common.portrait.model.IOResource;
 import com.yjf.common.portrait.model.TCPEndpoint;
@@ -44,10 +44,10 @@ import java.util.List;
  */
 @Configuration
 @ConditionalOnProperty(value = "yiji.rabbitmq.enable", matchIfMissing = true)
-@EnableConfigurationProperties({ RabbitProperties.class, RabbitExtensionProperties.class,
-								RabbitThreadPoolProperties.class })
+//@EnableConfigurationProperties({ RabbitProperties.class, RabbitExtensionProperties.class,
+//								RabbitThreadPoolProperties.class })
 @EnableRabbit
-public class RabbitCustomAutoConfiguration implements ValueTrigger, IOResource<TCPEndpoint> {
+public class RabbitCustomAutoConfiguration implements IOResource<TCPEndpoint> {
 	private static final Logger logger = LoggerFactory.getLogger(RabbitCustomAutoConfiguration.class);
 	public static final String RABBIT_CONNECTION_FACTORY = "rabbitConnectionFactory";
 	
@@ -199,23 +199,23 @@ public class RabbitCustomAutoConfiguration implements ValueTrigger, IOResource<T
 		return taskExecutor;
 	}
 	
-	@Override
-	public void onChange(Event event) throws HeraException {
-		event.ifPresent("yiji.rabbitmq.pool.maxPoolSize", value -> {
-			if (rabbitThreadPool != null) {
-				rabbitThreadPool.setMaxPoolSize(Integer.valueOf(value));
-				logger.info("hera设置rabbit客户端maxPoolSize={}", value);
-			}
-			
-		});
-		event.ifPresent("yiji.rabbitmq.cacheChannelSize", value -> {
-			if (cachingConnectionFactory != null) {
-				cachingConnectionFactory.setChannelCacheSize(Integer.valueOf(value));
-				logger.info("hera设置rabbit客户端cacheChannelSize={}", value);
-			}
-			
-		});
-	}
+//	@Override
+//	public void onChange(Event event) throws HeraException {
+//		event.ifPresent("yiji.rabbitmq.pool.maxPoolSize", value -> {
+//			if (rabbitThreadPool != null) {
+//				rabbitThreadPool.setMaxPoolSize(Integer.valueOf(value));
+//				logger.info("hera设置rabbit客户端maxPoolSize={}", value);
+//			}
+//			
+//		});
+//		event.ifPresent("yiji.rabbitmq.cacheChannelSize", value -> {
+//			if (cachingConnectionFactory != null) {
+//				cachingConnectionFactory.setChannelCacheSize(Integer.valueOf(value));
+//				logger.info("hera设置rabbit客户端cacheChannelSize={}", value);
+//			}
+//			
+//		});
+//	}
 	
 	@Override
 	public List<TCPEndpoint> endpoints() {

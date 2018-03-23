@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.global.boot.actuator.ActuatorAutoConfiguration,\
+com.global.boot.actuator.autoexport.ActuatorServiceExportAutoConfiguration
+com.global.boot.core.init.ComponentInitializer=com.global.boot.actuator.ActuatorComponentInitializer
+
+com.global.boot.core.log.initializer.LogInitializer=com.global.boot.actuator.metrics.file.FileMetricsLogInitializer

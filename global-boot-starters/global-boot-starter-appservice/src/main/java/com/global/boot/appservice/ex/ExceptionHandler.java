@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2014-12-03 00:20 创建
  *
  */
-package com.yiji.boot.appservice.ex;
+package com.global.boot.appservice.ex;
 
 /**
  * @author qzhanbo@yiji.com

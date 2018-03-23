@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-21 11:16 创建
  *
  */
-package com.yiji.boot.core;
+package com.global.boot.core;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

@@ -1,0 +1,65 @@
+{
+  "groups": [
+    {
+      "name": "yiji.rabbitmq",
+      "type": "com.global.boot.amqp.RabbitExtensionProperties",
+      "sourceType": "com.global.boot.amqp.RabbitExtensionProperties"
+    },
+    {
+      "name": "yiji.rabbitmq.pool",
+      "type": "com.global.boot.amqp.RabbitThreadPoolProperties",
+      "sourceType": "com.global.boot.amqp.RabbitThreadPoolProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "yiji.rabbitmq.cacheChannelSize",
+      "type": "java.lang.Integer",
+      "description": "可选：rabbit connection factory缓存channel数量，默认为5",
+      "sourceType": "com.global.boot.amqp.RabbitExtensionProperties",
+      "defaultValue": 5
+    },
+    {
+      "name": "yiji.rabbitmq.connectionTimeout",
+      "type": "java.lang.Integer",
+      "description": "可选：建连接超时时间，单位微秒，10s",
+      "sourceType": "com.global.boot.amqp.RabbitExtensionProperties",
+      "defaultValue": 10000
+    },
+    {
+      "name": "yiji.rabbitmq.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.global.boot.amqp.RabbitExtensionProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "yiji.rabbitmq.listenerConcurrency",
+      "type": "java.lang.Integer",
+      "description": "可选：listener并发数",
+      "sourceType": "com.global.boot.amqp.RabbitExtensionProperties",
+      "defaultValue": 5
+    },
+    {
+      "name": "yiji.rabbitmq.pool.corePoolSize",
+      "type": "java.lang.Integer",
+      "description": "可选：线程池核心线程数，默认为20",
+      "sourceType": "com.global.boot.amqp.RabbitThreadPoolProperties",
+      "defaultValue": 20
+    },
+    {
+      "name": "yiji.rabbitmq.pool.maxPoolSize",
+      "type": "java.lang.Integer",
+      "description": "可选：线程池最大线程数，默认为100,支持hera动态修改",
+      "sourceType": "com.global.boot.amqp.RabbitThreadPoolProperties",
+      "defaultValue": 100
+    },
+    {
+      "name": "yiji.rabbitmq.pool.queueCapacity",
+      "type": "java.lang.Integer",
+      "description": "可选：线程队列大小，默认为500",
+      "sourceType": "com.global.boot.amqp.RabbitThreadPoolProperties",
+      "defaultValue": 500
+    }
+  ],
+  "hints": []
+}

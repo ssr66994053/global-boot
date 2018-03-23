@@ -7,10 +7,10 @@
  * 修订记录:
  * qiubo@yiji.com 2016-09-22 11:09 创建
  */
-package com.yiji.boot.appservice.filter;
+package com.global.boot.appservice.filter;
 
-import com.yiji.boot.filterchain.Filter;
-import com.yiji.boot.filterchain.FilterChain;
+import com.global.boot.filterchain.Filter;
+import com.global.boot.filterchain.FilterChain;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.Ordered;
@@ -29,7 +29,7 @@ public class AppServiceLogFilter implements Filter<AppServiceContext> {
 	
 	public AppServiceLogFilter() {
 		try {
-			providerLogFilter = Class.forName("com.yiji.boot.dubbo.ProviderLogFilter");
+			providerLogFilter = Class.forName("com.global.boot.dubbo.ProviderLogFilter");
 			method = providerLogFilter.getMethod("isDubboProviderLogEnable");
 		} catch (ClassNotFoundException | NoSuchMethodException e) {
 			dubboNotSupport = true;

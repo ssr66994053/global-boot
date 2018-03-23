@@ -9,7 +9,7 @@
  * lixiang@yiji.com 2014-12-04 11:32 修改为按照名称查找处理器
  *
  */
-package com.yiji.boot.appservice.ex;
+package com.global.boot.appservice.ex;
 
 import com.google.common.collect.Maps;
 import com.yjf.common.lang.exception.SystemException;

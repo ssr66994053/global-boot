@@ -7,9 +7,9 @@
  * 修订记录:
  * qiubo@yiji.com 2016-09-22 16:02 创建
  */
-package com.yiji.boot.appservice;
+package com.global.boot.appservice;
 
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

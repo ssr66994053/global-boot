@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-05-17 19:13 创建
  */
-package com.yiji.boot.core.dependency;
+package com.global.boot.core.dependency;
 
 import com.yjf.common.dependency.DependencyChecker;
 import org.springframework.boot.SpringApplication;

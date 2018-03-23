@@ -8,9 +8,9 @@
  * qzhanbo@yiji.com 2015-06-15 19:23 创建
  *
  */
-package com.yiji.boot.core;
+package com.global.boot.core;
 
-import com.yiji.boot.core.listener.YijiApplicationRunListener;
+import com.global.boot.core.listener.YijiApplicationRunListener;
 import com.yjf.common.id.CodeGenerator;
 import com.yjf.common.spring.ApplicationContextHolder;
 import org.springframework.context.ApplicationContext;

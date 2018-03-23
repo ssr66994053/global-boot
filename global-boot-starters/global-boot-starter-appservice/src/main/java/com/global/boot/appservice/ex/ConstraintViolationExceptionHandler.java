@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-09-28 11:16 创建
  */
-package com.yiji.boot.appservice.ex;
+package com.global.boot.appservice.ex;
 
 import com.yjf.common.lang.enums.CommonErrorCode;
 import com.yjf.common.lang.result.StandardResultInfo;

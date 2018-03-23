@@ -8,14 +8,14 @@
  * qzhanbo@yiji.com 2015-10-27 12:24 创建
  *
  */
-package com.yiji.boot.actuator;
+package com.global.boot.actuator;
 
 import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
 import com.google.common.io.CharStreams;
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.core.Versions;
-import com.yiji.boot.core.init.ComponentInitializer;
+import com.global.boot.core.Apps;
+import com.global.boot.core.Versions;
+import com.global.boot.core.init.ComponentInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.actuate.autoconfigure.AuditAutoConfiguration;

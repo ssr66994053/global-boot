@@ -7,10 +7,10 @@
  * 修订记录:
  * qiubo@yiji.com 2016-09-22 15:43 创建
  */
-package com.yiji.boot.appservice;
+package com.global.boot.appservice;
 
-import com.yiji.boot.appservice.ex.ExceptionHandler;
-import com.yiji.boot.core.Apps;
+import com.global.boot.appservice.ex.ExceptionHandler;
+import com.global.boot.core.Apps;
 import com.yjf.common.lang.validator.Validators;
 import org.apache.commons.lang.StringUtils;
 import org.hibernate.validator.constraints.NotBlank;
@@ -24,7 +24,7 @@ public class AppServiceProperties {
 	
 	public static final String PREFIX = "yiji.appService";
 	
-	private static final String INTERNAL_EXCEPTION_HANDLER_PACKAGE = "com.yiji.boot.appservice.ex,"
+	private static final String INTERNAL_EXCEPTION_HANDLER_PACKAGE = "com.global.boot.appservice.ex,"
 																		+ Apps.getBasePackage();
 	/**
 	 * {@link AppService} annotation扫描路径
@@ -40,7 +40,7 @@ public class AppServiceProperties {
 	/**
 	 * 默认参数校验实现类,可替换为其他实现类
 	 */
-	private String parameterCheckFilterImpl = "com.yiji.boot.appservice.filter.ParameterCheckFilter";
+	private String parameterCheckFilterImpl = "com.global.boot.appservice.filter.ParameterCheckFilter";
 	
 	public String getParameterCheckFilterImpl() {
 		return parameterCheckFilterImpl;

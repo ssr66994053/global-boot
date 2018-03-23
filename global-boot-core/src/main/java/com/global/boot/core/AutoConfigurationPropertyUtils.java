@@ -7,7 +7,7 @@
  * 修订记录：
  * Agrael 2015年9月8日 上午8:48:33 创建
  */
-package com.yiji.boot.core;
+package com.global.boot.core;
 
 import com.yjf.common.lang.RunException;
 import com.yjf.common.util.ReflectionUtils;

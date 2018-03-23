@@ -1,0 +1,29 @@
+{
+  "groups": [{
+    "name": "yiji.appService",
+    "type": "com.global.boot.appservice.AppServiceProperties",
+    "sourceType": "com.global.boot.appservice.AppServiceProperties"
+  }],
+  "properties": [
+    {
+      "name": "yiji.appService.appServiceScanPackage",
+      "type": "java.lang.String",
+      "description": "{@link AppService} annotation扫描路径",
+      "sourceType": "com.global.boot.appservice.AppServiceProperties"
+    },
+    {
+      "name": "yiji.appService.exceptionHanderScanPackage",
+      "type": "java.lang.String",
+      "description": "{@link ExceptionHandler} 实现类扫描路径",
+      "sourceType": "com.global.boot.appservice.AppServiceProperties"
+    },
+    {
+      "name": "yiji.appService.parameterCheckFilterImpl",
+      "type": "java.lang.String",
+      "description": "默认参数校验实现类,可替换为其他实现类",
+      "sourceType": "com.global.boot.appservice.AppServiceProperties",
+      "defaultValue": "com.global.boot.appservice.filter.ParameterCheckFilter"
+    }
+  ],
+  "hints": []
+}

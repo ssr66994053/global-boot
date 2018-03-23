@@ -8,10 +8,10 @@
  * qzhanbo@yiji.com 2015-11-03 17:19 创建
  *
  */
-package com.yiji.boot.core.log.initializer;
+package com.global.boot.core.log.initializer;
 
 import ch.qos.logback.classic.Level;
-import com.yiji.boot.core.log.LogbackConfigurator;
+import com.global.boot.core.log.LogbackConfigurator;
 
 /**
  * @author qiubo@yiji.com

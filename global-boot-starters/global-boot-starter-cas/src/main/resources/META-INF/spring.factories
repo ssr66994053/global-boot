@@ -1,4 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.global.boot.cas.CASAutoConfiguration
-
-com.global.boot.core.init.ComponentInitializer=com.global.boot.cas.CASComponentInitializer

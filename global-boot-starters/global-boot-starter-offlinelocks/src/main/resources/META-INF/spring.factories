@@ -1,2 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.global.boot.offlinelocks.OfflineLocksAutoConfiguration

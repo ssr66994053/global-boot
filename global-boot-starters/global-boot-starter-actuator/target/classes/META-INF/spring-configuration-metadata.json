@@ -1,0 +1,58 @@
+{
+  "groups": [
+    {
+      "name": "endpoints.io",
+      "type": "com.global.boot.actuator.endpoint.IOEndpoint",
+      "sourceType": "com.global.boot.actuator.endpoint.IOEndpoint"
+    },
+    {
+      "name": "endpoints.jar",
+      "type": "com.global.boot.actuator.endpoint.JarEndpoint",
+      "sourceType": "com.global.boot.actuator.endpoint.JarEndpoint"
+    },
+    {
+      "name": "yiji.metrics.opentsdb",
+      "type": "com.global.boot.actuator.metrics.opentsdb.OpenTsdbProperties",
+      "sourceType": "com.global.boot.actuator.metrics.opentsdb.OpenTsdbProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "endpoints.io.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.global.boot.actuator.endpoint.IOEndpoint"
+    },
+    {
+      "name": "endpoints.io.id",
+      "type": "java.lang.String",
+      "sourceType": "com.global.boot.actuator.endpoint.IOEndpoint"
+    },
+    {
+      "name": "endpoints.io.sensitive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.global.boot.actuator.endpoint.IOEndpoint"
+    },
+    {
+      "name": "endpoints.jar.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.global.boot.actuator.endpoint.JarEndpoint"
+    },
+    {
+      "name": "endpoints.jar.id",
+      "type": "java.lang.String",
+      "sourceType": "com.global.boot.actuator.endpoint.JarEndpoint"
+    },
+    {
+      "name": "endpoints.jar.sensitive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.global.boot.actuator.endpoint.JarEndpoint"
+    },
+    {
+      "name": "yiji.metrics.opentsdb.urls",
+      "type": "java.lang.String",
+      "description": "OpenTsdb 地址url, 多个地址以\",\"分隔,应用不用配置",
+      "sourceType": "com.global.boot.actuator.metrics.opentsdb.OpenTsdbProperties"
+    }
+  ],
+  "hints": []
+}

@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-04-17 00:34 创建
  */
-package com.yiji.boot.core;
+package com.global.boot.core;
 
 import com.yjf.common.lang.util.DateUtil;
 import com.yjf.common.spring.ApplicationContextHolder;

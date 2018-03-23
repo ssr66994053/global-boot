@@ -6,10 +6,10 @@
  * zhouxi@yiji.com 2015-09-15 15:41 创建
  *
  */
-package com.yiji.boot.filterchain;
+package com.global.boot.filterchain;
 
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.core.EnvironmentHolder;
+import com.global.boot.core.Apps;
+import com.global.boot.core.EnvironmentHolder;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;

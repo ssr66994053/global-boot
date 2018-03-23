@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-11-05 07:05 创建
  */
-package com.yiji.boot.yedis.spring.cache;
+package com.global.boot.yedis.spring.cache;
 
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.Cacheable;

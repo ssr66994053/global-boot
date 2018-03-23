@@ -8,13 +8,13 @@
  * qzhanbo@yiji.com 2015-08-14 15:03 创建
  *
  */
-package com.yiji.boot.core.log.initializer;
+package com.global.boot.core.log.initializer;
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.Appender;
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.core.log.LogbackConfigurator;
+import com.global.boot.core.Apps;
+import com.global.boot.core.log.LogbackConfigurator;
 
 /**
  * 添加info文件日志

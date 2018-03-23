@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-12 22:04 创建
  *
  */
-package com.yiji.boot.core.log.initializer;
+package com.global.boot.core.log.initializer;
 
 /**
  * @author qiubo@yiji.com

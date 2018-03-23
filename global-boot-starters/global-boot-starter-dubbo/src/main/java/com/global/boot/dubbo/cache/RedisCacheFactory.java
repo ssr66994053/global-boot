@@ -7,17 +7,17 @@
  * 修订记录:
  * qiubo@yiji.com 2017-01-18 16:07 创建
  */
-package com.yiji.boot.dubbo.cache;
+package com.global.boot.dubbo.cache;
 
 import com.alibaba.dubbo.common.Constants;
 import com.alibaba.dubbo.rpc.Invocation;
 import com.alibaba.dubbo.rpc.Invoker;
 import com.google.common.base.Strings;
 import com.google.common.collect.Maps;
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.core.components.dubbo.DubboCache;
-import com.yiji.boot.yedis.YedisProperties;
-import com.yiji.framework.yedis.support.YedisConnectionFactory;
+import com.global.boot.core.Apps;
+import com.global.boot.core.components.dubbo.DubboCache;
+import com.global.boot.yedis.YedisProperties;
+import com.global.framework.yedis.support.YedisConnectionFactory;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

@@ -8,7 +8,7 @@
  * yanglie@yiji.com 2015-08-28 10:01 创建
  *
  */
-package com.yiji.boot.amqp;
+package com.global.boot.amqp;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

@@ -8,9 +8,9 @@
  * qzhanbo@yiji.com 2015-08-12 22:01 创建
  *
  */
-package com.yiji.boot.core.log.initializer;
+package com.global.boot.core.log.initializer;
 
-import com.yiji.boot.core.log.LogbackConfigurator;
+import com.global.boot.core.log.LogbackConfigurator;
 import org.springframework.core.annotation.Order;
 
 /**

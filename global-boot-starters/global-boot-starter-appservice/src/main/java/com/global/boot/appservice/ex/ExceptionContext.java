@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2014-12-03 00:22 创建
  *
  */
-package com.yiji.boot.appservice.ex;
+package com.global.boot.appservice.ex;
 
 import com.yjf.common.lang.result.StandardResultInfo;
 

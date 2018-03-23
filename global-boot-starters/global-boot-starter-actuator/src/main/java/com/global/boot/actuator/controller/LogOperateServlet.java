@@ -8,7 +8,7 @@
  * yanqing@yiji.com 2016-06-16 09:51 创建
  *
  */
-package com.yiji.boot.actuator.controller;
+package com.global.boot.actuator.controller;
 
 import ch.qos.logback.classic.Logger;
 import ch.qos.logback.classic.LoggerContext;

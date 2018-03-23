@@ -7,13 +7,13 @@
  * 修订记录:
  * qiubo@yiji.com 2016-09-22 10:49 创建
  */
-package com.yiji.boot.appservice.filter;
+package com.global.boot.appservice.filter;
 
 import com.google.common.base.Strings;
-import com.yiji.boot.core.AppConfigException;
-import com.yiji.boot.core.EnvironmentHolder;
-import com.yiji.boot.filterchain.Filter;
-import com.yiji.boot.filterchain.FilterChainBase;
+import com.global.boot.core.AppConfigException;
+import com.global.boot.core.EnvironmentHolder;
+import com.global.boot.filterchain.Filter;
+import com.global.boot.filterchain.FilterChainBase;
 import org.springframework.core.OrderComparator;
 import org.springframework.core.ResolvableType;
 import org.springframework.util.Assert;

@@ -8,7 +8,7 @@
  * daidai@yiji.com 2016-04-11 09:22 创建
  *
  */
-package com.yiji.boot.actuator.metrics.opentsdb;
+package com.global.boot.actuator.metrics.opentsdb;
 
 import com.google.common.base.Preconditions;
 import org.springframework.boot.actuate.metrics.opentsdb.OpenTsdbData;

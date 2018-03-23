@@ -7,9 +7,9 @@
  * 修订记录:
  * qiubo@yiji.com 2016-05-23 17:08 创建
  */
-package com.yiji.boot.amqp;
+package com.global.boot.amqp;
 
-import com.yiji.boot.core.EnvironmentHolder;
+import com.global.boot.core.EnvironmentHolder;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.boot.actuate.health.AbstractHealthIndicator;
 import org.springframework.boot.actuate.health.Health;

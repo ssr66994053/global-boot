@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-10-30 12:03 创建
  *
  */
-package com.yiji.boot.actuator.controller;
+package com.global.boot.actuator.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -8,11 +8,11 @@
  * zhouxi@yiji.com 2016-01-12 09:56 创建
  *
  */
-package com.yiji.boot.actuator.autoexport;
+package com.global.boot.actuator.autoexport;
 
-import com.yiji.boot.actuator.ActuatorAutoConfiguration;
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.core.CommonProperties;
+import com.global.boot.actuator.ActuatorAutoConfiguration;
+import com.global.boot.core.Apps;
+import com.global.boot.core.CommonProperties;
 import com.yjf.common.lang.ip.IPUtil;
 import com.yjf.common.util.ShutdownHooks;
 import org.apache.zookeeper.CreateMode;

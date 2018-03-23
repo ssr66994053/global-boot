@@ -7,11 +7,11 @@
  * 修订记录:
  * qiubo@yiji.com 2017-01-18 16:10 创建
  */
-package com.yiji.boot.dubbo.cache;
+package com.global.boot.dubbo.cache;
 
 import com.alibaba.dubbo.cache.support.AbstractCache;
 import com.google.common.base.Strings;
-import com.yiji.framework.yedis.support.YedisConnectionFactory;
+import com.global.framework.yedis.support.YedisConnectionFactory;
 import com.yjf.common.lang.result.ResultInfo;
 import com.yjf.common.lang.result.Status;
 import lombok.extern.slf4j.Slf4j;

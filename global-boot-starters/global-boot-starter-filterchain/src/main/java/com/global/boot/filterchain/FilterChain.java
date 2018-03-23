@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-02-18 17:46 创建
  */
-package com.yiji.boot.filterchain;
+package com.global.boot.filterchain;
 
 import javax.annotation.concurrent.ThreadSafe;
 

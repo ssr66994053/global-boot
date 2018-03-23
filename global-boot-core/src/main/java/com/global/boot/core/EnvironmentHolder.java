@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-14 15:31 创建
  *
  */
-package com.yiji.boot.core;
+package com.global.boot.core;
 
 import com.google.common.base.Strings;
 import org.springframework.beans.factory.InitializingBean;

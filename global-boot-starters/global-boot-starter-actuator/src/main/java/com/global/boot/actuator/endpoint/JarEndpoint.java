@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-04-22 18:02 创建
  */
-package com.yiji.boot.actuator.endpoint;
+package com.global.boot.actuator.endpoint;
 
 import com.google.common.base.Splitter;
 import com.google.common.collect.Lists;

@@ -7,10 +7,10 @@
  * 修订记录:
  * qiubo@yiji.com 2016-04-15 16:00 创建
  */
-package com.yiji.boot.core.log;
+package com.global.boot.core.log;
 
 import com.google.common.base.Strings;
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import org.springframework.boot.context.event.ApplicationStartedEvent;
 import org.springframework.context.ApplicationListener;
 

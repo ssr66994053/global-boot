@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-02-18 18:13 创建
  */
-package com.yiji.boot.filterchain;
+package com.global.boot.filterchain;
 
 import java.io.Serializable;
 import java.util.HashMap;

@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-12 21:07 创建
  *
  */
-package com.yiji.boot.core.log;
+package com.global.boot.core.log;
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.Logger;
@@ -26,7 +26,7 @@ import ch.qos.logback.core.spi.ContextAware;
 import ch.qos.logback.core.spi.LifeCycle;
 import ch.qos.logback.core.util.OptionHelper;
 import com.google.common.collect.Lists;
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import com.yjf.common.env.Env;
 import com.yjf.common.log.LogbackAsyncAppender;
 import org.springframework.boot.logging.logback.ColorConverter;
@@ -39,7 +39,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.yiji.boot.core.configuration.LogAutoConfiguration.LogProperties.pattern;
+import static com.global.boot.core.configuration.LogAutoConfiguration.LogProperties.pattern;
 
 /**
  * @author qiubo@yiji.com

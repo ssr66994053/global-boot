@@ -1,0 +1,21 @@
+{
+  "hints": [
+    {
+      "name": "yiji.log.pattern",
+      "values": [
+        {
+          "value": "COMMON",
+          "description": "普通的日志格式，不包含MDC."
+        },
+        {
+          "value": "MDC_WITH_GID",
+          "description": "带有gid的MDC日志格式,MDC参数为gid."
+        },
+        {
+          "value": "MDC_WITH_GID_OID",
+          "description": "带gid和oid(外部订单id)的MDC日志格式,MDC参数为gid和oid."
+        }
+      ]
+    }
+  ]
+}

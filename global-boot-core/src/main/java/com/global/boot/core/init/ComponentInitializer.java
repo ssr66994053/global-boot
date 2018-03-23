@@ -8,9 +8,9 @@
  * qzhanbo@yiji.com 2015-09-10 10:43 创建
  *
  */
-package com.yiji.boot.core.init;
+package com.global.boot.core.init;
 
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import org.springframework.context.ConfigurableApplicationContext;
 
 /**

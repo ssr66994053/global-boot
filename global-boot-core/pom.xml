@@ -23,7 +23,6 @@
             <groupId>com.yiji.framework</groupId>
             <artifactId>hera-client</artifactId>
         </dependency>
-        
         -->
         <dependency>
             <groupId>org.apache.curator</groupId>

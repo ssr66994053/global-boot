@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-11-02 14:11 创建
  *
  */
-package com.yiji.boot.actuator.acl;
+package com.global.boot.actuator.acl;
 
 import com.yjf.common.web.IntranetAccessor;
 

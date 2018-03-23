@@ -7,11 +7,11 @@
  * 修订记录:
  * qiubo@yiji.com 2016-06-03 14:21 创建
  */
-package com.yiji.boot.actuator;
+package com.global.boot.actuator;
 
 import com.alibaba.fastjson.JSON;
 import com.github.kevinsawicki.http.HttpRequest;
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.ApplicationListener;

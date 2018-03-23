@@ -8,7 +8,7 @@
  * daidai@yiji.com 2016-04-19 14:46 创建
  *
  */
-package com.yiji.boot.actuator.metrics.opentsdb;
+package com.global.boot.actuator.metrics.opentsdb;
 
 import com.google.common.base.Splitter;
 import com.google.common.collect.Lists;

@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2017-02-23 10:23 创建
  */
-package com.yiji.boot.actuator.metrics.file;
+package com.global.boot.actuator.metrics.file;
 
 import com.alibaba.fastjson.JSON;
 import com.yjf.common.log.BusinessLogger;

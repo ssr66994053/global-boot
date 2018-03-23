@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-09-10 10:21 创建
  *
  */
-package com.yiji.boot.core.init;
+package com.global.boot.core.init;
 
 import com.google.common.base.Joiner;
 import com.google.common.collect.Lists;
@@ -36,7 +36,7 @@ public class ComponentExtensionContextInitializer implements ApplicationContextI
 		}
 		List<String> excludes = Lists.newArrayList(exclude);
 		SpringFactoriesLoader
-			.loadFactories(com.yiji.boot.core.init.ComponentInitializer.class, applicationContext.getClassLoader())
+			.loadFactories(com.global.boot.core.init.ComponentInitializer.class, applicationContext.getClassLoader())
 			.forEach(componentInitializer -> {
 				componentInitializer.initialize(applicationContext);
 				List<String> list = componentInitializer.excludeAutoconfigClassNames();

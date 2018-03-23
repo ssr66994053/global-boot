@@ -8,7 +8,7 @@
  * daidai@yiji.com 2016-04-06 11:55 创建
  *
  */
-package com.yiji.boot.core.metrics;
+package com.global.boot.core.metrics;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2017-01-18 16:00 创建
  */
-package com.yiji.boot.dubbo.cache;
+package com.global.boot.dubbo.cache;
 
 import com.alibaba.dubbo.common.Constants;
 import com.alibaba.dubbo.common.extension.Activate;

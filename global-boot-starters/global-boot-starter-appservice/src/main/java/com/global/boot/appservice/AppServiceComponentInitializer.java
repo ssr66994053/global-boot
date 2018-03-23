@@ -7,9 +7,9 @@
  * 修订记录:
  * qiubo@yiji.com 2016-09-22 15:59 创建
  */
-package com.yiji.boot.appservice;
+package com.global.boot.appservice;
 
-import com.yiji.boot.core.init.ComponentInitializer;
+import com.global.boot.core.init.ComponentInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 
 /**

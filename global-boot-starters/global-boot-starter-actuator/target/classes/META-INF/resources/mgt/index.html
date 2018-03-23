@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <style>
+        .content {
+            margin-left: auto;
+            margin-right: auto;
+            width: 1280px
+        }
+
+        table {
+            border-collapse: collapse;
+            font-family: Futura, Arial, sans-serif;
+            border: 1px solid #777;
+            width: 1280px
+        }
+
+        caption {
+            font-size: larger;
+            margin: 1em auto;
+        }
+
+        th,
+        td {
+            padding: .65em;
+        }
+
+        th,
+        thead {
+            background: #000;
+            color: #fff;
+            border: 1px solid #000;
+        }
+
+        tr:nth-child(odd) {
+            background: #ccc;
+        }
+
+        /*tr:hover {*/
+        /*background: #aaa;*/
+        /*}*/
+
+        td {
+            border-right: 1px solid #777;
+        }
+    </style>
+</head>
+
+<body>
+<div class="content">
+    <div class="header">
+        <h1>
+            <center>actuator</center>
+        </h1>
+        <hr/>
+    </div>
+    <div class="comps">
+        <div>
+            <table>
+                <tr>
+                    <th width="100px">Endpoints</th>
+                    <th>description</th>
+                </tr>
+
+                <tr>
+                    <td><a href="autoconfig" target="_blank">/autoconfig</a></td>
+                    <td>
+                        <p>This endpoint is a report on the Spring Boot auto-configuration process that happened when
+                            your application started up. It lists all the
+                            <code>@Conditional</code> annotations that were evaluated as the context started and in each
+                            case it gives an indication of if (and why) the condition matched. A positive match results
+                            in a bean being included in the context, and a negative result
+                            means the opposite (the bean’s class may not even be loaded).</p>
+
+                        <p>The report is split into 2 parts, positive matches first, and then negative. If the context
+                            is a hierarchy, there is also a separate report on the parent context with the same format
+                            (and recursively up to the top of the hierarchy).</p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><a href="beans" target="_blank">/beans</a></td>
+                    <td><p>This endpoint is a report on the Spring Boot
+                        <code>ApplicationContext</code>. It lists the beans in the context and their dependencies,
+                        detailing the names and concrete classes of each bean.</p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><a href="configprops" target="_blank">/configprops</a></td>
+                    <td><p>This endpoint is a report on the Spring Boot
+                        <code>@ConfigurationProperties</code> beans. Beans with this annotation are bound to the
+                        <code>Environment</code> on startup, so they reflect the externalised configuration of the
+                        application. Beans are listed by name. A bean that is added using
+                        <code>@EnableConfigurationProperties</code> will have a conventional name:
+                        <code>&lt;prefix&gt;.CONFIGURATION_PROPERTIES</code>, where
+                        <code>&lt;prefix&gt;</code> is the environment key prefix specified in the
+                        <code>@ConfigurationProperties</code> annotation.</p></td>
+                </tr>
+
+                <tr>
+                    <td><a href="dump" target="_blank">/dump</a></td>
+                    <td><p>This endpoint is a thread dump: the result is a list of threads each with their name, monitor
+                        state and stack. It is the same information as you would get from
+                        <code>kill -3</code> of a running Java process. It can be very useful for detecting issues at
+                        runtime, especially sluggish behaviour caused by threads blocked by slow or unavailable I/O
+                        (e.g. if a connection pool is exhausted).</p></td>
+                </tr>
+                <tr>
+                    <td><a href="env" target="_blank">/env</a></td>
+                    <td><p>This endpoint is a dump of the Spring
+                        <code>Environment</code>. It lists the active profiles and all the
+                        <code>PropertySources</code> in the
+                        <code>Environment</code> (the ones that are listed first take precedence when binding to
+                        <code>@ConfigurationProperties</code> or
+                        <code>@Value</code>). Normally you will see the Java
+                        <code>System</code> properties and the OS environment variables in their own
+                        <code>PropertySources</code> plus any
+                        <code>.properties</code> or
+                        <code>.yml</code> files used to configure the application on start up.</p></td>
+                </tr>
+                <tr>
+                    <td><a href="health" target="_blank">/health</a></td>
+                    <td><p>This endpoint is an indication of the health of the application. It has an overall status
+                        ("UP", "DOWN" etc.), which is the only thing you see unless either you are authenticated or the
+                        endpoint is marked as
+                        <code>sensitive=false</code> (
+                        <code>endpoints.health.sensitive=false</code>).</p>
+
+                        <p>The HTTP code in the response reflects the status (e.g. “UP”=200, “OUT_OF_SERVICE”=503,
+                            “DOWN”=503). The mappings can be changed by configuring
+                            <code>endpoints.health.mapping.&lt;STATUS&gt;=XXX</code>.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="info" target="_blank">/info</a></td>
+                    <td><p>This endpoint is empty and marked as
+                        <code>sensitive=false</code> by default (so it is unauthenticated by default if Spring Security
+                        is in use). It reflects the content of the
+                        <code>info.*</code> properties in the
+                        <code>Environment</code>, as well as the properties in
+                        <code>git.properties</code>
+                        if such a file exists in the root of the classpath.</p></td>
+                </tr>
+                <tr>
+                    <td><a href="mappings" target="_blank">/mappings</a></td>
+                    <td><p>This endpoint lists the Spring MVC request mappings, so users can see the handlers registered
+                        for requests by path, method, media type, etc.</p></td>
+                </tr>
+                <tr>
+                    <td><a href="metrics" target="_blank">/metrics</a></td>
+                    <td><p>This endpoint lists the public metrics exposed by the application. By default this includes
+                        all the counters in the
+                        <code>CounterService</code> and all the gauges in the
+                        <code>GaugeService</code>, plus a few JVM metrics about memory and uptime. Users can register
+                        additional sources by creating beans of type
+                        <code>PublicMetrics</code> and/or by registering counters and gauges.</p></td>
+                </tr>
+                <tr>
+                    <td><a href="jar" target="_blank">/jar</a></td>
+                    <td><p>This endpoint lists the dependency jar</p></td>
+                </tr>
+                <tr>
+                    <td><a href="io" target="_blank">/io</a></td>
+                    <td><p>This endpoint lists the dependency io</p></td>
+                </tr>
+                <tr>
+                    <td><a href="dubbo" target="_blank">/dubbo</a></td>
+                    <td><p>This endpoint lists the dependency dubbo services and provided dubbo services if possible.</p></td>
+                </tr>
+                <tr>
+                    <td><a href="watcher" target="_blank">/watcher</a></td>
+                    <td><p>This endpoint provide watcher</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-02-18 17:41 创建
  */
-package com.yiji.boot.filterchain;
+package com.global.boot.filterchain;
 
 import com.yjf.common.lang.Named;
 import org.springframework.core.Ordered;

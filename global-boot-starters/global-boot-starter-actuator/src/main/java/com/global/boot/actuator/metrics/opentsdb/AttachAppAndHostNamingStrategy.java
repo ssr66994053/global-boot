@@ -8,9 +8,9 @@
  * daidai@yiji.com 2016-04-11 14:34 创建
  *
  */
-package com.yiji.boot.actuator.metrics.opentsdb;
+package com.global.boot.actuator.metrics.opentsdb;
 
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import com.yjf.common.lang.ip.IPUtil;
 import org.springframework.boot.actuate.metrics.opentsdb.OpenTsdbName;
 import org.springframework.boot.actuate.metrics.opentsdb.OpenTsdbNamingStrategy;

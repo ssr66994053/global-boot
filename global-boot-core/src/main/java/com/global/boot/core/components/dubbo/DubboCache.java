@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2017-01-16 15:46 创建
  */
-package com.yiji.boot.core.components.dubbo;
+package com.global.boot.core.components.dubbo;
 
 import java.lang.annotation.*;
 

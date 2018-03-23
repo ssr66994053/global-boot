@@ -8,7 +8,7 @@
  * lixiang@yiji.com 2014-12-03 17:47 创建
  *
  */
-package com.yiji.boot.appservice.ex;
+package com.global.boot.appservice.ex;
 
 import com.yjf.common.lang.exception.BusinessException;
 import com.yjf.common.lang.result.StandardResultInfo;

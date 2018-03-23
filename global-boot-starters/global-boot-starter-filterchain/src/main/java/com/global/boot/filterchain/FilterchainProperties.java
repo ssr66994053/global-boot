@@ -6,10 +6,10 @@
  * zhouxi@yiji.com 2015-09-15 15:41 创建
  *
  */
-package com.yiji.boot.filterchain;
+package com.global.boot.filterchain;
 
 import com.google.common.base.Strings;
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
@@ -18,7 +18,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties("yiji.filterchain")
 public class FilterchainProperties {
 	
-	private static final String DEFAULT_SCAN_PACKAGE = Apps.getBasePackage() + "," + "com.yiji.boot";
+	private static final String DEFAULT_SCAN_PACKAGE = Apps.getBasePackage() + "," + "com.global.boot";
 	/**
 	 * 是否启用组件
 	 */

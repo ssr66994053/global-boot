@@ -8,7 +8,7 @@
  * daidai@yiji.com 2016-03-30 09:48 创建
  *
  */
-package com.yiji.boot.core.metrics;
+package com.global.boot.core.metrics;
 
 import javax.management.ObjectName;
 import java.util.ArrayList;

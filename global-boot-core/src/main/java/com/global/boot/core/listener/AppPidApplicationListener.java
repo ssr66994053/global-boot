@@ -8,9 +8,9 @@
  * qzhanbo@yiji.com 2015-08-25 21:19 创建
  *
  */
-package com.yiji.boot.core.listener;
+package com.global.boot.core.listener;
 
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import org.springframework.boot.context.event.ApplicationPreparedEvent;
 import org.springframework.context.ApplicationListener;
 

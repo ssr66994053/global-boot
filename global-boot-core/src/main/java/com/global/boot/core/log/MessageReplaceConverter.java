@@ -7,13 +7,13 @@
  * 修订记录:
  * qiubo@yiji.com 2016-07-21 00:42 创建
  */
-package com.yiji.boot.core.log;
+package com.global.boot.core.log;
 
 import ch.qos.logback.classic.pattern.MessageConverter;
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import com.google.common.base.Splitter;
 import com.google.common.base.Strings;
-import com.yiji.boot.core.EnvironmentHolder;
+import com.global.boot.core.EnvironmentHolder;
 
 import java.util.List;
 import java.util.regex.Pattern;

@@ -1,0 +1,23 @@
+{
+  "groups": [{
+    "name": "yiji.csrf",
+    "type": "com.yiji.boot.csrf.CsrfProperties",
+    "sourceType": "com.yiji.boot.csrf.CsrfProperties"
+  }],
+  "properties": [
+    {
+      "name": "yiji.csrf.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用CSRF过滤",
+      "sourceType": "com.yiji.boot.csrf.CsrfProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "yiji.csrf.ignoreUris",
+      "type": "java.lang.String",
+      "description": "可选：crsf忽略的uri，多个uri用逗号隔开，支持ant路径模式",
+      "sourceType": "com.yiji.boot.csrf.CsrfProperties"
+    }
+  ],
+  "hints": []
+}

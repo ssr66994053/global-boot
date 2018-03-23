@@ -1,0 +1,8 @@
+com\global\boot\filterchain\Context.class
+com\global\boot\filterchain\Filter.class
+com\global\boot\filterchain\FilterBeanFactoryPostProcessor.class
+com\global\boot\filterchain\FilterChainBase.class
+com\global\boot\filterchain\FilterchainAutoConfiguration.class
+com\global\boot\filterchain\FilterChain.class
+com\global\boot\filterchain\FilterchainProperties.class
+META-INF\spring-configuration-metadata.json

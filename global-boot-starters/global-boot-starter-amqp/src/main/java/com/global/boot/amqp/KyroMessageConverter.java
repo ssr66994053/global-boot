@@ -8,7 +8,7 @@
  * yanglie@yiji.com 2015-08-27 14:27 创建
  *
  */
-package com.yiji.boot.amqp;
+package com.global.boot.amqp;
 
 import com.yjf.common.kryo.Kryos;
 import org.slf4j.Logger;

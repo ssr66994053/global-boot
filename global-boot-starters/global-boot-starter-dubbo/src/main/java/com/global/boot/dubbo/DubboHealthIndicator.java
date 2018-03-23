@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-10-29 21:54 创建
  *
  */
-package com.yiji.boot.dubbo;
+package com.global.boot.dubbo;
 
 import com.alibaba.dubbo.common.Constants;
 import com.alibaba.dubbo.common.extension.ExtensionLoader;

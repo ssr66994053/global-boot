@@ -8,7 +8,7 @@
  * daidai@yiji.com 2016-04-06 10:13 创建
  *
  */
-package com.yiji.boot.core.metrics;
+package com.global.boot.core.metrics;
 
 import org.springframework.boot.actuate.endpoint.PublicMetrics;
 import org.springframework.boot.actuate.metrics.Metric;

@@ -8,9 +8,9 @@
  * yanglie@yiji.com 2015-08-20 14:08 创建
  *
  */
-package com.yiji.boot.yedis;
+package com.global.boot.yedis;
 
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
