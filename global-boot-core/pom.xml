@@ -2,26 +2,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>yiji-boot-parent</artifactId>
-        <groupId>com.yiji.boot</groupId>
+        <artifactId>global-boot-parent</artifactId>
+        <groupId>com.global.boot</groupId>
         <version>1.2-SNAPSHOT</version>
     </parent>
 
-    <artifactId>yiji-boot-core</artifactId>
+    <artifactId>global-boot-core</artifactId>
     <dependencies>
         <dependency>
             <groupId>com.github.kevinsawicki</groupId>
             <artifactId>http-request</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-configuration-processor</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-configuration-processor</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
+        <!-- 去掉hera配置 
         <dependency>
             <groupId>com.yiji.framework</groupId>
             <artifactId>hera-client</artifactId>
         </dependency>
+        
+        -->
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-recipes</artifactId>

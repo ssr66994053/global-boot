@@ -2,16 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>yiji-boot-starters</artifactId>
-        <groupId>com.yiji.boot</groupId>
+        <artifactId>global-boot-starters</artifactId>
+        <groupId>com.global.boot</groupId>
         <version>1.2-SNAPSHOT</version>
     </parent>
 
-    <artifactId>yiji-boot-starter-cs</artifactId>
+    <artifactId>global-boot-starter-cs</artifactId>
     <dependencies>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-amqp</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-amqp</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>

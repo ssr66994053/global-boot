@@ -1,2 +1,2 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.yiji.boot.velocity.VelocityAutoConfiguration
-com.yiji.boot.core.init.ComponentInitializer=com.yiji.boot.velocity.VelocityComponentInitializer
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.global.boot.velocity.VelocityAutoConfiguration
+com.global.boot.core.init.ComponentInitializer=com.global.boot.velocity.VelocityComponentInitializer

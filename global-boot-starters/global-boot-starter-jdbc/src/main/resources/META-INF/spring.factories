@@ -1,4 +1,4 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.yiji.boot.jdbc.JDBCAutoConfiguration
-com.yiji.boot.core.log.initializer.LogInitializer=\
-com.yiji.boot.jdbc.DruidLogInitializer
-com.yiji.boot.core.init.ComponentInitializer=com.yiji.boot.jdbc.DruidComponentInitializer
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.global.boot.jdbc.JDBCAutoConfiguration
+com.global.boot.core.log.initializer.LogInitializer=\
+com.global.boot.jdbc.DruidLogInitializer
+com.global.boot.core.init.ComponentInitializer=com.global.boot.jdbc.DruidComponentInitializer

@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.yiji.boot.filterchain.FilterchainAutoConfiguration
+com.global.boot.filterchain.FilterchainAutoConfiguration

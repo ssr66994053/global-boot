@@ -1,7 +1,7 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.yiji.boot.dubbo.DubboAutoConfiguration
-com.yiji.boot.core.log.initializer.LogInitializer=\
-com.yiji.boot.dubbo.DubboMonitorLogInitializer
-com.yiji.boot.core.init.ComponentInitializer=com.yiji.boot.dubbo.DubboComponentInitializer
+com.global.boot.dubbo.DubboAutoConfiguration
+com.global.boot.core.log.initializer.LogInitializer=\
+com.global.boot.dubbo.DubboMonitorLogInitializer
+com.global.boot.core.init.ComponentInitializer=com.global.boot.dubbo.DubboComponentInitializer
 
-com.yjf.common.dependency.DependencyChecker=com.yiji.boot.dubbo.DubboDependencyChecker
+com.global.common.dependency.DependencyChecker=com.global.boot.dubbo.DubboDependencyChecker

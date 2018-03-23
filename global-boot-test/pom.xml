@@ -2,12 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>yiji-boot-parent</artifactId>
-        <groupId>com.yiji.boot</groupId>
+        <artifactId>global-boot-parent</artifactId>
+        <groupId>com.global.boot</groupId>
         <version>1.2-SNAPSHOT</version>
     </parent>
-    <artifactId>yiji-boot-test</artifactId>
-    <name>yiji-boot-test</name>
+    <artifactId>global-boot-test</artifactId>
+    <name>global-boot-test</name>
     <!--for generate git revision Implementation-Revision and save in /META-INFO/MANIFEST.MF -->
     <scm>
         <connection>scm:git:https://none</connection>
@@ -16,7 +16,7 @@
     </scm>
     <properties>
         <deploy.skip>true</deploy.skip>
-        <start-class>com.yiji.boot.test.Main</start-class>
+        <start-class>com.global.boot.test.Main</start-class>
     </properties>
     <dependencies>
         <dependency>
@@ -24,58 +24,58 @@
             <artifactId>http-request</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-actuator</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-actuator</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-amqp</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-amqp</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-appservice</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-appservice</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-boss</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-boss</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-boss</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-boss</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-cas</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-cas</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-cs</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-cs</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-csrf</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-csrf</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-dubbo</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-dubbo</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-fastdfs</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-fastdfs</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-filterchain</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-filterchain</artifactId>
             <version>${project.version}</version>
         </dependency>
         <!--<dependency>-->
@@ -84,85 +84,90 @@
         <!--<version>${project.version}</version>-->
         <!--</dependency>-->
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-jdbc</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-jdbc</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-metrics</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-metrics</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-mybatis</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-mybatis</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-mybatis</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-mybatis</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-offlinelocks</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-offlinelocks</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-postman</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-postman</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-rocketmq</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-rocketmq</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-security</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-security</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-shiro</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-shiro</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-test</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-test</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-tomcat</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-tomcat</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-velocity</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-velocity</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-web</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-web</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-xss</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-xss</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-starter-yedis</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-starter-yedis</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <!--  
+        
         <dependency>
             <groupId>com.yjf.core.customer</groupId>
             <artifactId>customer-facade</artifactId>
             <version>2.3.1.20150810</version>
         </dependency>
+        
+        -->
+        
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>

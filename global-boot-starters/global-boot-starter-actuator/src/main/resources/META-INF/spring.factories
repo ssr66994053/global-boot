@@ -1,6 +1,6 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.yiji.boot.actuator.ActuatorAutoConfiguration,\
-com.yiji.boot.actuator.autoexport.ActuatorServiceExportAutoConfiguration
-com.yiji.boot.core.init.ComponentInitializer=com.yiji.boot.actuator.ActuatorComponentInitializer
+com.global.boot.actuator.ActuatorAutoConfiguration,\
+com.global.boot.actuator.autoexport.ActuatorServiceExportAutoConfiguration
+com.global.boot.core.init.ComponentInitializer=com.global.boot.actuator.ActuatorComponentInitializer
 
-com.yiji.boot.core.log.initializer.LogInitializer=com.yiji.boot.actuator.metrics.file.FileMetricsLogInitializer
+com.global.boot.core.log.initializer.LogInitializer=com.global.boot.actuator.metrics.file.FileMetricsLogInitializer

@@ -1,7 +1,7 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.yiji.boot.web.SpringMVCAutoConfiguration,\
-com.yiji.boot.web.FaviconAutoConfiguration,\
-com.yiji.boot.web.CommonWebAutoConfiguration
+com.global.boot.web.SpringMVCAutoConfiguration,\
+com.global.boot.web.FaviconAutoConfiguration,\
+com.global.boot.web.CommonWebAutoConfiguration
 
-com.yiji.boot.core.init.ComponentInitializer=com.yiji.boot.web.WebComponentInitializer
-com.yiji.boot.core.log.initializer.LogInitializer=com.yiji.boot.web.datacollector.DataCollectorLogInitializer
+com.global.boot.core.init.ComponentInitializer=com.yiji.boot.web.WebComponentInitializer
+com.global.boot.core.log.initializer.LogInitializer=com.global.boot.web.datacollector.DataCollectorLogInitializer

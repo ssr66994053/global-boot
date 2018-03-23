@@ -1,4 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.yiji.boot.appservice.AppServiceAutoConfiguration
-com.yiji.boot.core.init.ComponentInitializer=\
-com.yiji.boot.appservice.AppServiceComponentInitializer
+com.global.boot.appservice.AppServiceAutoConfiguration
+com.global.boot.core.init.ComponentInitializer=\
+com.global.boot.appservice.AppServiceComponentInitializer

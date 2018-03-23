@@ -2,45 +2,45 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>yiji-boot-parent</artifactId>
-        <groupId>com.yiji.boot</groupId>
+        <artifactId>global-boot-parent</artifactId>
+        <groupId>com.global.boot</groupId>
         <version>1.2-SNAPSHOT</version>
     </parent>
 
-    <artifactId>yiji-boot-starters</artifactId>
+    <artifactId>global-boot-starters</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>yiji-boot-starter-parent</module>
-        <module>yiji-boot-starter-velocity</module>
-        <module>yiji-boot-starter-csrf</module>
-        <module>yiji-boot-starter-tomcat</module>
-        <module>yiji-boot-starter-xss</module>
-        <module>yiji-boot-starter-web</module>
-        <module>yiji-boot-starter-yedis</module>
-        <module>yiji-boot-starter-dubbo</module>
-        <module>yiji-boot-starter-jdbc</module>
-        <module>yiji-boot-starter-session</module>
-        <module>yiji-boot-starter-amqp</module>
-        <module>yiji-boot-starter-security</module>
-        <module>yiji-boot-starter-mybatis</module>
-        <module>yiji-boot-starter-fastdfs</module>
-        <module>yiji-boot-starter-cs</module>
-        <module>yiji-boot-starter-test</module>
-        <module>yiji-boot-starter-boss</module>
-        <module>yiji-boot-starter-postman</module>
-        <module>yiji-boot-starter-metrics</module>
-        <module>yiji-boot-starter-actuator</module>
-        <module>yiji-boot-starter-shiro</module>
-        <module>yiji-boot-starter-offlinelocks</module>
-        <module>yiji-boot-starter-filterchain</module>
-        <module>yiji-boot-starter-rocketmq</module>
-        <module>yiji-boot-starter-cas</module>
-        <module>yiji-boot-starter-appservice</module>
+        <module>global-boot-starter-parent</module>
+        <module>global-boot-starter-velocity</module>
+        <module>global-boot-starter-csrf</module>
+        <module>global-boot-starter-tomcat</module>
+        <module>global-boot-starter-xss</module>
+        <module>global-boot-starter-web</module>
+        <module>global-boot-starter-yedis</module>
+        <module>global-boot-starter-dubbo</module>
+        <module>global-boot-starter-jdbc</module>
+        <module>global-boot-starter-session</module>
+        <module>global-boot-starter-amqp</module>
+        <module>global-boot-starter-security</module>
+        <module>global-boot-starter-mybatis</module>
+        <module>global-boot-starter-fastdfs</module>
+        <module>global-boot-starter-cs</module>
+        <module>global-boot-starter-test</module>
+        <module>global-boot-starter-boss</module>
+        <module>global-boot-starter-postman</module>
+        <module>global-boot-starter-metrics</module>
+        <module>global-boot-starter-actuator</module>
+        <module>global-boot-starter-shiro</module>
+        <module>global-boot-starter-offlinelocks</module>
+        <module>global-boot-starter-filterchain</module>
+        <module>global-boot-starter-rocketmq</module>
+        <module>global-boot-starter-cas</module>
+        <module>global-boot-starter-appservice</module>
     </modules>
     <dependencies>
         <dependency>
-            <groupId>com.yiji.boot</groupId>
-            <artifactId>yiji-boot-core</artifactId>
+            <groupId>com.global.boot</groupId>
+            <artifactId>global-boot-core</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

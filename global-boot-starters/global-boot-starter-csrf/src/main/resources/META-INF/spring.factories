@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.yiji.boot.csrf.CsrfAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.global.boot.csrf.CsrfAutoConfiguration

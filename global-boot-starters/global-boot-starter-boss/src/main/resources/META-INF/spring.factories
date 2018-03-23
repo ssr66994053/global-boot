@@ -1,4 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.yiji.boot.boss.BOSSAutoConfiguration
-com.yiji.boot.core.log.initializer.LogInitializer=\
-com.yiji.boot.boss.CASLogInitializer
+com.global.boot.boss.BOSSAutoConfiguration
+com.global.boot.core.log.initializer.LogInitializer=\
+com.global.boot.boss.CASLogInitializer

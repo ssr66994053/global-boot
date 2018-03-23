@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.yiji.boot.fastdfs.FastdfsAutoConfiguration
+com.global.boot.fastdfs.FastdfsAutoConfiguration

@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.yiji.boot.cs.CSAutoConfiguration
+com.global.boot.cs.CSAutoConfiguration

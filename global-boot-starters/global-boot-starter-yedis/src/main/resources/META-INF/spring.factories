@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.yiji.boot.yedis.YedisAutoConfiguration
+com.global.boot.yedis.YedisAutoConfiguration
