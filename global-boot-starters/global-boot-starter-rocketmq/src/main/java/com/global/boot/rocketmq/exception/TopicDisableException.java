@@ -8,7 +8,7 @@
  * yanglie@yiji.com 2016-02-16 13:59 创建
  *
  */
-package com.yiji.boot.rocketmq.exception;
+package com.global.boot.rocketmq.exception;
 
 /**
  * @author yanglie@yiji.com

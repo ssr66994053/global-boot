@@ -20,4 +20,4 @@
  * <li>7.html escape 参考{@link com.yiji.boot.core.velocity.HtmlEscapeReference}</li>
  * @author qzhanbo@yiji.com
  */
-package com.yiji.boot.velocity;
+package com.global.boot.velocity;

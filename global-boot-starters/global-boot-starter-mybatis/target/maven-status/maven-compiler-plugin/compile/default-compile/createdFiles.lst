@@ -1,0 +1,10 @@
+com\global\boot\mybatis\MapperAutoConfiguration.class
+com\global\boot\mybatis\MybatisAutoConfiguration.class
+com\global\boot\mybatis\MybatisComponentInitializer.class
+com\global\boot\mybatis\mapper\DeleteAllMapper$DeleteAllProvider.class
+com\global\boot\mybatis\PageHelperAutoConfiguration.class
+com\global\boot\mybatis\mapper\DeleteAllMapper.class
+com\global\boot\mybatis\MybatisProperties.class
+com\global\boot\mybatis\MapperScannerRegistrar.class
+META-INF\spring-configuration-metadata.json
+com\global\boot\mybatis\BaseMapper.class

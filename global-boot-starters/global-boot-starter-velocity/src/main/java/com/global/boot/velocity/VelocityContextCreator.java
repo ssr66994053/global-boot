@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-06-16 10:33 创建
  *
  */
-package com.yiji.boot.velocity;
+package com.global.boot.velocity;
 
 import com.yjf.common.lang.exception.Exceptions;
 import org.apache.velocity.VelocityContext;

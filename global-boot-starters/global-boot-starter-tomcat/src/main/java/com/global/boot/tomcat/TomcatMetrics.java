@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-11-02 16:04 创建
  *
  */
-package com.yiji.boot.tomcat;
+package com.global.boot.tomcat;
 
 import org.apache.coyote.AbstractProtocol;
 import org.apache.tomcat.util.threads.ThreadPoolExecutor;

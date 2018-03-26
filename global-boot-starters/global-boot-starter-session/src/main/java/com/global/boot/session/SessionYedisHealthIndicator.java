@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-10-29 18:27 创建
  *
  */
-package com.yiji.boot.session;
+package com.global.boot.session;
 
 import org.springframework.boot.actuate.health.AbstractHealthIndicator;
 import org.springframework.boot.actuate.health.Health;

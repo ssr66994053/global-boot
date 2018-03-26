@@ -1,0 +1,95 @@
+{
+  "groups": [{
+    "name": "yiji.ds",
+    "type": "com.global.boot.jdbc.DruidProperties",
+    "sourceType": "com.global.boot.jdbc.DruidProperties"
+  }],
+  "properties": [
+    {
+      "name": "yiji.ds.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用此组件",
+      "sourceType": "com.global.boot.jdbc.DruidProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "yiji.ds.initialSize",
+      "type": "java.lang.Integer",
+      "description": "初始连接数",
+      "sourceType": "com.global.boot.jdbc.DruidProperties",
+      "defaultValue": 5
+    },
+    {
+      "name": "yiji.ds.maxActive",
+      "type": "java.lang.Integer",
+      "description": "最大连接数,支持hera动态修改",
+      "sourceType": "com.global.boot.jdbc.DruidProperties",
+      "defaultValue": 100
+    },
+    {
+      "name": "yiji.ds.maxResultThreshold",
+      "type": "java.lang.Integer",
+      "description": "大结果集阈值，超过此值则打印日志",
+      "sourceType": "com.global.boot.jdbc.DruidProperties",
+      "defaultValue": 1000
+    },
+    {
+      "name": "yiji.ds.maxWait",
+      "type": "java.lang.Integer",
+      "description": "获取连接等待超时的时间",
+      "sourceType": "com.global.boot.jdbc.DruidProperties",
+      "defaultValue": 10000
+    },
+    {
+      "name": "yiji.ds.minIdle",
+      "type": "java.lang.Integer",
+      "description": "最小空闲连接数",
+      "sourceType": "com.global.boot.jdbc.DruidProperties",
+      "defaultValue": 20
+    },
+    {
+      "name": "yiji.ds.password",
+      "type": "java.lang.String",
+      "description": "必填：数据库密码",
+      "sourceType": "com.global.boot.jdbc.DruidProperties"
+    },
+    {
+      "name": "yiji.ds.path",
+      "type": "java.lang.String",
+      "sourceType": "com.global.boot.jdbc.DruidProperties"
+    },
+    {
+      "name": "yiji.ds.prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.global.boot.jdbc.DruidProperties",
+      "defaultValue": "yiji.ds"
+    },
+    {
+      "name": "yiji.ds.showSql",
+      "type": "java.lang.Boolean",
+      "description": "是否在非线上环境开启打印sql，默认开启",
+      "sourceType": "com.global.boot.jdbc.DruidProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "yiji.ds.slowSqlThreshold",
+      "type": "java.lang.Integer",
+      "description": "慢sql日志阈值，超过此值则打印日志",
+      "sourceType": "com.global.boot.jdbc.DruidProperties",
+      "defaultValue": 1000
+    },
+    {
+      "name": "yiji.ds.url",
+      "type": "java.lang.String",
+      "description": "必填：jdbc url",
+      "sourceType": "com.global.boot.jdbc.DruidProperties"
+    },
+    {
+      "name": "yiji.ds.username",
+      "type": "java.lang.String",
+      "description": "必填：数据库用户名",
+      "sourceType": "com.global.boot.jdbc.DruidProperties"
+    }
+  ],
+  "hints": []
+}

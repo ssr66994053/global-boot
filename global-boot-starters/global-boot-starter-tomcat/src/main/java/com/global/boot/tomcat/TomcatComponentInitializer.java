@@ -8,10 +8,10 @@
  * qzhanbo@yiji.com 2015-09-10 18:47 创建
  *
  */
-package com.yiji.boot.tomcat;
+package com.global.boot.tomcat;
 
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.core.init.ComponentInitializer;
+import com.global.boot.core.Apps;
+import com.global.boot.core.init.ComponentInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 
 /**

@@ -1,0 +1,11 @@
+From application: $time
+Message: $message
+
+13
+
+<form method="POST" enctype="multipart/form-data"action="/xdata/fileCollect.json">
+    #csrfInputHidden()
+    <p>文件：<input type="file" name="file"/></p>
+    <p><input type="submit" value="上传" /></p>
+
+</form>

@@ -8,13 +8,13 @@
  * yanglie@yiji.com 2016-01-31 10:26 创建
  *
  */
-package com.yiji.boot.rocketmq.consumer;
+package com.global.boot.rocketmq.consumer;
 
 import com.alibaba.rocketmq.client.exception.MQClientException;
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.rocketmq.message.NotifyMessage;
-import com.yiji.boot.rocketmq.message.OrderedNotifyMessage;
-import com.yiji.boot.rocketmq.support.KyroMessageConverter;
+import com.global.boot.core.Apps;
+import com.global.boot.rocketmq.message.NotifyMessage;
+import com.global.boot.rocketmq.message.OrderedNotifyMessage;
+import com.global.boot.rocketmq.support.KyroMessageConverter;
 import com.yjf.common.env.Env;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

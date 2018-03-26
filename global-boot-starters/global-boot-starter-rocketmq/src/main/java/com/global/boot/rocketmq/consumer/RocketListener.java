@@ -8,7 +8,7 @@
  * yanglie@yiji.com 2016-02-01 13:53 创建
  *
  */
-package com.yiji.boot.rocketmq.consumer;
+package com.global.boot.rocketmq.consumer;
 
 import java.lang.annotation.*;
 

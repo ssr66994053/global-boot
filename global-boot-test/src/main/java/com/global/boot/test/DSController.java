@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-07-25 14:01 创建
  */
-package com.yiji.boot.test;
+package com.global.boot.test;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;

@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-21 15:28 创建
  *
  */
-package com.yiji.boot.test.dubbo1;
+package com.global.boot.test.dubbo1;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import org.slf4j.Logger;
@@ -24,6 +24,7 @@ public class DemoServiceImpl1 extends AbstractService implements DemoService {
 	@Override
 	public String echo(String msg) {
 		logger.info("receive:{}", msg);
-		return msg + " ref:" + userService;
+//		return msg + " ref:" + userService;
+		return null;
 	}
 }

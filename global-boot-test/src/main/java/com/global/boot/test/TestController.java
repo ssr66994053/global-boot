@@ -8,14 +8,14 @@
  * qzhanbo@yiji.com 2015-06-15 14:12 创建
  *
  */
-package com.yiji.boot.test;
+package com.global.boot.test;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.google.common.collect.Maps;
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.core.Versions;
-import com.yiji.boot.test.dubbo.DemoService;
-import com.yiji.framework.hera.client.support.annotation.AutoConfig;
+import com.global.boot.core.Apps;
+import com.global.boot.core.Versions;
+import com.global.boot.test.dubbo.DemoService;
+//import com.global.framework.hera.client.support.annotation.AutoConfig;
 import com.yjf.common.concurrent.MonitoredThreadPool;
 import com.yjf.common.customer.enums.CustomerTypeEnum;
 import com.yjf.common.log.BusinessLogger;
@@ -65,11 +65,11 @@ public class TestController {
     @Value("${app.test}")
     private String valueFormHera;
 
-    @AutoConfig("app.test1")
-    private volatile String valueFormHera1;
-
-    @AutoConfig("app.test2")
-    private volatile List<String> valueFormHera2;
+//    @AutoConfig("app.test1")
+//    private volatile String valueFormHera1;
+//
+//    @AutoConfig("app.test2")
+//    private volatile List<String> valueFormHera2;
 
     @Autowired
     private TestBean testBean;
@@ -109,21 +109,21 @@ public class TestController {
         return testBean1;
     }
 
-    @RequestMapping("/testFastjson")
-    @ResponseBody
-    public TestBean fastjson() {
-        testBean.setValueFormHera(valueFormHera);
-        testBean.setValueFormHera1(valueFormHera1);
-        return testBean;
-    }
-
-    @RequestMapping("/testHera")
-    @ResponseBody
-    public TestBean hera() {
-        testBean.setValueFormHera(valueFormHera);
-        testBean.setValueFormHera1(valueFormHera1);
-        return testBean;
-    }
+//    @RequestMapping("/testFastjson")
+//    @ResponseBody
+//    public TestBean fastjson() {
+//        testBean.setValueFormHera(valueFormHera);
+//        testBean.setValueFormHera1(valueFormHera1);
+//        return testBean;
+//    }
+//
+//    @RequestMapping("/testHera")
+//    @ResponseBody
+//    public TestBean hera() {
+//        testBean.setValueFormHera(valueFormHera);
+//        testBean.setValueFormHera1(valueFormHera1);
+//        return testBean;
+//    }
 
     @RequestMapping("/testvm")
     public String welcome(Map<String, Object> model) {
@@ -214,19 +214,19 @@ public class TestController {
     //	public String getValueFormHera1() {
     //		return valueFormHera1;
     //	}
-
-    public void setValueFormHera1(String valueFormHera1) {
-        logger.info("value changed");
-        this.valueFormHera1 = valueFormHera1;
-    }
-
-    public List<String> getValueFormHera2() {
-        return valueFormHera2;
-    }
-
-    public void setValueFormHera2(List<String> valueFormHera2) {
-        this.valueFormHera2 = valueFormHera2;
-    }
+//
+//    public void setValueFormHera1(String valueFormHera1) {
+//        logger.info("value changed");
+//        this.valueFormHera1 = valueFormHera1;
+//    }
+//
+//    public List<String> getValueFormHera2() {
+//        return valueFormHera2;
+//    }
+//
+//    public void setValueFormHera2(List<String> valueFormHera2) {
+//        this.valueFormHera2 = valueFormHera2;
+//    }
 
     @RequestMapping(method = RequestMethod.POST, value = "/testUpload")
     @ResponseBody

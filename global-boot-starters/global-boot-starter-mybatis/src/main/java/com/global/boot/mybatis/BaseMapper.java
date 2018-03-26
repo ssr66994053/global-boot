@@ -7,9 +7,9 @@
  * 修订记录:
  * qiubo@yiji.com 2017-01-12 10:03 创建
  */
-package com.yiji.boot.mybatis;
+package com.global.boot.mybatis;
 
-import com.yiji.boot.mybatis.mapper.DeleteAllMapper;
+import com.global.boot.mybatis.mapper.DeleteAllMapper;
 import tk.mybatis.mapper.common.Mapper;
 
 /**

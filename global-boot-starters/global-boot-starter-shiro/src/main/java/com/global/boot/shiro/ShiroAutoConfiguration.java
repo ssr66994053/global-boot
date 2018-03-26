@@ -1,7 +1,7 @@
-package com.yiji.boot.shiro;
+package com.global.boot.shiro;
 
 import com.google.common.collect.Maps;
-import com.yiji.boot.yedis.YedisAutoConfiguration;
+import com.global.boot.yedis.YedisAutoConfiguration;
 import org.apache.commons.collections.MapUtils;
 import org.apache.shiro.cache.CacheManager;
 import org.apache.shiro.config.ReflectionBuilder;

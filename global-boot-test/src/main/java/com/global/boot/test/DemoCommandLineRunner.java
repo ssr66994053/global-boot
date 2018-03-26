@@ -1,4 +1,4 @@
-package com.yiji.boot.test;/*
+package com.global.boot.test;/*
 * 修订记录:
 * qzhanbo@yiji.com 2015-05-28 17:59 创建
 *

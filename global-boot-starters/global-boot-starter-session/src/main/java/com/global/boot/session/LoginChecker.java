@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-05-03 15:26 创建
  */
-package com.yiji.boot.session;
+package com.global.boot.session;
 
 import com.yjf.common.lang.ip.IPUtil;
 import org.springframework.data.redis.core.RedisTemplate;

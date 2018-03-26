@@ -7,9 +7,9 @@
  * 修订记录:
  * qiubo@yiji.com 2017-01-16 15:59 创建
  */
-package com.yiji.boot.test.dubbo;
+package com.global.boot.test.dubbo;
 
-import com.yiji.boot.core.components.dubbo.DubboCache;
+import com.global.boot.core.components.dubbo.DubboCache;
 import com.yjf.common.lang.result.SingleValueResult;
 import com.yjf.common.service.SingleValueOrder;
 

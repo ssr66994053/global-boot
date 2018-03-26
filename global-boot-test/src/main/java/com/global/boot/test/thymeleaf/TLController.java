@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-07-25 14:01 创建
  */
-package com.yiji.boot.test.thymeleaf;
+package com.global.boot.test.thymeleaf;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

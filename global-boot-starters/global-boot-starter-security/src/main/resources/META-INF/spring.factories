@@ -1,4 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.yiji.boot.securityframework.SecurityAutoConfiguration,\
-com.yiji.boot.securityframework.WebSecurityAutoConfiguration,\
-com.yiji.boot.securityframework.IndexAutoConfiguration

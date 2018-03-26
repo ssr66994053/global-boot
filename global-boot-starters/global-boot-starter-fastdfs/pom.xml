@@ -15,9 +15,9 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yiji.framework</groupId>
+            <groupId>com.global.framework</groupId>
             <artifactId>fastdfs-client</artifactId>
-            <version>1.1.7</version>
+            <version>1.1.8</version>
         </dependency>
     </dependencies>
 </project>

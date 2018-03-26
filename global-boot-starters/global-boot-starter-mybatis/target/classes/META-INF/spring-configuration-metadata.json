@@ -1,0 +1,65 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "com.global.boot.mybatis.PageHelperAutoConfiguration",
+      "sourceType": "com.global.boot.mybatis.PageHelperAutoConfiguration"
+    },
+    {
+      "name": "yiji.mybatis",
+      "type": "com.global.boot.mybatis.MybatisProperties",
+      "sourceType": "com.global.boot.mybatis.MybatisProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "pagehelper",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.global.boot.mybatis.PageHelperAutoConfiguration"
+    },
+    {
+      "name": "yiji.mybatis.config",
+      "type": "java.lang.String",
+      "description": "可选：mybatis-config.xml配置文件路径",
+      "sourceType": "com.global.boot.mybatis.MybatisProperties"
+    },
+    {
+      "name": "yiji.mybatis.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用此组件",
+      "sourceType": "com.global.boot.mybatis.MybatisProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "yiji.mybatis.entityScanPackages",
+      "type": "java.lang.String",
+      "description": "必填： mybatis 实体 扫描路径，多个包用逗号隔开。\n <p>\n 如果不指定，扫描路径为{@link MybatisProperties#DEFAULT_ENTITY_SCAN_PACKAGES}\n <p>\n mybatis会扫描此包下的所有的类，注册到alias中",
+      "sourceType": "com.global.boot.mybatis.MybatisProperties"
+    },
+    {
+      "name": "yiji.mybatis.executorType",
+      "type": "org.apache.ibatis.session.ExecutorType",
+      "description": "可选：执行模式，默认为SIMPLE",
+      "sourceType": "com.global.boot.mybatis.MybatisProperties"
+    },
+    {
+      "name": "yiji.mybatis.mapperScanPackages",
+      "type": "java.lang.String",
+      "description": "必填： mybatis mapper接口扫描路径，多个包用逗号隔开。\n <p>\n 如果不指定，扫描路径为{@link MybatisProperties#DEFAULT_MAPPER_SCAN_PACKAGES}\n <p>\n mybatis会扫描这些包下的mapper并注册为{@link MapperFactoryBean}",
+      "sourceType": "com.global.boot.mybatis.MybatisProperties"
+    },
+    {
+      "name": "yiji.mybatis.settings",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "description": "可选: mybatis配置\n ,ref:http://www.mybatis.org/mybatis-3/configuration.html#settings",
+      "sourceType": "com.global.boot.mybatis.MybatisProperties"
+    },
+    {
+      "name": "yiji.mybatis.typeHandlersPackage",
+      "type": "java.lang.String",
+      "description": "可选：自定义类型处理器TypeHandler所在的包，多个包用逗号分隔",
+      "sourceType": "com.global.boot.mybatis.MybatisProperties"
+    }
+  ],
+  "hints": []
+}

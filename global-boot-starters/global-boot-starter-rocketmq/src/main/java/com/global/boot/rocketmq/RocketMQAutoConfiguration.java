@@ -10,16 +10,16 @@
  *
  *
  */
-package com.yiji.boot.rocketmq;
+package com.global.boot.rocketmq;
 
 import com.alibaba.rocketmq.client.exception.MQClientException;
 import com.alibaba.rocketmq.client.producer.DefaultMQProducer;
 import com.google.common.collect.Lists;
-import com.yiji.boot.rocketmq.consumer.RocketListenerAnnotationBeanPostProcessor;
-import com.yiji.boot.rocketmq.consumer.RocketMQConsumer;
-import com.yiji.boot.rocketmq.producer.MessageProducer;
-import com.yiji.boot.rocketmq.producer.MessageProducerLifeManager;
-import com.yiji.boot.rocketmq.support.KyroMessageConverter;
+import com.global.boot.rocketmq.consumer.RocketListenerAnnotationBeanPostProcessor;
+import com.global.boot.rocketmq.consumer.RocketMQConsumer;
+import com.global.boot.rocketmq.producer.MessageProducer;
+import com.global.boot.rocketmq.producer.MessageProducerLifeManager;
+import com.global.boot.rocketmq.support.KyroMessageConverter;
 import com.yjf.common.portrait.model.IOResource;
 import com.yjf.common.portrait.model.TCPEndpoint;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -56,7 +56,7 @@ public class RocketMQAutoConfiguration implements IOResource<TCPEndpoint> {
 	public MessageProducer messageProducer(DefaultMQProducer defaultMQProducer, RocketMQProperties rocketMQProperties) {
 		MessageProducer messageProducer = new MessageProducer(defaultMQProducer, new KyroMessageConverter(),
 			rocketMQProperties.getProducer().isLogEnable());
-		messageProducer.setDisableTopics(rocketMQProperties.getDisableTopics());
+//		messageProducer.setDisableTopics(rocketMQProperties.getDisableTopics());
 		return messageProducer;
 	}
 	

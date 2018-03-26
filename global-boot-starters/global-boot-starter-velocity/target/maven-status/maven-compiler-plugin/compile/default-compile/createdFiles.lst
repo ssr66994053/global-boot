@@ -1,0 +1,13 @@
+com\global\boot\velocity\HtmlEscapeReference.class
+com\global\boot\velocity\VelocityAutoConfiguration.class
+com\global\boot\velocity\VelocityAutoConfiguration$YijiVelocityConfigurer.class
+com\global\boot\velocity\YijiInvalidReferenceEventHandler.class
+com\global\boot\velocity\VelocityContextCreator.class
+com\global\boot\velocity\YijiVelocityLayoutView.class
+com\global\boot\velocity\VelocityLogChute.class
+META-INF\spring-configuration-metadata.json
+com\global\boot\velocity\YijiVelocityView.class
+com\global\boot\velocity\VelocityComponentInitializer.class
+com\global\boot\velocity\YijiVelocityProperties.class
+com\global\boot\velocity\YijiResourceLoader.class
+com\global\boot\velocity\VelocityAutoConfiguration$1.class

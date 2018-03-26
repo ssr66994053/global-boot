@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-10-19 17:35 创建
  *
  */
-package com.yiji.boot.web;
+package com.global.boot.web;
 
 import org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration;
 import org.springframework.boot.context.properties.ConfigurationProperties;

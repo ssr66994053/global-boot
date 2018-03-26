@@ -1,0 +1,57 @@
+{
+  "groups": [{
+    "name": "yiji.shiro",
+    "type": "com.global.boot.shiro.ShiroProperties",
+    "sourceType": "com.global.boot.shiro.ShiroProperties"
+  }],
+  "properties": [
+    {
+      "name": "yiji.shiro.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用shiro",
+      "sourceType": "com.global.boot.shiro.ShiroProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "yiji.shiro.filters",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "description": "自定义Filter列表，对应shiro.ini中的[filters]标签，格式如：\n \n <pre>\n  yiji.shiro.filters.authc=com.yiji.neverstopfront.web.shiro.CaptchaFormAuthenticationFilter\n  yiji.shiro.filters.admin=com.yiji.neverstopfront.web.shiro.AdminAuthorizationFilter\n  houseProperty=com.yiji.neverstopfront.web.shiro.ServiceTypeAuthorizationFilter\n  houseProperty.serviceType=HOUSE_PROPERTY\n  installment=com.yiji.neverstopfront.web.shiro.ServiceTypeAuthorizationFilter\n  installment.serviceType=INSTALLMENT\n  <\/pre>\n <p>\n <\/ul>",
+      "sourceType": "com.global.boot.shiro.ShiroProperties"
+    },
+    {
+      "name": "yiji.shiro.loginUrl",
+      "type": "java.lang.String",
+      "description": "登录页面链接",
+      "sourceType": "com.global.boot.shiro.ShiroProperties",
+      "defaultValue": "/login.html"
+    },
+    {
+      "name": "yiji.shiro.successUrl",
+      "type": "java.lang.String",
+      "description": "登录成功后的链接",
+      "sourceType": "com.global.boot.shiro.ShiroProperties",
+      "defaultValue": "/success.html"
+    },
+    {
+      "name": "yiji.shiro.unauthorizedUrl",
+      "type": "java.lang.String",
+      "description": "没有权限时跳转的链接",
+      "sourceType": "com.global.boot.shiro.ShiroProperties",
+      "defaultValue": "/unauthorized.html"
+    },
+    {
+      "name": "yiji.shiro.urlPattern",
+      "type": "java.lang.String",
+      "description": "需要shiro拦截的链接",
+      "sourceType": "com.global.boot.shiro.ShiroProperties",
+      "defaultValue": "/*"
+    },
+    {
+      "name": "yiji.shiro.urls",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.String>>",
+      "description": "对应shiro.ini中的[urls]标签，注意顺序，格式如：\n \n <pre>\n yiji.shiro.urls[0]./shiro/** = authc\n yiji.shiro.urls[1]./** = anon\n <\/pre>",
+      "sourceType": "com.global.boot.shiro.ShiroProperties"
+    }
+  ],
+  "hints": []
+}

@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-21 15:27 创建
  *
  */
-package com.yiji.boot.test.dubbo;
+package com.global.boot.test.dubbo;
 
 import com.yjf.common.lang.result.SingleValueResult;
 import com.yjf.common.service.SingleValueOrder;

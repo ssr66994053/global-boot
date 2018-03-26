@@ -38,6 +38,8 @@
             <artifactId>global-boot-starter-appservice</artifactId>
             <version>${project.version}</version>
         </dependency>
+        
+        <!--  
         <dependency>
             <groupId>com.global.boot</groupId>
             <artifactId>global-boot-starter-boss</artifactId>
@@ -48,16 +50,23 @@
             <artifactId>global-boot-starter-boss</artifactId>
             <version>${project.version}</version>
         </dependency>
+        
+        -->
+        
+        <!--  
         <dependency>
             <groupId>com.global.boot</groupId>
             <artifactId>global-boot-starter-cas</artifactId>
             <version>${project.version}</version>
         </dependency>
+        
         <dependency>
             <groupId>com.global.boot</groupId>
             <artifactId>global-boot-starter-cs</artifactId>
             <version>${project.version}</version>
         </dependency>
+        -->
+        
         <dependency>
             <groupId>com.global.boot</groupId>
             <artifactId>global-boot-starter-csrf</artifactId>
@@ -103,6 +112,8 @@
             <artifactId>global-boot-starter-mybatis</artifactId>
             <version>${project.version}</version>
         </dependency>
+        
+        <!--  
         <dependency>
             <groupId>com.global.boot</groupId>
             <artifactId>global-boot-starter-offlinelocks</artifactId>
@@ -113,16 +124,22 @@
             <artifactId>global-boot-starter-postman</artifactId>
             <version>${project.version}</version>
         </dependency>
+        -->
+        
         <dependency>
             <groupId>com.global.boot</groupId>
             <artifactId>global-boot-starter-rocketmq</artifactId>
             <version>${project.version}</version>
         </dependency>
+        
+        <!--  
         <dependency>
             <groupId>com.global.boot</groupId>
             <artifactId>global-boot-starter-security</artifactId>
             <version>${project.version}</version>
         </dependency>
+        -->
+        
         <dependency>
             <groupId>com.global.boot</groupId>
             <artifactId>global-boot-starter-shiro</artifactId>

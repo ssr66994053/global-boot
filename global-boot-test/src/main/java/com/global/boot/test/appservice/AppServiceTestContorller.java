@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-10-10 20:20 创建
  */
-package com.yiji.boot.test.appservice;
+package com.global.boot.test.appservice;
 
 import com.yjf.common.id.GID;
 import com.yjf.common.lang.result.ViewResultInfo;

@@ -9,10 +9,10 @@
  * qiubo@yiji.com 2016-02-22 18:06 修改属性访问\增加tostring\调用合适的工具类
  *
  */
-package com.yiji.boot.rocketmq.message;
+package com.global.boot.rocketmq.message;
 
 import com.google.common.collect.Maps;
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import com.yjf.common.env.Env;
 import com.yjf.common.lang.constants.SplitConstants;
 import com.yjf.common.lang.validator.Validators;

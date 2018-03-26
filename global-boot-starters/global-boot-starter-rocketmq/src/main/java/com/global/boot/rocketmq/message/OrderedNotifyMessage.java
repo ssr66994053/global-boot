@@ -9,7 +9,7 @@
  * qiubo@yiji.com 2016-02-22 18:06 增加tostring
  *
  */
-package com.yiji.boot.rocketmq.message;
+package com.global.boot.rocketmq.message;
 
 import org.hibernate.validator.constraints.Length;
 

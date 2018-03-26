@@ -7,11 +7,11 @@
  * 修订记录:
  * qiubo@yiji.com 2017-01-12 11:15 创建
  */
-package com.yiji.boot.mybatis;
+package com.global.boot.mybatis;
 
 import com.google.common.base.Splitter;
 import com.google.common.base.Strings;
-import com.yiji.boot.core.EnvironmentHolder;
+import com.global.boot.core.EnvironmentHolder;
 import lombok.extern.slf4j.Slf4j;
 import org.mybatis.spring.mapper.ClassPathMapperScanner;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;

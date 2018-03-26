@@ -8,9 +8,9 @@
  * qzhanbo@yiji.com 2015-09-10 10:51 创建
  *
  */
-package com.yiji.boot.velocity;
+package com.global.boot.velocity;
 
-import com.yiji.boot.core.init.ComponentInitializer;
+import com.global.boot.core.init.ComponentInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 
 /**

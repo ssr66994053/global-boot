@@ -1,0 +1,5 @@
+com\global\boot\shiro\ShiroCacheManager.class
+com\global\boot\shiro\ShiroAutoConfiguration.class
+com\global\boot\shiro\ShiroProperties.class
+com\global\boot\shiro\ShiroRedisCache.class
+META-INF\spring-configuration-metadata.json

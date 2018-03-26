@@ -8,7 +8,7 @@
  * yanglie@yiji.com 2015-09-09 15:17 创建
  *
  */
-package com.yiji.boot.test.dal;
+package com.global.boot.test.dal;
 
 import lombok.Data;
 

@@ -26,7 +26,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-import static com.yiji.boot.session.LoginChecker.PRFIX;
+import static com.global.boot.session.LoginChecker.PRFIX;
 
 /**
  * 请原谅我又copy 代码,确实没有办法扩展

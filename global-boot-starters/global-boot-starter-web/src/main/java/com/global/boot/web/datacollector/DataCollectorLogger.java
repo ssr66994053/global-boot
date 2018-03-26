@@ -8,7 +8,7 @@
  * yanglie@yiji.com 2016-11-17 15:05 创建
  *
  */
-package com.yiji.boot.web.datacollector;
+package com.global.boot.web.datacollector;
 
 import com.yjf.common.log.LoggerFactory;
 

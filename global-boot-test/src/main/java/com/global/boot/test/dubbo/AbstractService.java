@@ -7,15 +7,15 @@
  * 修订记录:
  * qiubo@yiji.com 2016-01-09 12:29 创建
  */
-package com.yiji.boot.test.dubbo;
+package com.global.boot.test.dubbo;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.yjf.customer.service.api.UserService;
+//import com.yjf.customer.service.api.UserService;
 
 /**
  * @author qiubo@yiji.com
  */
 public abstract class AbstractService {
-	@Reference(version = "1.5")
-	protected UserService userService;
+//	@Reference(version = "1.5")
+//	protected UserService userService;
 }

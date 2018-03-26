@@ -9,7 +9,7 @@
  * qiubo@yiji.com 2016-02-22 18:06 优化性能/参数检查/重构
  *
  */
-package com.yiji.boot.rocketmq.producer;
+package com.global.boot.rocketmq.producer;
 
 import com.alibaba.rocketmq.client.exception.MQBrokerException;
 import com.alibaba.rocketmq.client.exception.MQClientException;
@@ -19,11 +19,11 @@ import com.alibaba.rocketmq.client.producer.SendResult;
 import com.alibaba.rocketmq.common.message.Message;
 import com.alibaba.rocketmq.common.message.MessageQueue;
 import com.alibaba.rocketmq.remoting.exception.RemotingException;
-import com.yiji.boot.rocketmq.exception.TopicDisableException;
-import com.yiji.boot.rocketmq.message.NotifyMessage;
-import com.yiji.boot.rocketmq.message.OrderedNotifyMessage;
-import com.yiji.boot.rocketmq.support.MessageConverter;
-import com.yiji.framework.hera.client.support.annotation.AutoConfig;
+import com.global.boot.rocketmq.exception.TopicDisableException;
+import com.global.boot.rocketmq.message.NotifyMessage;
+import com.global.boot.rocketmq.message.OrderedNotifyMessage;
+import com.global.boot.rocketmq.support.MessageConverter;
+//import com.global.framework.hera.client.support.annotation.AutoConfig;
 import com.yjf.common.util.StringUtils;
 import com.yjf.common.util.ToString;
 import org.slf4j.Logger;
@@ -48,11 +48,11 @@ public class MessageProducer {
 		MessageQueue messageQueue = mqs.get(index);
 		return messageQueue;
 	};
-	/**
-	 * 通过配置管理系统的热切换功能来实现动态禁止往指定的topic发送消息
-	 */
-	@AutoConfig("yiji.rocketmq.disableTopics")
-	private volatile String disableTopics;
+//	/**
+//	 * 通过配置管理系统的热切换功能来实现动态禁止往指定的topic发送消息
+//	 */
+//	@AutoConfig("yiji.rocketmq.disableTopics")
+//	private volatile String disableTopics;
 	
 	private boolean logEnable;
 	/**
@@ -100,18 +100,18 @@ public class MessageProducer {
 		defaultMQProducer.shutdown();
 	}
 	
-	public String getDisableTopics() {
-		return disableTopics;
-	}
-	
-	public void setDisableTopics(String disableTopics) {
-		this.disableTopics = disableTopics;
-		disableTopicsSet.clear();
-		if (StringUtils.isNotBlank(disableTopics)) {
-			for (String topic : this.disableTopics.split(",")) {
-				disableTopicsSet.add(topic.trim());
-			}
-		}
-	}
+//	public String getDisableTopics() {
+//		return disableTopics;
+//	}
+//	
+//	public void setDisableTopics(String disableTopics) {
+//		this.disableTopics = disableTopics;
+//		disableTopicsSet.clear();
+//		if (StringUtils.isNotBlank(disableTopics)) {
+//			for (String topic : this.disableTopics.split(",")) {
+//				disableTopicsSet.add(topic.trim());
+//			}
+//		}
+//	}
 	
 }

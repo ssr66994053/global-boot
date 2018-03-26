@@ -8,10 +8,10 @@
  * yanglie@yiji.com 2015-09-09 09:28 创建
  *
  */
-package com.yiji.boot.mybatis;
+package com.global.boot.mybatis;
 
 import com.google.common.collect.Lists;
-import com.yiji.boot.jdbc.JDBCAutoConfiguration;
+import com.global.boot.jdbc.JDBCAutoConfiguration;
 import com.yjf.common.mybatis.MoneyTypeHandler;
 import com.yjf.common.util.StringUtils;
 import org.apache.ibatis.io.VFS;

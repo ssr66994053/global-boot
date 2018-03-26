@@ -6,9 +6,9 @@
  * zhouxi@yiji.com 2015-09-15 15:41 创建
  *
  */
-package com.yiji.boot.test;
+package com.global.boot.test;
 
-import com.yiji.boot.boss.log.annotations.BossOperation;
+//import com.global.boot.boss.log.annotations.BossOperation;
 import com.yjf.common.log.Logger;
 import com.yjf.common.log.LoggerFactory;
 import org.apache.shiro.SecurityUtils;
@@ -51,7 +51,7 @@ public class ControllerTest {
 	}
 
 	@RequestMapping("/boss/yiji-boot-test/testLog")
-	@BossOperation(description = "测试日志收集", ignoreParameterList = { "sensitive" })
+//	@BossOperation(description = "测试日志收集", ignoreParameterList = { "sensitive" })
 	public String testLog(ModelMap map, HttpServletRequest request, HttpServletResponse response, String userId,
 							String payPassword) {
 		logger.info("进入日志收集,{},{}", userId, payPassword);
@@ -59,7 +59,7 @@ public class ControllerTest {
 	}
 
 	@RequestMapping("/boss/yiji-boot-test/testLogIgnore")
-	@BossOperation(description = "测试日志收集2", ignoreParams = true)
+//	@BossOperation(description = "测试日志收集2", ignoreParams = true)
 	public String testLogIgnore(String userId) {
 		logger.info("进入日志收集,{}", userId);
 		return "testLog2";
@@ -72,7 +72,7 @@ public class ControllerTest {
 	}
 
 	@RequestMapping("/boss/yiji-boot-test/testLogIgnoreMethod")
-	@BossOperation(description = "", ignore = true)
+//	@BossOperation(description = "", ignore = true)
 	public String testLogIgnoreMethod(String userId) {
 		logger.info("进入日志收集,{}", userId);
 		return "testLog4";

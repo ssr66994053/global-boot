@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-09-18 11:00 创建
  *
  */
-package com.yiji.boot.web;
+package com.global.boot.web;
 
 import com.yjf.common.lang.enums.Messageable;
 import com.yjf.common.lang.result.ViewResultInfo;

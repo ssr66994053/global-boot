@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.global.boot.mybatis.MybatisAutoConfiguration,\
+com.global.boot.mybatis.PageHelperAutoConfiguration,\
+com.global.boot.mybatis.MapperAutoConfiguration
+
+com.global.boot.core.init.ComponentInitializer=com.global.boot.mybatis.MybatisComponentInitializer

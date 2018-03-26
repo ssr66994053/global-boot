@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-21 15:28 创建
  *
  */
-package com.yiji.boot.test.dubbo;
+package com.global.boot.test.dubbo;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.yjf.common.concurrent.MonitoredThreadPool;
@@ -35,7 +35,8 @@ public class DemoServiceImpl extends AbstractService implements DemoService {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		return msg + " ref:" + userService;
+//		return msg + " ref:" + userService;
+		return null;
 	}
 	
 	@Override

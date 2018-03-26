@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<toolbox>
+    <tool>
+        <key>dateUtil</key>
+        <scope>application</scope>
+        <class>com.yjf.common.lang.util.DateUtil</class>
+    </tool>
+    <tool>
+        <key>dateTool</key>
+        <scope>application</scope>
+        <class>org.apache.velocity.tools.generic.DateTool</class>
+    </tool>
+    <tool>
+        <key>enumUtil</key>
+        <scope>application</scope>
+        <class>org.apache.commons.lang3.EnumUtils</class>
+    </tool>
+    <tool>
+        <key>yijiEnumUtil</key>
+        <scope>application</scope>
+        <class>com.yjf.common.lang.EnumUtil</class>
+    </tool>
+    <tool>
+        <key>esc</key>
+        <scope>application</scope>
+        <class>org.apache.velocity.tools.generic.EscapeTool</class>
+    </tool>
+    <tool>
+        <key>stringUtils</key>
+        <scope>application</scope>
+        <class>com.yjf.common.util.StringUtils</class>
+    </tool>
+</toolbox>

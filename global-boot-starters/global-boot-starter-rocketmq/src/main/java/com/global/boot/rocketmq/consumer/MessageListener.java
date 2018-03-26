@@ -8,7 +8,7 @@
  * yanglie@yiji.com 2016-02-01 15:16 创建
  *
  */
-package com.yiji.boot.rocketmq.consumer;
+package com.global.boot.rocketmq.consumer;
 
 import com.alibaba.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
 import com.alibaba.rocketmq.common.message.MessageExt;

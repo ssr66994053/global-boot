@@ -8,13 +8,13 @@
  * qzhanbo@yiji.com 2015-08-15 12:32 创建
  *
  */
-package com.yiji.boot.jdbc;
+package com.global.boot.jdbc;
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.Appender;
-import com.yiji.boot.core.log.LogbackConfigurator;
-import com.yiji.boot.core.log.initializer.AbstractLogInitializer;
+import com.global.boot.core.log.LogbackConfigurator;
+import com.global.boot.core.log.initializer.AbstractLogInitializer;
 import com.yjf.common.log.LogbackAsyncAppender;
 
 /**

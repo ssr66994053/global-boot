@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.alibabatech.com/schema/dubbo
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+    <bean id="testBean" class="com.yiji.boot.test.TestBean">
+        <property name="name" value="bohr,"/>
+        <property name="valueFormHera" value="${app.test}"/>
+        <property name="valueFormHera1" value="${app.test1}"/>
+    </bean>
+    <dubbo:reference id="indexManager" interface="com.yiji.common.security.index.IndexManager" version="1.5" group="securitydata" />
+</beans>

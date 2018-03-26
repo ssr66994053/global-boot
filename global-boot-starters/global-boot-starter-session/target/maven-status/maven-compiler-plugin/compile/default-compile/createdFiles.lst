@@ -1,0 +1,15 @@
+com\global\boot\session\UserHasLoginException.class
+com\global\boot\session\UrlAndCookieHttpSessionStrategy.class
+com\global\boot\session\YedisHttpSessionConfiguration$YedisConnectionConfiguration.class
+com\global\boot\session\YedisHttpSessionConfiguration.class
+org\springframework\session\data\redis\YijiRedisOperationsSessionRepository.class
+com\global\boot\session\SessionProperties$Pool.class
+META-INF\spring-configuration-metadata.json
+com\global\boot\session\DisabledRedisMessageListenerContainer.class
+com\global\boot\session\UrlAndCookieHttpSessionStrategy$MultiSessionHttpServletResponse.class
+com\global\boot\session\LoginChecker$LoginInfo.class
+com\global\boot\session\SessionComponentInitializer.class
+com\global\boot\session\SessionYedisHealthIndicator.class
+org\springframework\session\data\redis\YijiRedisOperationsSessionRepository$RedisSession.class
+com\global\boot\session\LoginChecker.class
+com\global\boot\session\SessionProperties.class

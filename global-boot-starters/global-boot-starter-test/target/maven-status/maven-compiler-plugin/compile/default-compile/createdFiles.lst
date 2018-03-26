@@ -1,0 +1,7 @@
+com\global\boot\test\param\CsvParameter.class
+com\global\boot\test\AppTestBase.class
+com\global\boot\test\param\converter\StringToMoneyConverter.class
+com\global\boot\test\AppWebTestBase.class
+com\global\boot\test\param\IntegrationTestBase.class
+com\global\boot\test\param\CsvProvider.class
+com\global\boot\test\param\converter\MoneyEditor.class

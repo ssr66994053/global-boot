@@ -8,7 +8,7 @@
  * zhouxi@yiji.com 2015-03-13 10:21 创建
  *
  */
-package com.yiji.boot.shiro;
+package com.global.boot.shiro;
 
 import org.apache.shiro.cache.Cache;
 import org.apache.shiro.cache.CacheException;

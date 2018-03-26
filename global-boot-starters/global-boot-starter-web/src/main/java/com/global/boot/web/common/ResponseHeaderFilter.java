@@ -8,9 +8,9 @@
  * qzhanbo@yiji.com 2015-10-15 10:38 创建
  *
  */
-package com.yiji.boot.web.common;
+package com.global.boot.web.common;
 
-import com.yiji.boot.web.ResponseHeaderProperties;
+import com.global.boot.web.ResponseHeaderProperties;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import javax.servlet.FilterChain;

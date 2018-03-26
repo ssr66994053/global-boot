@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-09-23 23:34 创建
  *
  */
-package com.yiji.boot.web.common;
+package com.global.boot.web.common;
 
 import com.yjf.common.env.Env;
 

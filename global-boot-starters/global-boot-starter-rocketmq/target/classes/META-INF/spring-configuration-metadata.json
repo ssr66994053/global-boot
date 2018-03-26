@@ -1,0 +1,96 @@
+{
+  "groups": [
+    {
+      "name": "yiji.rocketmq",
+      "type": "com.global.boot.rocketmq.RocketMQProperties",
+      "sourceType": "com.global.boot.rocketmq.RocketMQProperties"
+    },
+    {
+      "name": "yiji.rocketmq.consumer",
+      "type": "com.global.boot.rocketmq.RocketMQProperties$Consumer",
+      "sourceType": "com.global.boot.rocketmq.RocketMQProperties",
+      "sourceMethod": "getConsumer()"
+    },
+    {
+      "name": "yiji.rocketmq.producer",
+      "type": "com.global.boot.rocketmq.RocketMQProperties$Producer",
+      "sourceType": "com.global.boot.rocketmq.RocketMQProperties",
+      "sourceMethod": "getProducer()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "yiji.rocketmq.consumer.consumeMessageBatchMaxSize",
+      "type": "java.lang.Integer",
+      "description": "每次从服务端获取多少条消费到本地消费，不建议修改\n <p>\n 如果值大于1,每个批量中有一条处理错误,会导致整个批量重发",
+      "sourceType": "com.global.boot.rocketmq.RocketMQProperties$Consumer",
+      "defaultValue": 1
+    },
+    {
+      "name": "yiji.rocketmq.consumer.consumeThreadMax",
+      "type": "java.lang.Integer",
+      "description": "消费端线程池最大为多少",
+      "sourceType": "com.global.boot.rocketmq.RocketMQProperties$Consumer",
+      "defaultValue": 50
+    },
+    {
+      "name": "yiji.rocketmq.consumer.consumeThreadMin",
+      "type": "java.lang.Integer",
+      "description": "消费端线程池最小为多少",
+      "sourceType": "com.global.boot.rocketmq.RocketMQProperties$Consumer",
+      "defaultValue": 10
+    },
+    {
+      "name": "yiji.rocketmq.consumer.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用消费端，默认为不启用",
+      "sourceType": "com.global.boot.rocketmq.RocketMQProperties$Consumer",
+      "defaultValue": false
+    },
+    {
+      "name": "yiji.rocketmq.consumer.group",
+      "type": "java.lang.String",
+      "description": "消费端的group名字，默认为: CONSUMER_PREFIX + Apps.getAppName()",
+      "sourceType": "com.global.boot.rocketmq.RocketMQProperties$Consumer"
+    },
+    {
+      "name": "yiji.rocketmq.disableTopics",
+      "type": "java.lang.String",
+      "description": "选填：禁止使用的topic，项目不用管这个配置",
+      "sourceType": "com.global.boot.rocketmq.RocketMQProperties"
+    },
+    {
+      "name": "yiji.rocketmq.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.global.boot.rocketmq.RocketMQProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "yiji.rocketmq.nameSrvAddr",
+      "type": "java.lang.String",
+      "description": "必填：服务连接地址",
+      "sourceType": "com.global.boot.rocketmq.RocketMQProperties"
+    },
+    {
+      "name": "yiji.rocketmq.producer.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用生产端，默认为不启用",
+      "sourceType": "com.global.boot.rocketmq.RocketMQProperties$Producer",
+      "defaultValue": false
+    },
+    {
+      "name": "yiji.rocketmq.producer.group",
+      "type": "java.lang.String",
+      "description": "生产端的group名字，默认为: PROVIDER_PREFIX + Apps.getAppName()",
+      "sourceType": "com.global.boot.rocketmq.RocketMQProperties$Producer"
+    },
+    {
+      "name": "yiji.rocketmq.producer.logEnable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用生产者日志",
+      "sourceType": "com.global.boot.rocketmq.RocketMQProperties$Producer",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

@@ -8,13 +8,13 @@
  * yanglie@yiji.com 2015-09-15 15:07 创建
  *
  */
-package com.yiji.boot.fastdfs;
+package com.global.boot.fastdfs;
 
 import com.google.common.collect.Lists;
-import com.yiji.boot.core.metrics.GenericKeyedObjectPoolMetrics;
-import com.yiji.framework.fastdfs.FastdfsClient;
-import com.yiji.framework.fastdfs.FastdfsClientConfig;
-import com.yiji.framework.fastdfs.FastdfsClientFactory;
+import com.global.boot.core.metrics.GenericKeyedObjectPoolMetrics;
+import com.global.framework.fastdfs.FastdfsClient;
+import com.global.framework.fastdfs.FastdfsClientConfig;
+import com.global.framework.fastdfs.FastdfsClientFactory;
 import com.yjf.common.portrait.model.IOResource;
 import com.yjf.common.portrait.model.TCPEndpoint;
 import org.slf4j.Logger;

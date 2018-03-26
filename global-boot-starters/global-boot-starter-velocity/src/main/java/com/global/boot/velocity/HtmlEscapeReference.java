@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-01-21 14:37 创建
  *
  */
-package com.yiji.boot.velocity;
+package com.global.boot.velocity;
 
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.base.Splitter;

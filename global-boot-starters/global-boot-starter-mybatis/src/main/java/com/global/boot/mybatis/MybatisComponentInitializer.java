@@ -7,10 +7,10 @@
  * 修订记录:
  * qiubo@yiji.com 2017-01-12 09:59 创建
  */
-package com.yiji.boot.mybatis;
+package com.global.boot.mybatis;
 
 import com.google.common.collect.Lists;
-import com.yiji.boot.core.init.ComponentInitializer;
+import com.global.boot.core.init.ComponentInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 
 import java.util.List;

@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-26 16:48 创建
  *
  */
-package com.yiji.boot.session;
+package com.global.boot.session;
 
 import org.springframework.data.redis.listener.RedisMessageListenerContainer;
 

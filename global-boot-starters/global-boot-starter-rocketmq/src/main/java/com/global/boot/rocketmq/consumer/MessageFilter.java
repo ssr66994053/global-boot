@@ -8,7 +8,7 @@
  * yanglie@yiji.com 2016-02-01 13:57 创建
  *
  */
-package com.yiji.boot.rocketmq.consumer;
+package com.global.boot.rocketmq.consumer;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

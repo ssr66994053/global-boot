@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-03-16 17:33 创建
  */
-package com.yiji.boot.test;
+package com.global.boot.test;
 
 import com.yjf.common.net.HttpUtil;
 import org.apache.http.HttpResponse;

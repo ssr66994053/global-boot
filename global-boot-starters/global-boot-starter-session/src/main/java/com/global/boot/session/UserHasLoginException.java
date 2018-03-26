@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-05-03 17:08 创建
  */
-package com.yiji.boot.session;
+package com.global.boot.session;
 
 /**
  * @author qiubo@yiji.com

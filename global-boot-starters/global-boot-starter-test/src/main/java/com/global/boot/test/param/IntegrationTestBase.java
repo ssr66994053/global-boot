@@ -1,4 +1,4 @@
-package com.yiji.boot.test.param;
+package com.global.boot.test.param;
 
 import junitparams.JUnitParamsRunner;
 import org.junit.ClassRule;

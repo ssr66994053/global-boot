@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-03-17 22:31 创建
  */
-package com.yiji.boot.session;
+package com.global.boot.session;
 
 import com.google.common.base.Strings;
 import org.springframework.session.Session;

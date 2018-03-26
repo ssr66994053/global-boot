@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2014-12-30 22:36 创建
  *
  */
-package com.yiji.boot.velocity;
+package com.global.boot.velocity;
 
 import org.apache.velocity.context.Context;
 import org.springframework.web.servlet.view.velocity.VelocityLayoutView;

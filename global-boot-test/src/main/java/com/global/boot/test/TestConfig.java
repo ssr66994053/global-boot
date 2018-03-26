@@ -8,9 +8,9 @@
  * qzhanbo@yiji.com 2015-06-10 17:59 创建
  *
  */
-package com.yiji.boot.test;
+package com.global.boot.test;
 
-import com.yiji.framework.hera.client.support.annotation.AutoConfig;
+//import com.global.framework.hera.client.support.annotation.AutoConfig;
 import com.yjf.common.concurrent.MonitoredThreadPool;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.embedded.ServletRegistrationBean;
@@ -27,8 +27,8 @@ public class TestConfig {
 	@Value("${app.test}")
 	private String valueFormHera;
 	
-	@AutoConfig("app.test1")
-	private String valueFormHera1;
+//	@AutoConfig("app.test1")
+//	private String valueFormHera1;
 	
 	@Value("${xxxxx}")
 	private String xxxxx;
@@ -56,13 +56,13 @@ public class TestConfig {
 		return monitoredThreadPool;
 	}
 	
-	public String getValueFormHera1() {
-		return valueFormHera1;
-	}
-	
-	public void setValueFormHera1(String valueFormHera1) {
-		this.valueFormHera1 = valueFormHera1;
-	}
+//	public String getValueFormHera1() {
+//		return valueFormHera1;
+//	}
+//	
+//	public void setValueFormHera1(String valueFormHera1) {
+//		this.valueFormHera1 = valueFormHera1;
+//	}
 	
 	public String getValueFormHera() {
 		return valueFormHera;

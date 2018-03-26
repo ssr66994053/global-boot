@@ -8,7 +8,7 @@
  * yanglie@yiji.com 2016-02-01 15:20 创建
  *
  */
-package com.yiji.boot.rocketmq.support;
+package com.global.boot.rocketmq.support;
 
 /**
  * @author yanglie@yiji.com

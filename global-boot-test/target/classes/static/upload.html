@@ -1,0 +1,35 @@
+<form method="POST" enctype="multipart/form-data" action="/testUpload">
+    <table>
+        <tr>
+            <td>File to upload:</td>
+            <td><input type="file" name="file"/></td>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name"/></td>
+        </tr>
+        <input type="hidden" id="_csrf" name="_csrf" value=""/>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Upload"/></td>
+        </tr>
+
+    </table>
+</form>
+
+<script>
+    document.getElementById("_csrf").setAttribute("value", getCookie("_csrf"));
+    function getCookie(cookie_name) {
+        var allcookies = document.cookie;
+        var cookie_pos = allcookies.indexOf(cookie_name);
+        if (cookie_pos != -1) {
+            cookie_pos = cookie_pos + cookie_name.length + 1;
+            var cookie_end = allcookies.indexOf(";", cookie_pos);
+            if (cookie_end == -1) {
+                cookie_end = allcookies.length;
+            }
+            var value = unescape(allcookies.substring(cookie_pos, cookie_end));
+        }
+        return value;
+    }
+</script>

@@ -9,9 +9,9 @@
  *
  */
 
-package com.yiji.boot.session;
+package com.global.boot.session;
 
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**

@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-06-15 14:12 创建
  *
  */
-package com.yiji.boot.test.interceptor;
+package com.global.boot.test.interceptor;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

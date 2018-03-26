@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-01-19 20:16 创建
  */
-package com.yiji.boot.velocity;
+package com.global.boot.velocity;
 
 import org.apache.velocity.exception.ResourceNotFoundException;
 import org.springframework.ui.velocity.SpringResourceLoader;

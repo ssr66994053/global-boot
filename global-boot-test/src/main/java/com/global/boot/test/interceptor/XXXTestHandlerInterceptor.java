@@ -7,9 +7,9 @@
  * 修订记录:
  * qiubo@yiji.com 2016-04-28 18:32 创建
  */
-package com.yiji.boot.test.interceptor;
+package com.global.boot.test.interceptor;
 
-import com.yiji.boot.web.SpringHandlerInterceptor;
+import com.global.boot.web.SpringHandlerInterceptor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.method.HandlerMethod;

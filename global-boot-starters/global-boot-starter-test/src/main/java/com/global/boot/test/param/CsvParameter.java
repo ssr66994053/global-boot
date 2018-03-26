@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2017-03-24 19:43 创建
  */
-package com.yiji.boot.test.param;
+package com.global.boot.test.param;
 
 import junitparams.custom.CustomParameters;
 

@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-09-19 23:48 创建
  *
  */
-package com.yiji.boot.test;
+package com.global.boot.test;
 
 import org.junit.runner.RunWith;
 import org.springframework.context.ApplicationContext;

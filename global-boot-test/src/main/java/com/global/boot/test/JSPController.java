@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-01-13 22:48 创建
  */
-package com.yiji.boot.test;
+package com.global.boot.test;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

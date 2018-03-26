@@ -8,10 +8,10 @@
  * yanglie@yiji.com 2015-09-09 09:20 创建
  *
  */
-package com.yiji.boot.mybatis;
+package com.global.boot.mybatis;
 
 import com.google.common.collect.Maps;
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import lombok.Data;
 import org.apache.ibatis.session.ExecutorType;
 import org.apache.ibatis.session.LocalCacheScope;

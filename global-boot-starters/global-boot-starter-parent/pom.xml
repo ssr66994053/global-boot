@@ -95,11 +95,15 @@
                 <artifactId>global-boot-starter-rocketmq</artifactId>
                 <version>1.2-SNAPSHOT</version>
             </dependency>
+            
+            <!--  
             <dependency>
                 <groupId>com.global.boot</groupId>
                 <artifactId>global-boot-starter-security</artifactId>
                 <version>1.2-SNAPSHOT</version>
             </dependency>
+            -->
+            
             <dependency>
                 <groupId>com.global.boot</groupId>
                 <artifactId>global-boot-starter-session</artifactId>

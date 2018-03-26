@@ -1,4 +1,4 @@
-package com.yiji.boot.test;
+package com.global.boot.test;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;

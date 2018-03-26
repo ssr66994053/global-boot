@@ -7,11 +7,11 @@
  * 修订记录:
  * qiubo@yiji.com 2017-03-24 19:42 创建
  */
-package com.yiji.boot.test.param;
+package com.global.boot.test.param;
 
 import com.google.common.base.Charsets;
-import com.yiji.boot.test.param.converter.MoneyEditor;
-import com.yiji.boot.test.param.converter.StringToMoneyConverter;
+import com.global.boot.test.param.converter.MoneyEditor;
+import com.global.boot.test.param.converter.StringToMoneyConverter;
 import com.yjf.common.lang.util.money.Money;
 import junitparams.custom.ParametersProvider;
 import junitparams.internal.Utils;

@@ -8,10 +8,10 @@
  * yanglie@yiji.com 2015-08-24 13:37 创建
  *
  */
-package com.yiji.boot.test;
+package com.global.boot.test;
 
-import com.yiji.boot.session.LoginChecker;
-import com.yiji.boot.session.UserHasLoginException;
+import com.global.boot.session.LoginChecker;
+import com.global.boot.session.UserHasLoginException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

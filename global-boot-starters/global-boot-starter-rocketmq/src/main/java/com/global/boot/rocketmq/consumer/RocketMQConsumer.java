@@ -8,7 +8,7 @@
  * yanglie@yiji.com 2016-02-01 14:54 创建
  *
  */
-package com.yiji.boot.rocketmq.consumer;
+package com.global.boot.rocketmq.consumer;
 
 import com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer;
 import com.alibaba.rocketmq.client.consumer.listener.*;

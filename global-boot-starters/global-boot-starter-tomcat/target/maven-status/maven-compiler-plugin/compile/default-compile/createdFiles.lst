@@ -1,0 +1,7 @@
+com\global\boot\tomcat\TomcatComponentInitializer.class
+com\global\boot\tomcat\TomcatHealthIndicator.class
+com\global\boot\tomcat\TomcatProperties.class
+com\global\boot\tomcat\TomcatProperties$Jsp.class
+com\global\boot\tomcat\TomcatAutoConfiguration.class
+META-INF\spring-configuration-metadata.json
+com\global\boot\tomcat\TomcatMetrics.class

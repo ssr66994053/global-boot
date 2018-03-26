@@ -8,7 +8,7 @@
  * yanglie@yiji.com 2016-02-22 16:44 创建
  *
  */
-package com.yiji.boot.rocketmq.producer;
+package com.global.boot.rocketmq.producer;
 
 import com.alibaba.rocketmq.client.producer.SendResult;
 import com.alibaba.rocketmq.client.producer.SendStatus;

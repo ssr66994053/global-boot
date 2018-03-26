@@ -1,0 +1,3 @@
+com\yiji\boot\metrics\MetricsProperties.class
+com\yiji\boot\metrics\MetricsAutoConfiguration.class
+META-INF\spring-configuration-metadata.json

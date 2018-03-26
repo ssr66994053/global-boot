@@ -1,4 +1,4 @@
-package com.yiji.boot.shiro;
+package com.global.boot.shiro;
 
 import org.apache.shiro.cache.Cache;
 import org.apache.shiro.cache.CacheException;

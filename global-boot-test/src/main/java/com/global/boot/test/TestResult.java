@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-06-15 20:45 创建
  *
  */
-package com.yiji.boot.test;
+package com.global.boot.test;
 
 import com.yjf.common.lang.result.StandardResultInfo;
 import com.yjf.common.util.ToString;

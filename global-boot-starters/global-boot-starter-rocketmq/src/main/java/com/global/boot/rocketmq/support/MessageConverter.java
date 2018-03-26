@@ -8,11 +8,11 @@
  * yanglie@yiji.com 2016-02-01 15:17 创建
  *
  */
-package com.yiji.boot.rocketmq.support;
+package com.global.boot.rocketmq.support;
 
 import com.alibaba.rocketmq.common.message.Message;
 import com.alibaba.rocketmq.common.message.MessageExt;
-import com.yiji.boot.rocketmq.message.NotifyMessage;
+import com.global.boot.rocketmq.message.NotifyMessage;
 
 /**
  * @author yanglie@yiji.com

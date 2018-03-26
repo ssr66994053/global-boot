@@ -8,11 +8,11 @@
  * qzhanbo@yiji.com 2015-12-09 10:31 创建
  *
  */
-package com.yiji.boot.jdbc;
+package com.global.boot.jdbc;
 
 import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
-import com.yiji.boot.core.init.ComponentInitializer;
+import com.global.boot.core.init.ComponentInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 
 import java.util.List;

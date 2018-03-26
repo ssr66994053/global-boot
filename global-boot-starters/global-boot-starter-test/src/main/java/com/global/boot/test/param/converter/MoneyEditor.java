@@ -1,4 +1,4 @@
-package com.yiji.boot.test.param.converter;
+package com.global.boot.test.param.converter;
 
 import com.yjf.common.lang.util.money.Money;
 import org.springframework.util.StringUtils;

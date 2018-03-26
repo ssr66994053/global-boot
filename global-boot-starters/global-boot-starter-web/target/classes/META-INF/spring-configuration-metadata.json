@@ -1,0 +1,80 @@
+{
+  "groups": [
+    {
+      "name": "yiji.favicon",
+      "type": "com.global.boot.web.FaviconAutoConfiguration$FaviconProperties",
+      "sourceType": "com.global.boot.web.FaviconAutoConfiguration$FaviconProperties"
+    },
+    {
+      "name": "yiji.resp",
+      "type": "com.global.boot.web.ResponseHeaderProperties",
+      "sourceType": "com.global.boot.web.ResponseHeaderProperties"
+    },
+    {
+      "name": "yiji.web",
+      "type": "com.global.boot.web.YijiWebProperties",
+      "sourceType": "com.global.boot.web.YijiWebProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "yiji.favicon.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用favicon",
+      "sourceType": "com.global.boot.web.FaviconAutoConfiguration$FaviconProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "yiji.resp.headers",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.global.boot.web.ResponseHeaderProperties",
+      "defaultValue": 2
+    },
+    {
+      "name": "yiji.web.cacheMaxAge",
+      "type": "java.lang.Integer",
+      "description": "http 缓存时间,-1=不设置,0=第二次请求需要和服务器协商,大于0=经过多少秒后才过期",
+      "sourceType": "com.global.boot.web.YijiWebProperties",
+      "defaultValue": -1
+    },
+    {
+      "name": "yiji.web.escapeExceptionMsg",
+      "type": "java.lang.Boolean",
+      "description": "在controller抛出异常时，是否escape exception message",
+      "sourceType": "com.global.boot.web.YijiWebProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "yiji.web.globalExceptionHandlerEnable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用全局异常处理器,如果应用需要自定义MVC异常处理器,请禁用全局异常处理器,自定义自己的异常处理器.",
+      "sourceType": "com.global.boot.web.YijiWebProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "yiji.web.hiddenHttpMethodFilterEnable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用hiddenHttpMethodFilter\n @see WebMvcAutoConfiguration#hiddenHttpMethodFilter()",
+      "sourceType": "com.global.boot.web.YijiWebProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "yiji.web.httpPutFormContentFilterEnable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.global.boot.web.YijiWebProperties"
+    },
+    {
+      "name": "yiji.web.simplePageMap",
+      "type": "java.lang.String",
+      "description": "配置直接返回静态模板页面的映射 /index.htm->index,/test/test.htm->test/detail",
+      "sourceType": "com.global.boot.web.YijiWebProperties"
+    },
+    {
+      "name": "yiji.web.welcomeFile",
+      "type": "java.lang.String",
+      "description": "配置自定义欢迎页面,比如设置登录页面为欢迎页:login.html",
+      "sourceType": "com.global.boot.web.YijiWebProperties"
+    }
+  ],
+  "hints": []
+}

@@ -7,9 +7,9 @@
  * 修订记录:
  * qiubo@yiji.com 2016-10-10 20:21 创建
  */
-package com.yiji.boot.test.appservice;
+package com.global.boot.test.appservice;
 
-import com.yiji.boot.appservice.AppService;
+import com.global.boot.appservice.AppService;
 import com.yjf.common.lang.result.SingleValueResult;
 import com.yjf.common.service.SingleValueOrder;
 

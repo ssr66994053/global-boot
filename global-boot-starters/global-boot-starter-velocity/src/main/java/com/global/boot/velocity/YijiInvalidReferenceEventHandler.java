@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-01-19 18:55 创建
  *
  */
-package com.yiji.boot.velocity;
+package com.global.boot.velocity;
 
 import org.apache.velocity.app.event.InvalidReferenceEventHandler;
 import org.apache.velocity.context.Context;

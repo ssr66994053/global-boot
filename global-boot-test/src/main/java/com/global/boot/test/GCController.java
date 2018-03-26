@@ -8,7 +8,7 @@
  * qiubo@yiji.com 2017-01-04 13:55 创建
  *
  */
-package com.yiji.boot.test;
+package com.global.boot.test;
 
 import com.yjf.common.lang.util.PasswdUtil;
 import lombok.Getter;

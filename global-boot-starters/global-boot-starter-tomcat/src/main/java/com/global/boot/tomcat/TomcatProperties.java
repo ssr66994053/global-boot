@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-25 16:19 创建
  *
  */
-package com.yiji.boot.tomcat;
+package com.global.boot.tomcat;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

@@ -8,7 +8,7 @@
  * yanglie@yiji.com 2015-09-15 15:08 创建
  *
  */
-package com.yiji.boot.fastdfs;
+package com.global.boot.fastdfs;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

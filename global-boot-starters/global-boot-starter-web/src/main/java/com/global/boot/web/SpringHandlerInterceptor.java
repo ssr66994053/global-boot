@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-09-16 16:30 创建
  *
  */
-package com.yiji.boot.web;
+package com.global.boot.web;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;

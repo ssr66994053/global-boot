@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2017-01-13 11:30 创建
  */
-package com.yiji.boot.mybatis.mapper;
+package com.global.boot.mybatis.mapper;
 
 import org.apache.ibatis.annotations.DeleteProvider;
 import org.apache.ibatis.mapping.MappedStatement;

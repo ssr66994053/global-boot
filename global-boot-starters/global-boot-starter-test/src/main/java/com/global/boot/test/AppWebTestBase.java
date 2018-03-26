@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-09-19 23:53 创建
  *
  */
-package com.yiji.boot.test;
+package com.global.boot.test;
 
 import com.github.kevinsawicki.http.HttpRequest;
 import org.junit.runner.RunWith;

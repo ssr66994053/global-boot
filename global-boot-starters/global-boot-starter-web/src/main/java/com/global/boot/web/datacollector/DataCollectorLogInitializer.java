@@ -8,14 +8,14 @@
  * yanglie@yiji.com 2016-11-17 14:44 创建
  *
  */
-package com.yiji.boot.web.datacollector;
+package com.global.boot.web.datacollector;
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.Appender;
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.core.log.LogbackConfigurator;
-import com.yiji.boot.core.log.initializer.AbstractLogInitializer;
+import com.global.boot.core.Apps;
+import com.global.boot.core.log.LogbackConfigurator;
+import com.global.boot.core.log.initializer.AbstractLogInitializer;
 import com.yjf.common.log.LogbackAsyncAppender;
 
 /**

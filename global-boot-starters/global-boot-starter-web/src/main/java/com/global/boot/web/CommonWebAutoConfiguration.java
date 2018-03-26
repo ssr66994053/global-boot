@@ -8,10 +8,10 @@
  * qzhanbo@yiji.com 2015-09-23 23:32 创建
  *
  */
-package com.yiji.boot.web;
+package com.global.boot.web;
 
-import com.yiji.boot.web.common.EnvServlet;
-import com.yiji.boot.web.common.ResponseHeaderFilter;
+import com.global.boot.web.common.EnvServlet;
+import com.global.boot.web.common.ResponseHeaderFilter;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
 import org.springframework.boot.context.embedded.ServletRegistrationBean;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

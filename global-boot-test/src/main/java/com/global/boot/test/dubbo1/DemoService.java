@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-21 15:27 创建
  *
  */
-package com.yiji.boot.test.dubbo1;
+package com.global.boot.test.dubbo1;
 
 /**
  * @author qiubo@yiji.com

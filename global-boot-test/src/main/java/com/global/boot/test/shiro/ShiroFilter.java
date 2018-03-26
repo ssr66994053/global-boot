@@ -1,4 +1,4 @@
-package com.yiji.boot.test.shiro;
+package com.global.boot.test.shiro;
 
 import org.apache.shiro.web.filter.authz.AuthorizationFilter;
 

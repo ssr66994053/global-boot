@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-10-19 17:33 创建
  *
  */
-package com.yiji.boot.web;
+package com.global.boot.web;
 
 import com.google.common.collect.Maps;
 import org.springframework.util.StringUtils;

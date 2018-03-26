@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.global.boot.tomcat.TomcatAutoConfiguration
+com.global.boot.core.init.ComponentInitializer=com.global.boot.tomcat.TomcatComponentInitializer

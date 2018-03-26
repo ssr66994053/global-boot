@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-20 16:14 创建
  *
  */
-package com.yiji.boot.shiro;
+package com.global.boot.shiro;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;

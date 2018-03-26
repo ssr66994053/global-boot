@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-04-28 19:22 创建
  */
-package com.yiji.boot.test.interceptor;
+package com.global.boot.test.interceptor;
 
 /**
  * @author qiubo@yiji.com

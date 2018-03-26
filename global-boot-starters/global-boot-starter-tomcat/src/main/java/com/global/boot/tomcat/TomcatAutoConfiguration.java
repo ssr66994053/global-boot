@@ -8,13 +8,13 @@
  * qzhanbo@yiji.com 2015-08-06 15:41 创建
  *
  */
-package com.yiji.boot.tomcat;
+package com.global.boot.tomcat;
 
-import com.yiji.boot.core.AppConfigException;
-import com.yiji.boot.core.Apps;
-import com.yiji.framework.hera.client.exception.HeraException;
-import com.yiji.framework.hera.client.listener.Event;
-import com.yiji.framework.hera.client.listener.ValueTrigger;
+import com.global.boot.core.AppConfigException;
+import com.global.boot.core.Apps;
+//import com.global.framework.hera.client.exception.HeraException;
+//import com.global.framework.hera.client.listener.Event;
+//import com.global.framework.hera.client.listener.ValueTrigger;
 import org.apache.catalina.startup.Tomcat;
 import org.apache.catalina.valves.AccessLogValve;
 import org.apache.coyote.AbstractProtocol;
@@ -43,7 +43,7 @@ import java.nio.charset.Charset;
 @ConditionalOnWebApplication
 @ConditionalOnClass(Tomcat.class)
 @EnableConfigurationProperties({ TomcatProperties.class })
-public class TomcatAutoConfiguration implements ValueTrigger {
+public class TomcatAutoConfiguration {
 	private static final Logger logger = LoggerFactory.getLogger(TomcatAutoConfiguration.class);
 	
 	private AbstractProtocol abstractProtocol;
@@ -123,13 +123,13 @@ public class TomcatAutoConfiguration implements ValueTrigger {
 		return new TomcatHealthIndicator(abstractProtocol, tomcatProperties);
 	}
 	
-	@Override
-	public void onChange(Event event) throws HeraException {
-		event.ifPresent("yiji.tomcat.maxThreads", value -> {
-			int maxThreads = Integer.valueOf(value);
-			abstractProtocol.setMaxThreads(maxThreads);
-			tomcatProperties.setMaxThreads(maxThreads);
-			logger.info("hera修改tomcat配置maxThreads:{}", maxThreads);
-		});
-	}
+//	@Override
+//	public void onChange(Event event) throws HeraException {
+//		event.ifPresent("yiji.tomcat.maxThreads", value -> {
+//			int maxThreads = Integer.valueOf(value);
+//			abstractProtocol.setMaxThreads(maxThreads);
+//			tomcatProperties.setMaxThreads(maxThreads);
+//			logger.info("hera修改tomcat配置maxThreads:{}", maxThreads);
+//		});
+//	}
 }

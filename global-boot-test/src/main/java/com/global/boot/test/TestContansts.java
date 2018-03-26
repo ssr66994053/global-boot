@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-06-15 15:00 创建
  *
  */
-package com.yiji.boot.test;
+package com.global.boot.test;
 
 /**
  * @author qiubo@yiji.com

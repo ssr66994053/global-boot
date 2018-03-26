@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-06-16 16:52 创建
  *
  */
-package com.yiji.boot.web;
+package com.global.boot.web;
 
 import com.google.common.collect.Lists;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -9,14 +9,14 @@
  * qiubo@yiji.com  2016-02-23 15:05 重构,加MDC
  *
  */
-package com.yiji.boot.rocketmq.consumer;
+package com.global.boot.rocketmq.consumer;
 
 import com.alibaba.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
 import com.alibaba.rocketmq.client.consumer.listener.ConsumeOrderlyContext;
 import com.alibaba.rocketmq.common.message.MessageExt;
-import com.yiji.boot.core.configuration.LogAutoConfiguration;
-import com.yiji.boot.rocketmq.message.NotifyMessage;
-import com.yiji.boot.rocketmq.support.MessageConverter;
+import com.global.boot.core.configuration.LogAutoConfiguration;
+import com.global.boot.rocketmq.message.NotifyMessage;
+import com.global.boot.rocketmq.support.MessageConverter;
 import com.yjf.common.util.ToString;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

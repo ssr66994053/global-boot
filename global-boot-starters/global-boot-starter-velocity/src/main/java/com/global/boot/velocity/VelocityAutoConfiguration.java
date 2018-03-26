@@ -8,10 +8,10 @@
  * qzhanbo@yiji.com 2015-06-16 17:51 创建
  *
  */
-package com.yiji.boot.velocity;
+package com.global.boot.velocity;
 
 import com.google.common.base.Charsets;
-import com.yiji.boot.core.EnvironmentHolder;
+import com.global.boot.core.EnvironmentHolder;
 import org.apache.velocity.app.VelocityEngine;
 import org.apache.velocity.runtime.RuntimeConstants;
 import org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader;

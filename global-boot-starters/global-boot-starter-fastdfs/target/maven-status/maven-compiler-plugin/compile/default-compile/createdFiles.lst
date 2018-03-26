@@ -1,1 +1,5 @@
+com\global\boot\fastdfs\FastdfsProperties.class
+com\global\boot\fastdfs\FastdfsAutoConfiguration.class
+com\global\boot\fastdfs\FastdfsHealthIndicator.class
 META-INF\spring-configuration-metadata.json
+com\global\boot\fastdfs\FastdfsProperties$Pool.class

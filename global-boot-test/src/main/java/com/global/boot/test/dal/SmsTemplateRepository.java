@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-11-21 16:21 创建
  */
-package com.yiji.boot.test.dal;
+package com.global.boot.test.dal;
 
 /**
  * @author qiubo@yiji.com

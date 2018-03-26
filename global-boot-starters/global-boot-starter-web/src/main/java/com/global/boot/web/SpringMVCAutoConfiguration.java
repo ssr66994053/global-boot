@@ -8,15 +8,15 @@
  * qzhanbo@yiji.com 2015-06-16 17:52 创建
  *
  */
-package com.yiji.boot.web;
+package com.global.boot.web;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.tomcat.TomcatProperties;
-import com.yiji.boot.web.datacollector.DataCollectorController;
+import com.global.boot.core.Apps;
+import com.global.boot.tomcat.TomcatProperties;
+import com.global.boot.web.datacollector.DataCollectorController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;

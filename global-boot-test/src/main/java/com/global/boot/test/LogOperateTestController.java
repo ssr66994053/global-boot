@@ -8,7 +8,7 @@
  * yanqing@yiji.com 2016-06-16 13:57 创建
  *
  */
-package com.yiji.boot.test;
+package com.global.boot.test;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

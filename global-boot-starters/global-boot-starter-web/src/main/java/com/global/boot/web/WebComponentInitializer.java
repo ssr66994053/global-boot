@@ -7,9 +7,9 @@
  * 修订记录:
  * qiubo@yiji.com 2016-04-12 23:33 创建
  */
-package com.yiji.boot.web;
+package com.global.boot.web;
 
-import com.yiji.boot.core.init.ComponentInitializer;
+import com.global.boot.core.init.ComponentInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 
 /**

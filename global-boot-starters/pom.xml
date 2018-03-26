@@ -21,11 +21,11 @@
         <module>global-boot-starter-jdbc</module>
         <module>global-boot-starter-session</module>
         <module>global-boot-starter-amqp</module>
-        <module>global-boot-starter-security</module>
         <module>global-boot-starter-mybatis</module>
         <module>global-boot-starter-fastdfs</module>
         <module>global-boot-starter-test</module>
         <!--  
+        <module>global-boot-starter-security</module>
         <module>global-boot-starter-cs</module>
         <module>global-boot-starter-boss</module>
         <module>global-boot-starter-postman</module>

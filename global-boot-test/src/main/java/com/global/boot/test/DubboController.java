@@ -8,12 +8,12 @@
  * qzhanbo@yiji.com 2015-06-15 14:12 创建
  *
  */
-package com.yiji.boot.test;
+package com.global.boot.test;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.yiji.boot.test.dubbo.CacheableService;
-import com.yiji.boot.test.dubbo.CacheableServiceImpl;
-import com.yiji.boot.test.dubbo.DemoService;
+import com.global.boot.test.dubbo.CacheableService;
+import com.global.boot.test.dubbo.CacheableServiceImpl;
+import com.global.boot.test.dubbo.DemoService;
 import com.yjf.common.id.GID;
 import com.yjf.common.lang.result.SingleValueResult;
 import com.yjf.common.service.SingleValueOrder;
@@ -23,7 +23,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import static com.yiji.boot.test.dubbo.CacheableService.CACHE_NAME;
+import static com.global.boot.test.dubbo.CacheableService.CACHE_NAME;
 
 /**
  * @author qiubo@yiji.com

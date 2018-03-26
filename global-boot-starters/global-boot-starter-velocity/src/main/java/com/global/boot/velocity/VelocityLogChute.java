@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-06-26 18:25 创建
  *
  */
-package com.yiji.boot.velocity;
+package com.global.boot.velocity;
 
 import org.apache.velocity.runtime.RuntimeServices;
 import org.apache.velocity.runtime.log.LogChute;

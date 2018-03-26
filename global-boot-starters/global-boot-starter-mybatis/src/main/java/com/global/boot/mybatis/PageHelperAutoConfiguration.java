@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2017-01-13 10:05 创建
  */
-package com.yiji.boot.mybatis;
+package com.global.boot.mybatis;
 
 import com.github.pagehelper.PageInterceptor;
 import org.apache.ibatis.session.SqlSessionFactory;

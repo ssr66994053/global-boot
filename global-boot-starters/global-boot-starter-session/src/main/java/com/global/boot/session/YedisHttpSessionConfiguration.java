@@ -8,13 +8,13 @@
  * yanglie@yiji.com 2015-08-21 17:32 创建
  *
  */
-package com.yiji.boot.session;
+package com.global.boot.session;
 
 import com.google.common.collect.Lists;
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.core.metrics.GenericObjectPoolMetrics;
-import com.yiji.framework.yedis.support.YedisConnectionFactory;
-import com.yiji.framework.yedis.support.YedisSerializer;
+import com.global.boot.core.Apps;
+import com.global.boot.core.metrics.GenericObjectPoolMetrics;
+import com.global.framework.yedis.support.YedisConnectionFactory;
+import com.global.framework.yedis.support.YedisSerializer;
 import com.yjf.common.portrait.model.IOResource;
 import com.yjf.common.portrait.model.TCPEndpoint;
 import org.slf4j.Logger;

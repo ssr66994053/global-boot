@@ -8,14 +8,14 @@
  * qzhanbo@yiji.com 2015-11-04 18:08 创建
  *
  */
-package com.yiji.boot.web;
+package com.global.boot.web;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
 import com.google.common.collect.Lists;
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.core.EnvironmentHolder;
+import com.global.boot.core.Apps;
+import com.global.boot.core.EnvironmentHolder;
 import org.springframework.http.HttpOutputMessage;
 import org.springframework.http.converter.HttpMessageNotWritableException;
 import org.springframework.http.server.ServletServerHttpResponse;

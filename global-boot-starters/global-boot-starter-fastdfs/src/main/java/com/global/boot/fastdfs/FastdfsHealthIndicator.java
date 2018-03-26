@@ -8,9 +8,9 @@
  * yanglie@yiji.com 2016-04-19 14:09 创建
  *
  */
-package com.yiji.boot.fastdfs;
+package com.global.boot.fastdfs;
 
-import com.yiji.framework.fastdfs.FastdfsClient;
+import com.global.framework.fastdfs.FastdfsClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.health.AbstractHealthIndicator;
 import org.springframework.boot.actuate.health.Health;

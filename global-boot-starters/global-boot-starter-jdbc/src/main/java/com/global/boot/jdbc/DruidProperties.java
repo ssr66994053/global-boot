@@ -8,17 +8,17 @@
  * qzhanbo@yiji.com 2015-08-24 17:36 创建
  *
  */
-package com.yiji.boot.jdbc;
+package com.global.boot.jdbc;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.pool.vendor.MySqlValidConnectionChecker;
 import com.alibaba.druid.pool.vendor.OracleValidConnectionChecker;
 import com.codahale.metrics.Gauge;
 import com.codahale.metrics.MetricRegistry;
-import com.yiji.boot.core.AppConfigException;
-import com.yiji.boot.core.AutoConfigurationProperties;
-import com.yiji.boot.core.EnvironmentHolder;
-import com.yiji.framework.hera.client.core.Hera;
+import com.global.boot.core.AppConfigException;
+import com.global.boot.core.AutoConfigurationProperties;
+import com.global.boot.core.EnvironmentHolder;
+//import com.global.framework.hera.client.core.Hera;
 import com.yjf.common.env.Env;
 import com.yjf.common.metrics.MetricsHolder;
 import com.yjf.common.portrait.model.DBEndpoint;
@@ -307,38 +307,43 @@ public class DruidProperties implements BeanClassLoaderAware, AutoConfigurationP
 		} catch (SQLException e) {
 			throw new AppConfigException("druid连接池初始化失败", e);
 		}
-		Hera.addValueTrigger(event -> {
-			event.ifPresent(this.mergePropertyPath("maxActive"), v -> {
-				try {
-					logger.info("修改数据源:id={},url={},maxActive={}", dataSource.getID(), dataSource.getUrl(), v);
-					dataSource.setMaxActive(Integer.parseInt(v.toString()));
-				} catch (Exception e) {
-					logger.error("动态修改数据源" + dataSource + "配置失败", e);
-				}
-			});
-			event.ifPresent(this.mergePropertyPath("password"), v -> {
-				logger.info("修改数据源:id={},url={}密码", dataSource.getID(), dataSource.getUrl());
-				dataSource.setPassword(v.trim());
-			});
-			//支持主节点宕机后,切换到其他节点
-			event.ifPresent(this.mergePropertyPath("url"), v -> {
-				v = v.trim();
-				DBEndpoint oldDE = parseJDBCUrl(DruidProperties.this.getUrl());
-				DBEndpoint newDE = parseJDBCUrl(v);
-				if (!newDE.getIp().equals(oldDE.getIp())) {
-					String newUrl = normalizeUrl(v);
-					logger.info("修改数据源:id={},url={},新url={}", dataSource.getID(), dataSource.getUrl(), newUrl);
-					//fixme: close时设置inited=false
-					dataSource.close();
-					try {
-						dataSource.restart();
-					} catch (SQLException e) {
-						logger.error("修改数据源连接失败", e);
-					}
-					dataSource.setUrl(newUrl);
-				}
-			});
-		});
+		
+		
+//		Hera.addValueTrigger(event -> {
+//			event.ifPresent(this.mergePropertyPath("maxActive"), v -> {
+//				try {
+//					logger.info("修改数据源:id={},url={},maxActive={}", dataSource.getID(), dataSource.getUrl(), v);
+//					dataSource.setMaxActive(Integer.parseInt(v.toString()));
+//				} catch (Exception e) {
+//					logger.error("动态修改数据源" + dataSource + "配置失败", e);
+//				}
+//			});
+//			event.ifPresent(this.mergePropertyPath("password"), v -> {
+//				logger.info("修改数据源:id={},url={}密码", dataSource.getID(), dataSource.getUrl());
+//				dataSource.setPassword(v.trim());
+//			});
+//			//支持主节点宕机后,切换到其他节点
+//			event.ifPresent(this.mergePropertyPath("url"), v -> {
+//				v = v.trim();
+//				DBEndpoint oldDE = parseJDBCUrl(DruidProperties.this.getUrl());
+//				DBEndpoint newDE = parseJDBCUrl(v);
+//				if (!newDE.getIp().equals(oldDE.getIp())) {
+//					String newUrl = normalizeUrl(v);
+//					logger.info("修改数据源:id={},url={},新url={}", dataSource.getID(), dataSource.getUrl(), newUrl);
+//					//fixme: close时设置inited=false
+//					dataSource.close();
+//					try {
+//						dataSource.restart();
+//					} catch (SQLException e) {
+//						logger.error("修改数据源连接失败", e);
+//					}
+//					dataSource.setUrl(newUrl);
+//				}
+//			});
+//		});
+//		
+		
+		
 		return dataSource;
 	}
 	

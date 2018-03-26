@@ -1,0 +1,5 @@
+com\global\boot\jdbc\DruidProperties.class
+com\global\boot\jdbc\JDBCAutoConfiguration.class
+META-INF\spring-configuration-metadata.json
+com\global\boot\jdbc\DruidComponentInitializer.class
+com\global\boot\jdbc\DruidLogInitializer.class

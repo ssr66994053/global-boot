@@ -8,11 +8,11 @@
  * qzhanbo@yiji.com 2015-08-24 14:32 创建
  *
  */
-package com.yiji.boot.jdbc;
+package com.global.boot.jdbc;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.google.common.collect.Lists;
-import com.yiji.boot.core.AppConfigException;
+import com.global.boot.core.AppConfigException;
 import com.yjf.common.portrait.model.DBEndpoint;
 import com.yjf.common.portrait.model.IOResource;
 import org.slf4j.Logger;

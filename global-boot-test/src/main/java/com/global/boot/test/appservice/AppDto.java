@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2016-10-11 12:10 创建
  */
-package com.yiji.boot.test.appservice;
+package com.global.boot.test.appservice;
 
 import com.yjf.common.lang.dto.DtoBase;
 import com.yjf.common.service.OrderCheckException;

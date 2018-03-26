@@ -7,7 +7,7 @@
  * 修订记录:
  * qiubo@yiji.com 2017-01-16 16:01 创建
  */
-package com.yiji.boot.test.dubbo;
+package com.global.boot.test.dubbo;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.yjf.common.lang.result.SingleValueResult;

@@ -8,9 +8,9 @@
  * yanglie@yiji.com 2016-01-29 13:41 创建
  *
  */
-package com.yiji.boot.rocketmq;
+package com.global.boot.rocketmq;
 
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import com.yjf.common.env.Env;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

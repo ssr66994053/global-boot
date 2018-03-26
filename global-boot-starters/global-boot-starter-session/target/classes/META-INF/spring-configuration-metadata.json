@@ -1,0 +1,80 @@
+{
+  "groups": [
+    {
+      "name": "yiji.session",
+      "type": "com.global.boot.session.SessionProperties",
+      "sourceType": "com.global.boot.session.SessionProperties"
+    },
+    {
+      "name": "yiji.session.pool",
+      "type": "com.global.boot.session.SessionProperties$Pool",
+      "sourceType": "com.global.boot.session.SessionProperties",
+      "sourceMethod": "getPool()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "yiji.session.connectTimeOut",
+      "type": "java.lang.Integer",
+      "description": "可选：创建socket连接的超时时间",
+      "sourceType": "com.global.boot.session.SessionProperties",
+      "defaultValue": 5000
+    },
+    {
+      "name": "yiji.session.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.global.boot.session.SessionProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "yiji.session.enableUrlBasedSession",
+      "type": "java.lang.Boolean",
+      "description": "可选: 支持从url中获取session",
+      "sourceType": "com.global.boot.session.SessionProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "yiji.session.expiredTimeOut",
+      "type": "java.lang.Integer",
+      "description": "sesssion过期时间,单位秒",
+      "sourceType": "com.global.boot.session.SessionProperties",
+      "defaultValue": 1800
+    },
+    {
+      "name": "yiji.session.host",
+      "type": "java.lang.String",
+      "description": "必填：访问地址",
+      "sourceType": "com.global.boot.session.SessionProperties",
+      "defaultValue": "localhost"
+    },
+    {
+      "name": "yiji.session.pool.maxIdle",
+      "type": "java.lang.Integer",
+      "description": "最大空闲连接",
+      "sourceType": "com.global.boot.session.SessionProperties$Pool",
+      "defaultValue": 8
+    },
+    {
+      "name": "yiji.session.pool.maxTotal",
+      "type": "java.lang.Integer",
+      "description": "最大连接数",
+      "sourceType": "com.global.boot.session.SessionProperties$Pool",
+      "defaultValue": 500
+    },
+    {
+      "name": "yiji.session.pool.maxWait",
+      "type": "java.lang.Integer",
+      "description": "最大等待连接时间",
+      "sourceType": "com.global.boot.session.SessionProperties$Pool",
+      "defaultValue": 2000
+    },
+    {
+      "name": "yiji.session.port",
+      "type": "java.lang.Integer",
+      "description": "必填：访问端口",
+      "sourceType": "com.global.boot.session.SessionProperties",
+      "defaultValue": 6379
+    }
+  ],
+  "hints": []
+}
