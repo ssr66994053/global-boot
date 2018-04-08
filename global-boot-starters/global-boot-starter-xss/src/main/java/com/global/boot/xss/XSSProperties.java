@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-25 16:11 创建
  *
  */
-package com.yiji.boot.xss;
+package com.global.boot.xss;
 
 import com.yjf.common.web.XssConfig;
 import org.springframework.boot.context.properties.ConfigurationProperties;

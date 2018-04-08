@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-10 11:12 创建
  *
  */
-package com.yiji.boot.xss;
+package com.global.boot.xss;
 
 import javax.servlet.Filter;
 

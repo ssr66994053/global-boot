@@ -1,41 +1,41 @@
 {
   "groups": [{
     "name": "yiji.xss",
-    "type": "com.yiji.boot.xss.XSSProperties",
-    "sourceType": "com.yiji.boot.xss.XSSProperties"
+    "type": "com.global.boot.xss.XSSProperties",
+    "sourceType": "com.global.boot.xss.XSSProperties"
   }],
   "properties": [
     {
       "name": "yiji.xss.autoCheck",
       "type": "java.lang.Boolean",
-      "sourceType": "com.yiji.boot.xss.XSSProperties"
+      "sourceType": "com.global.boot.xss.XSSProperties"
     },
     {
       "name": "yiji.xss.enable",
       "type": "java.lang.Boolean",
       "description": "是否启用xss过滤",
-      "sourceType": "com.yiji.boot.xss.XSSProperties",
+      "sourceType": "com.global.boot.xss.XSSProperties",
       "defaultValue": true
     },
     {
       "name": "yiji.xss.escapeHtml",
       "type": "java.lang.Boolean",
-      "sourceType": "com.yiji.boot.xss.XSSProperties"
+      "sourceType": "com.global.boot.xss.XSSProperties"
     },
     {
       "name": "yiji.xss.escapeJavaScript",
       "type": "java.lang.Boolean",
-      "sourceType": "com.yiji.boot.xss.XSSProperties"
+      "sourceType": "com.global.boot.xss.XSSProperties"
     },
     {
       "name": "yiji.xss.excludeUrl",
       "type": "java.lang.String",
-      "sourceType": "com.yiji.boot.xss.XSSProperties"
+      "sourceType": "com.global.boot.xss.XSSProperties"
     },
     {
       "name": "yiji.xss.excludeUrlPath",
       "type": "java.lang.String",
-      "sourceType": "com.yiji.boot.xss.XSSProperties"
+      "sourceType": "com.global.boot.xss.XSSProperties"
     }
   ],
   "hints": []
