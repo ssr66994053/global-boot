@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-06-25 11:26 创建
  *
  */
-package com.yiji.boot.csrf;
+package com.global.boot.csrf;
 
 import com.alibaba.fastjson.JSON;
 import com.yjf.common.lang.result.ViewResultInfo;

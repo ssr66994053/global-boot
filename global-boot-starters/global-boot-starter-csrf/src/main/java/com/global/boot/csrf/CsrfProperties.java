@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-08-25 16:21 创建
  *
  */
-package com.yiji.boot.csrf;
+package com.global.boot.csrf;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

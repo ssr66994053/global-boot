@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.yiji.boot.csrf;
+package com.global.boot.csrf;
 
 /**
  * Thrown when an invalid or missing {@link CsrfToken} is found in the HttpServletRequest

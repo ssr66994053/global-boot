@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-06-25 13:55 创建
  *
  */
-package com.yiji.boot.csrf;
+package com.global.boot.csrf;
 
 import com.google.common.base.Splitter;
 import org.slf4j.Logger;

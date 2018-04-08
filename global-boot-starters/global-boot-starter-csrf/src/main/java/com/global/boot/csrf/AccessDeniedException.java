@@ -8,7 +8,7 @@
  * qzhanbo@yiji.com 2015-06-25 11:25 创建
  *
  */
-package com.yiji.boot.csrf;
+package com.global.boot.csrf;
 
 /**
  * @author qiubo@yiji.com
