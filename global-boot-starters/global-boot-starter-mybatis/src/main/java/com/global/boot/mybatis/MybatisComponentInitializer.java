@@ -21,7 +21,7 @@ import java.util.List;
 public class MybatisComponentInitializer implements ComponentInitializer {
 	@Override
 	public void initialize(ConfigurableApplicationContext applicationContext) {
-		setPropertyIfMissing("mapper.mappers", "com.yiji.boot.mybatis.BaseMapper");
+		setPropertyIfMissing("mapper.mappers", "com.global.boot.mybatis.BaseMapper");
 	}
 	
 	@Override

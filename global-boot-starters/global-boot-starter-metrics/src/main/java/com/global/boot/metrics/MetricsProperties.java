@@ -8,7 +8,7 @@
  * daidai@yiji.com 2015-09-15 16:14 创建
  *
  */
-package com.yiji.boot.metrics;
+package com.global.boot.metrics;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

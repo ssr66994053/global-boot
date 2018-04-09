@@ -54,7 +54,7 @@ import java.util.Map;
 public class DubboAutoConfiguration implements InitializingBean, IOResource<TCPEndpoint> {
 
 	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(DubboAutoConfiguration.class);
-	public static final String DEFAULT_SCAN_PACAKGE = "com.yiji.boot," + Apps.getBasePackage();
+	public static final String DEFAULT_SCAN_PACAKGE = "com.global.boot," + Apps.getBasePackage();
 
 	@Autowired
 	private ApplicationContext applicationContext;

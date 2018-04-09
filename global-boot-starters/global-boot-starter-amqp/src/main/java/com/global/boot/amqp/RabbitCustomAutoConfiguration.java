@@ -44,8 +44,8 @@ import java.util.List;
  */
 @Configuration
 @ConditionalOnProperty(value = "yiji.rabbitmq.enable", matchIfMissing = true)
-//@EnableConfigurationProperties({ RabbitProperties.class, RabbitExtensionProperties.class,
-//								RabbitThreadPoolProperties.class })
+@EnableConfigurationProperties({ RabbitProperties.class, RabbitExtensionProperties.class,
+								RabbitThreadPoolProperties.class })
 @EnableRabbit
 public class RabbitCustomAutoConfiguration implements IOResource<TCPEndpoint> {
 	private static final Logger logger = LoggerFactory.getLogger(RabbitCustomAutoConfiguration.class);

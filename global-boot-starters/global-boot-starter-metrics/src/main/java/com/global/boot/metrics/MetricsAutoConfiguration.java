@@ -8,7 +8,7 @@
  * daidai@yiji.com 2015-09-16 16:17 创建
  *
  */
-package com.yiji.boot.metrics;
+package com.global.boot.metrics;
 
 import com.codahale.metrics.JmxReporter;
 import com.codahale.metrics.MetricRegistry;
