@@ -41,7 +41,7 @@ public class YijiVelocityProperties {
 	/**
 	 * 默认toolbox配置
 	 */
-	private static final String DEFAULT_TOOL_BOX = "classpath:com/yiji/boot/velocity/velocity-toolbox.xml";
+	private static final String DEFAULT_TOOL_BOX = "classpath:com/global/boot/velocity/velocity-toolbox.xml";
 	
 	/**
 	 * 可选：toolbox配置路径,默认使用yiji-boot提供的配置{@link YijiVelocityProperties#DEFAULT_TOOL_BOX}

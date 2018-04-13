@@ -43,7 +43,7 @@
       "type": "java.lang.String",
       "description": "可选：toolbox配置路径,默认使用yiji-boot提供的配置{@link YijiVelocityProperties#DEFAULT_TOOL_BOX}",
       "sourceType": "com.global.boot.velocity.YijiVelocityProperties",
-      "defaultValue": "classpath:com/yiji/boot/velocity/velocity-toolbox.xml"
+      "defaultValue": "classpath:com/global/boot/velocity/velocity-toolbox.xml"
     }
   ],
   "hints": []
