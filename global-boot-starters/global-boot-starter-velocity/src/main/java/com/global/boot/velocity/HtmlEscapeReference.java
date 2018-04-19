@@ -14,7 +14,7 @@ import com.google.common.annotations.VisibleForTesting;
 import com.google.common.base.Splitter;
 import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
-import com.yjf.common.spring.ApplicationContextHolder;
+import com.global.common.spring.ApplicationContextHolder;
 import org.apache.velocity.app.event.ReferenceInsertionEventHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

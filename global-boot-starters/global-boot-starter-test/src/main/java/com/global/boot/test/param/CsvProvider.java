@@ -10,15 +10,20 @@
 package com.global.boot.test.param;
 
 import com.google.common.base.Charsets;
+//import com.global.boot.dubbo.cache.RedisCache;
 import com.global.boot.test.param.converter.MoneyEditor;
 import com.global.boot.test.param.converter.StringToMoneyConverter;
-import com.yjf.common.lang.util.money.Money;
+import com.global.common.lang.util.money.Money;
+
 import junitparams.custom.ParametersProvider;
 import junitparams.internal.Utils;
 import lombok.extern.slf4j.Slf4j;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.junit.runners.model.FrameworkMethod;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanWrapper;
 import org.springframework.beans.BeanWrapperImpl;
 import org.springframework.beans.NotWritablePropertyException;
@@ -45,6 +50,7 @@ public class CsvProvider implements ParametersProvider<CsvParameter> {
 	private FrameworkMethod frameworkMethod;
 	private boolean needConvert = false;
 	private Class<?> parameterType = null;
+	private static final Logger log = LoggerFactory.getLogger(CsvProvider.class);
 
 	static {
         PropertyEditorManager.registerEditor(Money.class,MoneyEditor.class);

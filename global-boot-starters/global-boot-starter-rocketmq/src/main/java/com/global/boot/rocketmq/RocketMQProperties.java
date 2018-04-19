@@ -11,7 +11,7 @@
 package com.global.boot.rocketmq;
 
 import com.global.boot.core.Apps;
-import com.yjf.common.env.Env;
+import com.global.common.env.Env;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**

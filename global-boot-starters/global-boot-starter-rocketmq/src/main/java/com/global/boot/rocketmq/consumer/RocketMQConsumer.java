@@ -15,7 +15,7 @@ import com.alibaba.rocketmq.client.consumer.listener.*;
 import com.alibaba.rocketmq.client.exception.MQClientException;
 import com.alibaba.rocketmq.common.consumer.ConsumeFromWhere;
 import com.alibaba.rocketmq.common.message.MessageExt;
-import com.yjf.common.lang.exception.Exceptions;
+import com.global.common.lang.exception.Exceptions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationListener;

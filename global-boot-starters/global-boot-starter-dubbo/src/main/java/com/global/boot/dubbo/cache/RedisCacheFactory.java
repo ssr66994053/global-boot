@@ -18,7 +18,11 @@ import com.global.boot.core.Apps;
 import com.global.boot.core.components.dubbo.DubboCache;
 import com.global.boot.yedis.YedisProperties;
 import com.global.framework.yedis.support.YedisConnectionFactory;
+
 import lombok.extern.slf4j.Slf4j;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
@@ -35,6 +39,8 @@ public class RedisCacheFactory implements CacheFactory {
 	private static ConcurrentMap<CacheMeta, RedisCache> concurrentMap = Maps.newConcurrentMap();
 	private boolean redisInited;
 	private RedisTemplate redisTemplate;
+	
+	private static final Logger log = LoggerFactory.getLogger(RedisCacheFactory.class);
 	
 	@Override
 	public RedisCache getCache(Invoker<?> invoker, Invocation inv) {

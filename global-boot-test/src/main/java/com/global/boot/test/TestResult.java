@@ -10,8 +10,8 @@
  */
 package com.global.boot.test;
 
-import com.yjf.common.lang.result.StandardResultInfo;
-import com.yjf.common.util.ToString;
+import com.global.common.lang.result.StandardResultInfo;
+import com.global.common.util.ToString;
 
 import java.util.Date;
 

@@ -13,7 +13,7 @@ import com.google.common.base.Splitter;
 import com.global.boot.appservice.ex.ExceptionHandler;
 import com.global.boot.appservice.ex.ExceptionHandlers;
 import com.global.boot.appservice.filter.AppServiceFilterChain;
-import com.yjf.common.lang.exception.Exceptions;
+import com.global.common.lang.exception.Exceptions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.aop.framework.ProxyFactory;

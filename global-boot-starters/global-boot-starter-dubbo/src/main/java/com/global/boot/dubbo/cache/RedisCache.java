@@ -12,9 +12,14 @@ package com.global.boot.dubbo.cache;
 import com.alibaba.dubbo.cache.support.AbstractCache;
 import com.google.common.base.Strings;
 import com.global.framework.yedis.support.YedisConnectionFactory;
-import com.yjf.common.lang.result.ResultInfo;
-import com.yjf.common.lang.result.Status;
+//import com.global.boot.appservice.ex.ExceptionHandlers;
+import com.global.common.lang.result.ResultInfo;
+import com.global.common.lang.result.Status;
+
 import lombok.extern.slf4j.Slf4j;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.data.redis.cache.DefaultRedisCachePrefix;
 import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -37,6 +42,7 @@ public class RedisCache extends AbstractCache {
 	private RedisSerializer valueRedisSerializer;
 	private byte[] prefix;
 	private StringRedisSerializer stringRedisSerializer = new StringRedisSerializer();
+	private static final Logger log = LoggerFactory.getLogger(RedisCache.class);
 	
 	public RedisCache(RedisTemplate redisTemplate, CacheMeta cacheMeta) {
 		this.redisTemplate = redisTemplate;

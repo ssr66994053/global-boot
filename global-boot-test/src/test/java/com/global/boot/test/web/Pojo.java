@@ -10,7 +10,7 @@
  */
 package com.global.boot.test.web;
 
-import com.yjf.common.lang.util.money.Money;
+import com.global.common.lang.util.money.Money;
 
 import java.util.Date;
 

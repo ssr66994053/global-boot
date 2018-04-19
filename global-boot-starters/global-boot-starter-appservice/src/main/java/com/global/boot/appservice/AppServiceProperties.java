@@ -11,7 +11,7 @@ package com.global.boot.appservice;
 
 import com.global.boot.appservice.ex.ExceptionHandler;
 import com.global.boot.core.Apps;
-import com.yjf.common.lang.validator.Validators;
+import com.global.common.lang.validator.Validators;
 import org.apache.commons.lang.StringUtils;
 import org.hibernate.validator.constraints.NotBlank;
 import org.springframework.boot.context.properties.ConfigurationProperties;

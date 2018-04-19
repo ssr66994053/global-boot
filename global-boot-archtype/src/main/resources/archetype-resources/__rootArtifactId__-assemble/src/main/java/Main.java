@@ -7,9 +7,9 @@
  */
 package ${package};
 
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import org.springframework.boot.SpringApplication;
-import com.yiji.boot.core.YijiBootApplication;
+import com.global.boot.core.YijiBootApplication;
 
 
 /**

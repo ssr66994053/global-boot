@@ -10,10 +10,10 @@
  */
 package com.global.boot.appservice.ex;
 
-import com.yjf.common.lang.exception.BusinessException;
-import com.yjf.common.lang.result.StandardResultInfo;
-import com.yjf.common.lang.result.Status;
-import com.yjf.common.util.StringUtils;
+import com.global.common.lang.exception.BusinessException;
+import com.global.common.lang.result.StandardResultInfo;
+import com.global.common.lang.result.Status;
+import com.global.common.util.StringUtils;
 
 /**
  * {@link BusinessException} 处理器。

@@ -9,10 +9,10 @@
  */
 package com.global.boot.appservice.ex;
 
-import com.yjf.common.lang.enums.CommonErrorCode;
-import com.yjf.common.lang.result.StandardResultInfo;
-import com.yjf.common.lang.result.Status;
-import com.yjf.common.service.OrderCheckException;
+import com.global.common.lang.enums.CommonErrorCode;
+import com.global.common.lang.result.StandardResultInfo;
+import com.global.common.lang.result.Status;
+import com.global.common.service.OrderCheckException;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;

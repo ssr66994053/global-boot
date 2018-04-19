@@ -19,7 +19,7 @@ import ch.qos.logback.core.ConsoleAppender;
 import com.google.common.base.Charsets;
 import com.global.boot.core.configuration.LogAutoConfiguration;
 import com.global.boot.core.log.LogbackConfigurator;
-import com.yjf.common.env.Env;
+import com.global.common.env.Env;
 import org.apache.commons.lang.SystemUtils;
 
 import java.util.Iterator;

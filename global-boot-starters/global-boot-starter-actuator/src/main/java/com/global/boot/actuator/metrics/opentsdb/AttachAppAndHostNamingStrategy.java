@@ -11,7 +11,7 @@
 package com.global.boot.actuator.metrics.opentsdb;
 
 import com.global.boot.core.Apps;
-import com.yjf.common.lang.ip.IPUtil;
+import com.global.common.lang.ip.IPUtil;
 import org.springframework.boot.actuate.metrics.opentsdb.OpenTsdbName;
 import org.springframework.boot.actuate.metrics.opentsdb.OpenTsdbNamingStrategy;
 

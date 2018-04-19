@@ -9,7 +9,7 @@
  */
 package com.global.boot.session;
 
-import com.yjf.common.lang.ip.IPUtil;
+import com.global.common.lang.ip.IPUtil;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.session.ExpiringSession;
 

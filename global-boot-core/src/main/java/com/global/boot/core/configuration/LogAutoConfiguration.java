@@ -11,7 +11,7 @@
 package com.global.boot.core.configuration;
 
 import com.global.boot.core.EnvironmentHolder;
-import com.yjf.common.env.Env;
+import com.global.common.env.Env;
 import org.springframework.boot.bind.RelaxedPropertyResolver;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

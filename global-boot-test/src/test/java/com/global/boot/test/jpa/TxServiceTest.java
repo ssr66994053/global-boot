@@ -12,8 +12,8 @@ package com.global.boot.test.jpa;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.global.boot.test.TestBase;
 import com.global.boot.test.dal.TxService;
-import com.yjf.common.lang.result.SingleValueResult;
-import com.yjf.common.service.SingleValueOrder;
+import com.global.common.lang.result.SingleValueResult;
+import com.global.common.service.SingleValueOrder;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 

@@ -2,9 +2,9 @@ package com.global.boot.test.core;
 
 import com.global.boot.test.TestBase;
 import com.global.boot.test.TestBean;
-import com.global.common.ds.druid.Env;
-import com.global.framework.watcher.spring.SpringApplicationContextHolder;
-import com.yjf.common.spring.ApplicationContextHolder;
+import com.global.common.env.Env;
+//import com.global.framework.watcher.spring.SpringApplicationContextHolder;
+import com.global.common.spring.ApplicationContextHolder;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
@@ -30,10 +30,10 @@ public class UnitTests extends TestBase {
 		assertThat(testBean.getValueFormHera1()).isNotEmpty();
 	}
 	
-	@Test
-	public void testWatcherSpringApplicationContextHolder() throws Exception {
-		assertThat(SpringApplicationContextHolder.get()).isNotNull();
-	}
+//	@Test
+//	public void testWatcherSpringApplicationContextHolder() throws Exception {
+//		assertThat(SpringApplicationContextHolder.get()).isNotNull();
+//	}
 	
 	@Test
 	public void testSpringApplicationContextHolder() throws Exception {

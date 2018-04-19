@@ -12,8 +12,13 @@ package com.global.boot.mybatis;
 import com.google.common.base.Splitter;
 import com.google.common.base.Strings;
 import com.global.boot.core.EnvironmentHolder;
+//import com.global.boot.yedis.spring.cache.YijiCacheErrorHandler;
+
 import lombok.extern.slf4j.Slf4j;
+
 import org.mybatis.spring.mapper.ClassPathMapperScanner;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.context.ResourceLoaderAware;
 import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
@@ -27,6 +32,8 @@ import org.springframework.core.type.AnnotationMetadata;
 public class MapperScannerRegistrar implements ImportBeanDefinitionRegistrar, ResourceLoaderAware {
 	
 	private ResourceLoader resourceLoader;
+	
+	private static final Logger log = LoggerFactory.getLogger(MapperScannerRegistrar.class);
 	
 	@Override
 	public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {

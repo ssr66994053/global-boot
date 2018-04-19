@@ -10,7 +10,7 @@
  */
 package com.global.boot.test;
 
-import com.yjf.common.lang.util.PasswdUtil;
+import com.global.common.lang.util.PasswdUtil;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.stereotype.Controller;

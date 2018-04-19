@@ -10,7 +10,7 @@
  */
 package com.global.boot.actuator.acl;
 
-import com.yjf.common.web.IntranetAccessor;
+import com.global.common.web.IntranetAccessor;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;

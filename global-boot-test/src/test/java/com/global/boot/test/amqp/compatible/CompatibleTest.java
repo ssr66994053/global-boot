@@ -11,7 +11,7 @@
 package com.global.boot.test.amqp.compatible;
 
 import com.global.boot.test.TestBase;
-import com.yjf.common.kryo.Kryos;
+import com.global.common.kryo.Kryos;
 import org.junit.Test;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessageProperties;

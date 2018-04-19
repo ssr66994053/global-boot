@@ -10,8 +10,8 @@
  */
 package com.global.boot.test.web;
 
-import com.yjf.common.lang.enums.Messageable;
-import com.yjf.common.lang.util.money.Money;
+import com.global.common.lang.enums.Messageable;
+import com.global.common.lang.util.money.Money;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

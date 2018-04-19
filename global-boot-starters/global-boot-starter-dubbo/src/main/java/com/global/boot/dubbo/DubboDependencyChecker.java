@@ -10,10 +10,10 @@
 package com.global.boot.dubbo;
 
 import com.global.boot.core.AppConfigException;
-import com.yjf.common.dependency.DependencyChecker;
+import com.global.common.dependency.DependencyChecker;
 import org.springframework.core.env.Environment;
 
-import static com.yjf.common.dependency.DependencyChecker.Utils.isPortUsing;
+import static com.global.common.dependency.DependencyChecker.Utils.isPortUsing;
 
 /**
  * @author qiubo@yiji.com

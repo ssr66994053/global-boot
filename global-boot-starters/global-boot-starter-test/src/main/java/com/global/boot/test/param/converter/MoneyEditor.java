@@ -1,6 +1,6 @@
 package com.global.boot.test.param.converter;
 
-import com.yjf.common.lang.util.money.Money;
+import com.global.common.lang.util.money.Money;
 import org.springframework.util.StringUtils;
 
 import java.beans.PropertyEditorSupport;

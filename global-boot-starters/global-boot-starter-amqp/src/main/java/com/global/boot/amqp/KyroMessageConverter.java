@@ -10,7 +10,7 @@
  */
 package com.global.boot.amqp;
 
-import com.yjf.common.kryo.Kryos;
+import com.global.common.kryo.Kryos;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.core.Message;

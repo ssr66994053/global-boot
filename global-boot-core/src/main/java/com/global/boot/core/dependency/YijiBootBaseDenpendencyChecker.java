@@ -11,12 +11,12 @@ package com.global.boot.core.dependency;
 
 import com.global.boot.core.AppConfigException;
 import com.global.boot.core.Apps;
-import com.yjf.common.dependency.DependencyChecker;
+import com.global.common.dependency.DependencyChecker;
 import org.springframework.core.env.Environment;
 
 import java.io.File;
 
-import static com.yjf.common.dependency.DependencyChecker.Utils.isPortUsing;
+import static com.global.common.dependency.DependencyChecker.Utils.isPortUsing;
 
 /**
  * @author qiubo@yiji.com

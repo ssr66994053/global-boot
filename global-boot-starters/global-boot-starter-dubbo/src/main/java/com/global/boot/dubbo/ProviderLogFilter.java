@@ -11,7 +11,7 @@ package com.global.boot.dubbo;
 
 import com.alibaba.dubbo.common.Constants;
 import com.alibaba.dubbo.rpc.*;
-import com.yjf.common.util.ToString;
+import com.global.common.util.ToString;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -10,7 +10,7 @@
  */
 package com.global.boot.test.amqp.compatible;
 
-import com.yjf.common.kryo.Kryos;
+import com.global.common.kryo.Kryos;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;

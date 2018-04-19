@@ -10,7 +10,7 @@
  */
 package com.global.boot.velocity;
 
-import com.yjf.common.lang.exception.Exceptions;
+import com.global.common.lang.exception.Exceptions;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.VelocityEngine;
 import org.apache.velocity.app.event.EventCartridge;

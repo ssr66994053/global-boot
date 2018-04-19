@@ -9,19 +9,22 @@
  */
 package com.global.boot.dubbo.cache;
 
-import com.google.common.base.Strings;
-import com.google.common.collect.Maps;
+import java.lang.reflect.Method;
+import java.util.concurrent.ConcurrentMap;
+
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.expression.MethodBasedEvaluationContext;
 import org.springframework.core.DefaultParameterNameDiscoverer;
 import org.springframework.core.ParameterNameDiscoverer;
-import org.springframework.expression.EvaluationException;
 import org.springframework.expression.Expression;
 import org.springframework.expression.spel.standard.SpelExpressionParser;
 
-import java.lang.reflect.Method;
-import java.util.concurrent.ConcurrentMap;
+import com.google.common.base.Strings;
+import com.google.common.collect.Maps;
 
 /**
  * @author qiubo@yiji.com
@@ -31,6 +34,8 @@ public class SpelKeyGenerator implements KeyGenerator {
 	private SpelExpressionParser spelExpressionParser = new SpelExpressionParser();
 	private ParameterNameDiscoverer paramDiscoverer = new DefaultParameterNameDiscoverer();
 	private ConcurrentMap<ExpressionCacheKey, Expression> cache = Maps.newConcurrentMap();
+	
+	private static final Logger log = LoggerFactory.getLogger(SpelKeyGenerator.class);
 	
 	@Override
 	public Object key(CacheMeta cacheMeta,Object[] args) {

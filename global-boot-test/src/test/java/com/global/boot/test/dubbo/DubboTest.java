@@ -14,8 +14,8 @@ import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.global.boot.test.TestBase;
-import com.yjf.common.dubbo.DubboRemoteProxyFacotry;
-import com.yjf.customer.service.api.UserService;
+import com.global.common.dubbo.DubboRemoteProxyFacotry;
+//import com.yiji.customer.service.api.UserService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.util.ReflectionTestUtils;
@@ -35,17 +35,17 @@ public class DubboTest extends TestBase {
 	@Autowired(required = false)
 	private DubboRemoteProxyFacotry dubboRemoteProxyFacotry;
 	
-	@Reference(version = "1.5")
-	private UserService userService;
+//	@Reference(version = "1.5")
+//	private UserService userService;
 	
-	@Test
-	public void testName() throws Exception {
-		assertThat(demoService).isNotNull();
-		assertThat(applicationConfig).isNotNull();
-		assertThat(registryConfig).isNotNull();
-		assertThat(userService).isNotNull();
-		assertThat(ReflectionTestUtils.getField(dubboRemoteProxyFacotry, "applicationContext")).isNotNull();
-	}
+//	@Test
+//	public void testName() throws Exception {
+//		assertThat(demoService).isNotNull();
+//		assertThat(applicationConfig).isNotNull();
+//		assertThat(registryConfig).isNotNull();
+//		assertThat(userService).isNotNull();
+//		assertThat(ReflectionTestUtils.getField(dubboRemoteProxyFacotry, "applicationContext")).isNotNull();
+//	}
 	
 	@Test
 	public void testName1() throws Exception {

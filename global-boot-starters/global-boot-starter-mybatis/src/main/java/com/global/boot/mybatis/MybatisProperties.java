@@ -81,6 +81,34 @@ public class MybatisProperties implements InitializingBean {
 	 */
 	private ExecutorType executorType = ExecutorType.SIMPLE;
 	
+	public String getConfig() {
+		return config;
+	}
+	public void setConfig(String config) {
+		this.config = config;
+	}
+
+
+
+
+	public Map<String, String> getSettings() {
+		return settings;
+	}
+	public void setSettings(Map<String, String> settings) {
+		this.settings = settings;
+	}
+	public String getEntityScanPackages() {
+		return entityScanPackages;
+	}
+	public void setEntityScanPackages(String entityScanPackages) {
+		this.entityScanPackages = entityScanPackages;
+	}
+	public String getTypeHandlersPackage() {
+		return typeHandlersPackage;
+	}
+	public void setTypeHandlersPackage(String typeHandlersPackage) {
+		this.typeHandlersPackage = typeHandlersPackage;
+	}
 	@Override
 	public void afterPropertiesSet() throws Exception {
 		if (settings == null) {

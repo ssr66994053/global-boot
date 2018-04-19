@@ -28,4 +28,46 @@ public class CacheMeta {
 	public String getMethodFullName(){
 		return this.targetClass.getSimpleName()+'#'+method.getName();
 	}
+
+	public Method getMethod() {
+		return method;
+	}
+
+	public void setMethod(Method method) {
+		this.method = method;
+	}
+
+	public Class<?>[] getParameterTypes() {
+		return parameterTypes;
+	}
+
+	public void setParameterTypes(Class<?>[] parameterTypes) {
+		this.parameterTypes = parameterTypes;
+	}
+
+	public DubboCache getDubboCache() {
+		return dubboCache;
+	}
+
+	public void setDubboCache(DubboCache dubboCache) {
+		this.dubboCache = dubboCache;
+	}
+
+	public Class getTargetClass() {
+		return targetClass;
+	}
+
+	public void setTargetClass(Class targetClass) {
+		this.targetClass = targetClass;
+	}
+
+	public String getNamespace() {
+		return namespace;
+	}
+
+	public void setNamespace(String namespace) {
+		this.namespace = namespace;
+	}
+	
+	
 }

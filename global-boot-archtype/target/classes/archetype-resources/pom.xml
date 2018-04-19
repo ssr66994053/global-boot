@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.yiji.boot</groupId>
-        <artifactId>yiji-boot-starter-parent</artifactId>
+        <groupId>com.global.boot</groupId>
+        <artifactId>global-boot-starter-parent</artifactId>
         <version>1.2-SNAPSHOT</version>
     </parent>
     <groupId>${groupId}</groupId>

@@ -14,7 +14,7 @@ import ch.qos.logback.classic.Logger;
 import ch.qos.logback.classic.LoggerContext;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-import com.yjf.common.lang.result.ViewResultInfo;
+import com.global.common.lang.result.ViewResultInfo;
 import org.slf4j.ILoggerFactory;
 import org.slf4j.LoggerFactory;
 import org.slf4j.impl.StaticLoggerBinder;

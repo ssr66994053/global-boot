@@ -10,9 +10,14 @@
 package com.global.boot.test.dubbo;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.yjf.common.lang.result.SingleValueResult;
-import com.yjf.common.service.SingleValueOrder;
+import com.global.boot.dubbo.cache.RedisCache;
+import com.global.common.lang.result.SingleValueResult;
+import com.global.common.service.SingleValueOrder;
+
 import lombok.extern.slf4j.Slf4j;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.cache.annotation.Cacheable;
 
 /**
@@ -21,6 +26,10 @@ import org.springframework.cache.annotation.Cacheable;
 @Service(version = "1.5")
 @Slf4j
 public class CacheableServiceImpl implements CacheableService {
+	
+	
+	private static final Logger log = LoggerFactory.getLogger(CacheableServiceImpl.class);
+	
 	@Override
 	public SingleValueResult<String> echo(SingleValueOrder<String> order) {
 		log.info("in method:{}", order.getPlayload());

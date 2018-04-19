@@ -10,7 +10,7 @@
  */
 package com.global.boot.web.datacollector;
 
-import com.yjf.common.log.LoggerFactory;
+import com.global.common.log.LoggerFactory;
 
 /**
  * @author yanglie@yiji.com

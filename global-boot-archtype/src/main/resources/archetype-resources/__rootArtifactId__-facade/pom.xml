@@ -11,8 +11,8 @@
     <name>${artifactId}</name>
     <dependencies>
         <dependency>
-            <groupId>com.yjf.common</groupId>
-            <artifactId>yjf-common-util</artifactId>
+            <groupId>com.global.common</groupId>
+            <artifactId>global-common-util</artifactId>
             <scope>provided</scope>
         </dependency>
     </dependencies>

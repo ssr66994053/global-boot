@@ -9,8 +9,8 @@
 package com.global.boot.test;
 
 //import com.global.boot.boss.log.annotations.BossOperation;
-import com.yjf.common.log.Logger;
-import com.yjf.common.log.LoggerFactory;
+import com.global.common.log.Logger;
+import com.global.common.log.LoggerFactory;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
 import org.springframework.ui.ModelMap;

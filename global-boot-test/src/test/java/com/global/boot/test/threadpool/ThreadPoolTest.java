@@ -10,11 +10,16 @@
 package com.global.boot.test.threadpool;
 
 import com.alibaba.dubbo.common.utils.NamedThreadFactory;
-import com.yjf.common.concurrent.MonitoredThreadPoolExecutor;
-import com.yjf.common.concurrent.ReporttingRejectedExecutionHandler;
+import com.global.boot.dubbo.cache.RedisCache;
+import com.global.common.concurrent.MonitoredThreadPoolExecutor;
+import com.global.common.concurrent.ReporttingRejectedExecutionHandler;
+
 import lombok.extern.slf4j.Slf4j;
+
 import org.junit.Before;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ExecutorService;
@@ -29,6 +34,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class ThreadPoolTest {
 	private MonitoredThreadPoolExecutor executor;
 	private ExecutorService executorService;
+	
+	private static final Logger log = LoggerFactory.getLogger(ThreadPoolTest.class);
 	
 	@Before
 	public void setUp() throws Exception {

@@ -67,6 +67,86 @@ public class YedisProperties {
 		 * 最大等待连接时间
 		 */
 		private int maxWait = 2000;
+		public int getMaxTotal() {
+			return maxTotal;
+		}
+		public void setMaxTotal(int maxTotal) {
+			this.maxTotal = maxTotal;
+		}
+		public int getMaxIdle() {
+			return maxIdle;
+		}
+		public void setMaxIdle(int maxIdle) {
+			this.maxIdle = maxIdle;
+		}
+		public int getMaxWait() {
+			return maxWait;
+		}
+		public void setMaxWait(int maxWait) {
+			this.maxWait = maxWait;
+		}
+		
+		
+		
 		
 	}
+
+	public boolean isEnable() {
+		return enable;
+	}
+
+	public void setEnable(boolean enable) {
+		this.enable = enable;
+	}
+
+	public String getHost() {
+		return host;
+	}
+
+	public void setHost(String host) {
+		this.host = host;
+	}
+
+	public int getPort() {
+		return port;
+	}
+
+	public void setPort(int port) {
+		this.port = port;
+	}
+
+	public String getNamespace() {
+		return namespace;
+	}
+
+	public void setNamespace(String namespace) {
+		this.namespace = namespace;
+	}
+
+	public int getTimeOut() {
+		return timeOut;
+	}
+
+	public void setTimeOut(int timeOut) {
+		this.timeOut = timeOut;
+	}
+
+	public int getExpireTime() {
+		return expireTime;
+	}
+
+	public void setExpireTime(int expireTime) {
+		this.expireTime = expireTime;
+	}
+
+	public Pool getPool() {
+		return pool;
+	}
+
+	public void setPool(Pool pool) {
+		this.pool = pool;
+	}
+	
+	
+	
 }

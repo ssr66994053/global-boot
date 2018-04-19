@@ -13,7 +13,7 @@ package com.global.boot.test.velocity;
 import com.global.boot.test.TestBase;
 import com.global.boot.velocity.HtmlEscapeReference;
 import com.global.boot.velocity.YijiVelocityProperties;
-import com.yjf.common.spring.ApplicationContextHolder;
+import com.global.common.spring.ApplicationContextHolder;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

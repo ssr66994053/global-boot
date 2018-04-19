@@ -11,8 +11,8 @@ package com.global.boot.actuator.endpoint;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import com.yjf.common.portrait.model.Endpoint;
-import com.yjf.common.portrait.model.IOResource;
+import com.global.common.portrait.model.Endpoint;
+import com.global.common.portrait.model.IOResource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.endpoint.AbstractEndpoint;
 import org.springframework.boot.context.properties.ConfigurationProperties;

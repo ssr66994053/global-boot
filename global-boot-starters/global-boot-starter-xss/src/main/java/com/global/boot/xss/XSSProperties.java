@@ -10,7 +10,7 @@
  */
 package com.global.boot.xss;
 
-import com.yjf.common.web.XssConfig;
+import com.global.common.web.XssConfig;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**

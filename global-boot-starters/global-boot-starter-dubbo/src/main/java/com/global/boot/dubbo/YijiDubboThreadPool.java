@@ -12,9 +12,9 @@ package com.global.boot.dubbo;
 import com.alibaba.dubbo.common.Constants;
 import com.alibaba.dubbo.common.URL;
 import com.alibaba.dubbo.common.threadpool.ThreadPool;
-import com.yjf.common.concurrent.MonitoredThreadPool;
-import com.yjf.common.concurrent.MonitoredThreadPoolExecutor;
-import com.yjf.common.lang.exception.Exceptions;
+import com.global.common.concurrent.MonitoredThreadPool;
+import com.global.common.concurrent.MonitoredThreadPoolExecutor;
+import com.global.common.lang.exception.Exceptions;
 
 import java.util.concurrent.Executor;
 

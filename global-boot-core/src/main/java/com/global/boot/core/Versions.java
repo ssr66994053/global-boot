@@ -9,8 +9,8 @@
  */
 package com.global.boot.core;
 
-import com.yjf.common.lang.util.DateUtil;
-import com.yjf.common.spring.ApplicationContextHolder;
+import com.global.common.lang.util.DateUtil;
+import com.global.common.spring.ApplicationContextHolder;
 
 import java.net.JarURLConnection;
 import java.text.SimpleDateFormat;

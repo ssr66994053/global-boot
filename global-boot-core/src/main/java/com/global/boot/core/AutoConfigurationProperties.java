@@ -9,7 +9,7 @@
  */
 package com.global.boot.core;
 
-import com.yjf.common.lang.RunException;
+import com.global.common.lang.RunException;
 
 /**
  * 表示自动配置属性。

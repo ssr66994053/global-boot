@@ -9,8 +9,8 @@
  */
 package com.global.boot.test.dal;
 
-import com.yjf.common.lang.result.SingleValueResult;
-import com.yjf.common.service.SingleValueOrder;
+import com.global.common.lang.result.SingleValueResult;
+import com.global.common.service.SingleValueOrder;
 
 /**
  * @author qiubo@yiji.com

@@ -9,8 +9,8 @@
  */
 package com.global.boot.test.appservice;
 
-import com.yjf.common.lang.dto.DtoBase;
-import com.yjf.common.service.OrderCheckException;
+import com.global.common.lang.dto.DtoBase;
+import com.global.common.service.OrderCheckException;
 import org.hibernate.validator.constraints.NotEmpty;
 
 /**

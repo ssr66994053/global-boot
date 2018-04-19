@@ -9,8 +9,8 @@
  */
 package com.global.boot.core;
 
-import com.yjf.common.lang.RunException;
-import com.yjf.common.util.ReflectionUtils;
+import com.global.common.lang.RunException;
+import com.global.common.util.ReflectionUtils;
 import org.springframework.util.Assert;
 
 import java.lang.reflect.Method;
