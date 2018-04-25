@@ -8,8 +8,8 @@
 
 package ${package}.test;
 
-import com.yiji.boot.core.Apps;
-import com.yiji.boot.test.AppWebTestBase;
+import com.global.boot.core.Apps;
+import com.global.boot.test.AppWebTestBase;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import ${package}.Main;
 

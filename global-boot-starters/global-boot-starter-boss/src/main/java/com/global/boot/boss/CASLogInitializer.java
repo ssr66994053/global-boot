@@ -10,8 +10,8 @@
 package com.global.boot.boss;
 
 import ch.qos.logback.classic.Level;
-import com.yiji.boot.core.log.LogbackConfigurator;
-import com.yiji.boot.core.log.initializer.AbstractLogInitializer;
+import com.global.boot.core.log.LogbackConfigurator;
+import com.global.boot.core.log.initializer.AbstractLogInitializer;
 
 /**
  * @author qiubo@yiji.com

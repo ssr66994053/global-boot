@@ -9,7 +9,7 @@
 package com.global.boot.boss;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import com.global.common.id.ID;
 import com.global.common.lang.exception.Exceptions;
 import com.global.common.util.ToString;

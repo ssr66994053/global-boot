@@ -16,7 +16,7 @@ import com.global.boot.boss.log.annotations.BossOperation;
 import com.global.boot.boss.log.domain.BossOperationLogMessage;
 import com.global.boot.boss.log.domain.LogParameter;
 import com.google.common.collect.Lists;
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import com.global.boot.web.SpringHandlerInterceptor;
 import com.global.common.concurrent.MonitoredThreadPool;
 import com.global.common.id.OID;

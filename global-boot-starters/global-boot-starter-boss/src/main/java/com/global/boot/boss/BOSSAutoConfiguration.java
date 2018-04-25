@@ -11,7 +11,7 @@ package com.global.boot.boss;
 
 import com.alibaba.dubbo.common.Constants;
 import com.alibaba.dubbo.config.spring.AnnotationBean;
-import com.yiji.boot.core.Apps;
+import com.global.boot.core.Apps;
 import com.global.boot.dubbo.DubboAutoConfiguration;
 import com.global.boot.session.YedisHttpSessionConfiguration;
 import com.global.boot.xss.XSSProperties;
