@@ -28,7 +28,7 @@
                 <artifactId>global-boot-starter-appservice</artifactId>
                 <version>1.2-SNAPSHOT</version>
             </dependency>
-            <!--  
+             
             <dependency>
                 <groupId>com.global.boot</groupId>
                 <artifactId>global-boot-starter-boss</artifactId>
@@ -39,7 +39,6 @@
                 <artifactId>global-boot-starter-cas</artifactId>
                 <version>1.2-SNAPSHOT</version>
             </dependency>
-            -->
             <dependency>
                 <groupId>com.global.boot</groupId>
                 <artifactId>global-boot-starter-cs</artifactId>
