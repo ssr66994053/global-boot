@@ -10,8 +10,8 @@
 package com.global.boot.test.appservice;
 
 import com.global.boot.appservice.AppService;
-import com.global.common.lang.result.SingleValueResult;
-import com.global.common.service.SingleValueOrder;
+import com.yjf.common.lang.result.SingleValueResult;
+import com.yjf.common.service.SingleValueOrder;
 
 /**
  * @author qiubo@yiji.com

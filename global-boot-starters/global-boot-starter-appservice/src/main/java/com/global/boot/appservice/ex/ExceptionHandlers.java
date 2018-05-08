@@ -12,7 +12,7 @@
 package com.global.boot.appservice.ex;
 
 import com.google.common.collect.Maps;
-import com.global.common.lang.exception.SystemException;
+import com.yjf.common.lang.exception.SystemException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.aop.support.AopUtils;

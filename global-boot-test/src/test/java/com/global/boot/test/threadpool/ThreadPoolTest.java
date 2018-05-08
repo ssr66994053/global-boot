@@ -11,8 +11,8 @@ package com.global.boot.test.threadpool;
 
 import com.alibaba.dubbo.common.utils.NamedThreadFactory;
 import com.global.boot.dubbo.cache.RedisCache;
-import com.global.common.concurrent.MonitoredThreadPoolExecutor;
-import com.global.common.concurrent.ReporttingRejectedExecutionHandler;
+import com.yjf.common.concurrent.MonitoredThreadPoolExecutor;
+import com.yjf.common.concurrent.ReporttingRejectedExecutionHandler;
 
 import lombok.extern.slf4j.Slf4j;
 

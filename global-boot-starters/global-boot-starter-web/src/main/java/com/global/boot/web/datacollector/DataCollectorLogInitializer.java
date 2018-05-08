@@ -16,7 +16,7 @@ import ch.qos.logback.core.Appender;
 import com.global.boot.core.Apps;
 import com.global.boot.core.log.LogbackConfigurator;
 import com.global.boot.core.log.initializer.AbstractLogInitializer;
-import com.global.common.log.LogbackAsyncAppender;
+import com.yjf.common.log.LogbackAsyncAppender;
 
 /**
  * @author yanglie@yiji.com

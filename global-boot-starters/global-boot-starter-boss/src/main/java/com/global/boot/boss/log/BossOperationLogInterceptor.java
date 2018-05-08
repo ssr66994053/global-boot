@@ -18,11 +18,11 @@ import com.global.boot.boss.log.domain.LogParameter;
 import com.google.common.collect.Lists;
 import com.global.boot.core.Apps;
 import com.global.boot.web.SpringHandlerInterceptor;
-import com.global.common.concurrent.MonitoredThreadPool;
-import com.global.common.id.OID;
-import com.global.common.lang.ip.IPUtil;
-import com.global.common.log.Logger;
-import com.global.common.log.LoggerFactory;
+import com.yjf.common.concurrent.MonitoredThreadPool;
+import com.yjf.common.id.OID;
+import com.yjf.common.lang.ip.IPUtil;
+import com.yjf.common.log.Logger;
+import com.yjf.common.log.LoggerFactory;
 
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.commons.lang.StringUtils;
@@ -232,7 +232,7 @@ public class BossOperationLogInterceptor implements HandlerInterceptor {
 			}
 			if (new AntPathMatcher().match(maskPattern.toLowerCase(), paramName.toLowerCase())) {
 				logger.info("根据配置{},给参数{}掩码", maskPattern, paramName);
-				return com.global.common.util.StringUtils.mask(paramValue);
+				return com.yjf.common.util.StringUtils.mask(paramValue);
 			}
 		}
 		return paramValue;

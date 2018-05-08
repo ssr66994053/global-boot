@@ -17,7 +17,7 @@
         <dependency>
             <groupId>com.yjf.common</groupId>
             <artifactId>yjf-common-util</artifactId>
-            <version>2.2.20180129</version>
+            <version>2.2.20180411</version>
             <scope>provided</scope>
         </dependency>
         <dependency>

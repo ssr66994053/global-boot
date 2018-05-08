@@ -10,8 +10,8 @@
  */
 package com.global.boot.web;
 
-import com.global.common.lang.enums.Messageable;
-import com.global.common.lang.result.ViewResultInfo;
+import com.yjf.common.lang.enums.Messageable;
+import com.yjf.common.lang.result.ViewResultInfo;
 import org.apache.commons.lang.StringEscapeUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

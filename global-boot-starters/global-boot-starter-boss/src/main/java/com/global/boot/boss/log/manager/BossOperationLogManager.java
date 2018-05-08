@@ -11,7 +11,7 @@ package com.global.boot.boss.log.manager;
  */
 
 import com.global.boot.boss.log.domain.BossOperationLogMessage;
-import com.global.common.lang.result.StandardResultInfo;
+import com.yjf.common.lang.result.StandardResultInfo;
 
 /**
  * 提供api接口给子boss系统，手工发送消息到操作队列

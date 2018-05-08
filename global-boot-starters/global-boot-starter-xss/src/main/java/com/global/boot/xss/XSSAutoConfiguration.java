@@ -20,7 +20,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.global.common.web.CrossScriptingFilter;
+import com.yjf.common.web.CrossScriptingFilter;
 
 /**
  * @author qiubo@yiji.com

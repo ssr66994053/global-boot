@@ -9,7 +9,7 @@
  */
 package com.global.boot.test;
 
-import com.global.common.net.HttpUtil;
+import com.yjf.common.net.HttpUtil;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.concurrent.FutureCallback;

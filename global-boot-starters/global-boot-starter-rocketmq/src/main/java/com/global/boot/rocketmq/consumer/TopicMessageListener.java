@@ -17,7 +17,7 @@ import com.alibaba.rocketmq.common.message.MessageExt;
 import com.global.boot.core.configuration.LogAutoConfiguration;
 import com.global.boot.rocketmq.message.NotifyMessage;
 import com.global.boot.rocketmq.support.MessageConverter;
-import com.global.common.util.ToString;
+import com.yjf.common.util.ToString;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;

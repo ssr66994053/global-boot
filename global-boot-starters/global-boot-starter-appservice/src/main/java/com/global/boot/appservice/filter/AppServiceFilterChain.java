@@ -40,7 +40,7 @@ public class AppServiceFilterChain extends FilterChainBase<AppServiceContext> {
 
 	private void replaceDefaultCheckFilter() {
 		String parameterCheckFilterImpl = EnvironmentHolder.get().getProperty(
-			"yiji.appService.parameterCheckFilterImpl");
+			"global.appService.parameterCheckFilterImpl");
 		if (!Strings.isNullOrEmpty(parameterCheckFilterImpl)
 			&& !parameterCheckFilterImpl.equals(ParameterCheckFilter.class.getName())) {
 			int defaultCheckFilterIdx = 0;

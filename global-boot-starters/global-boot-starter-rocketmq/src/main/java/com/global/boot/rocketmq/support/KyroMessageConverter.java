@@ -13,7 +13,7 @@ package com.global.boot.rocketmq.support;
 import com.alibaba.rocketmq.common.message.Message;
 import com.alibaba.rocketmq.common.message.MessageExt;
 import com.global.boot.rocketmq.message.NotifyMessage;
-import com.global.common.kryo.Kryos;
+import com.yjf.common.kryo.Kryos;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

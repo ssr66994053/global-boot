@@ -11,7 +11,7 @@
 package com.global.boot.test;
 
 //import com.global.framework.hera.client.support.annotation.AutoConfig;
-import com.global.common.concurrent.MonitoredThreadPool;
+import com.yjf.common.concurrent.MonitoredThreadPool;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.embedded.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;

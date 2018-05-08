@@ -12,8 +12,8 @@ package com.global.boot.mybatis;
 
 import com.google.common.collect.Lists;
 import com.global.boot.jdbc.JDBCAutoConfiguration;
-import com.global.common.mybatis.MoneyTypeHandler;
-import com.global.common.util.StringUtils;
+import com.yjf.common.mybatis.MoneyTypeHandler;
+import com.yjf.common.util.StringUtils;
 import org.apache.ibatis.io.VFS;
 import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.session.SqlSessionFactory;

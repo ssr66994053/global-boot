@@ -9,7 +9,7 @@
  */
 package com.global.boot.core.dependency;
 
-import com.global.common.dependency.DependencyChecker;
+import com.yjf.common.dependency.DependencyChecker;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringApplicationRunListener;
 import org.springframework.context.ConfigurableApplicationContext;

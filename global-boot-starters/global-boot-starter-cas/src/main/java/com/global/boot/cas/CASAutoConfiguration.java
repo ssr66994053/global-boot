@@ -21,7 +21,7 @@ import com.yiji.authcenter.redis.RedisManager;
 import com.global.boot.core.Apps;
 import com.global.boot.session.YedisHttpSessionConfiguration;
 import com.global.boot.yedis.YedisAutoConfiguration;
-import com.global.common.env.Env;
+import com.yjf.common.env.Env;
 import org.apache.commons.collections.MapUtils;
 import org.apache.shiro.cache.CacheManager;
 import org.apache.shiro.cas.CasRealm;

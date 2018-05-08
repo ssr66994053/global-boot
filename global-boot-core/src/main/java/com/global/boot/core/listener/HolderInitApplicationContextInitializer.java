@@ -9,7 +9,7 @@
  */
 package com.global.boot.core.listener;
 
-import com.global.common.spring.ApplicationContextHolder;
+import com.yjf.common.spring.ApplicationContextHolder;
 import org.springframework.context.ApplicationContextInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.Ordered;

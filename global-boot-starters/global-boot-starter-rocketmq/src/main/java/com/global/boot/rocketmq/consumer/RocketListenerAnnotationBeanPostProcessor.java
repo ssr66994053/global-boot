@@ -15,7 +15,7 @@ import com.global.boot.core.Apps;
 import com.global.boot.rocketmq.message.NotifyMessage;
 import com.global.boot.rocketmq.message.OrderedNotifyMessage;
 import com.global.boot.rocketmq.support.KyroMessageConverter;
-import com.global.common.env.Env;
+import com.yjf.common.env.Env;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.aop.support.AopUtils;

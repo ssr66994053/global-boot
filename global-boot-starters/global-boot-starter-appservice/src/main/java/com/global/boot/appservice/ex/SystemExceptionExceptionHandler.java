@@ -10,10 +10,10 @@
  */
 package com.global.boot.appservice.ex;
 
-import com.global.common.lang.enums.CommonErrorCode;
-import com.global.common.lang.exception.SystemException;
-import com.global.common.lang.result.StandardResultInfo;
-import com.global.common.lang.result.Status;
+import com.yjf.common.lang.enums.CommonErrorCode;
+import com.yjf.common.lang.exception.SystemException;
+import com.yjf.common.lang.result.StandardResultInfo;
+import com.yjf.common.lang.result.Status;
 
 /**
  * @author qzhanbo@yiji.com

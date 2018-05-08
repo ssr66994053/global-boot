@@ -13,8 +13,8 @@ import com.alibaba.dubbo.cache.support.AbstractCache;
 import com.google.common.base.Strings;
 import com.global.framework.yedis.support.YedisConnectionFactory;
 //import com.global.boot.appservice.ex.ExceptionHandlers;
-import com.global.common.lang.result.ResultInfo;
-import com.global.common.lang.result.Status;
+import com.yjf.common.lang.result.ResultInfo;
+import com.yjf.common.lang.result.Status;
 
 import lombok.extern.slf4j.Slf4j;
 

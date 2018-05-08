@@ -13,7 +13,7 @@ import com.google.common.base.Charsets;
 //import com.global.boot.dubbo.cache.RedisCache;
 import com.global.boot.test.param.converter.MoneyEditor;
 import com.global.boot.test.param.converter.StringToMoneyConverter;
-import com.global.common.lang.util.money.Money;
+import com.yjf.common.lang.util.money.Money;
 
 import junitparams.custom.ParametersProvider;
 import junitparams.internal.Utils;

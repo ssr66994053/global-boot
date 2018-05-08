@@ -2,9 +2,9 @@ package com.global.boot.test.core;
 
 import com.global.boot.test.TestBase;
 import com.global.boot.test.TestBean;
-import com.global.common.env.Env;
+import com.yjf.common.env.Env;
 //import com.global.framework.watcher.spring.SpringApplicationContextHolder;
-import com.global.common.spring.ApplicationContextHolder;
+import com.yjf.common.spring.ApplicationContextHolder;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;

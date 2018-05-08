@@ -9,12 +9,12 @@
  */
 package com.global.boot.test.appservice;
 
-import com.global.common.lang.enums.CommonErrorCode;
-import com.global.common.lang.result.SingleValueResult;
-import com.global.common.lang.result.Status;
-import com.global.common.lang.validator.Validators;
-import com.global.common.service.OrderCheckException;
-import com.global.common.service.SingleValueOrder;
+import com.yjf.common.lang.enums.CommonErrorCode;
+import com.yjf.common.lang.result.SingleValueResult;
+import com.yjf.common.lang.result.Status;
+import com.yjf.common.lang.validator.Validators;
+import com.yjf.common.service.OrderCheckException;
+import com.yjf.common.service.SingleValueOrder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

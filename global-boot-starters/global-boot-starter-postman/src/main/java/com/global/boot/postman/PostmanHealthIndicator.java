@@ -9,8 +9,8 @@
  */
 package com.global.boot.postman;
 
-import com.global.common.concurrent.MonitoredThreadPool;
-import com.global.common.net.HttpRequest;
+import com.yjf.common.concurrent.MonitoredThreadPool;
+import com.yjf.common.net.HttpRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.health.AbstractHealthIndicator;
 import org.springframework.boot.actuate.health.Health;

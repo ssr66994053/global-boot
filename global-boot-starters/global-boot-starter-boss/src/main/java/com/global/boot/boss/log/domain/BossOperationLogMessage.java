@@ -9,8 +9,8 @@
  */
 package com.global.boot.boss.log.domain;
 
-import com.global.common.lang.result.Status;
-import com.global.common.util.ToString;
+import com.yjf.common.lang.result.Status;
+import com.yjf.common.util.ToString;
 import org.springframework.util.Assert;
 
 import java.util.Date;

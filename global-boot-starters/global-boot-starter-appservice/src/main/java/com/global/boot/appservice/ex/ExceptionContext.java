@@ -10,7 +10,7 @@
  */
 package com.global.boot.appservice.ex;
 
-import com.global.common.lang.result.StandardResultInfo;
+import com.yjf.common.lang.result.StandardResultInfo;
 
 /**
  * @author qzhanbo@yiji.com

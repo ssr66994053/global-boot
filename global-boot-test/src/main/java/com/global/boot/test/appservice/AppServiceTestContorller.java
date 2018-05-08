@@ -9,9 +9,9 @@
  */
 package com.global.boot.test.appservice;
 
-import com.global.common.id.GID;
-import com.global.common.lang.result.ViewResultInfo;
-import com.global.common.service.SingleValueOrder;
+import com.yjf.common.id.GID;
+import com.yjf.common.lang.result.ViewResultInfo;
+import com.yjf.common.service.SingleValueOrder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

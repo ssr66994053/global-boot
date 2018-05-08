@@ -10,7 +10,7 @@ package com.global.boot.cs;
 
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Output;
-import com.global.common.kryo.Kryos;
+import com.yjf.common.kryo.Kryos;
 import com.yjf.cs.service.api.mq.MailMQClient;
 import com.yjf.cs.service.order.EmailSenderOrder;
 import org.slf4j.Logger;

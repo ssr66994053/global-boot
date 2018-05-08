@@ -9,7 +9,7 @@
  */
 package com.global.boot.filterchain;
 
-import com.global.common.lang.Named;
+import com.yjf.common.lang.Named;
 import org.springframework.core.Ordered;
 
 import javax.annotation.concurrent.NotThreadSafe;

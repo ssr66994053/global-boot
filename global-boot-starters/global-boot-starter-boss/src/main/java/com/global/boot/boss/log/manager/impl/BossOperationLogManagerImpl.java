@@ -13,11 +13,11 @@ package com.global.boot.boss.log.manager.impl;
 import com.alibaba.dubbo.common.utils.Assert;
 import com.global.boot.boss.log.domain.BossOperationLogMessage;
 import com.global.boot.boss.log.manager.BossOperationLogManager;
-import com.global.common.concurrent.MonitoredThreadPool;
-import com.global.common.lang.result.StandardResultInfo;
-import com.global.common.lang.result.Status;
-import com.global.common.log.Logger;
-import com.global.common.log.LoggerFactory;
+import com.yjf.common.concurrent.MonitoredThreadPool;
+import com.yjf.common.lang.result.StandardResultInfo;
+import com.yjf.common.lang.result.Status;
+import com.yjf.common.log.Logger;
+import com.yjf.common.log.LoggerFactory;
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Component;

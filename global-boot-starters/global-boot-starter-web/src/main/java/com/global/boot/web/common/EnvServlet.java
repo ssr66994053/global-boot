@@ -10,7 +10,7 @@
  */
 package com.global.boot.web.common;
 
-import com.global.common.env.Env;
+import com.yjf.common.env.Env;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

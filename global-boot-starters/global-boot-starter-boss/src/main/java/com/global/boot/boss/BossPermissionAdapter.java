@@ -10,9 +10,9 @@ package com.global.boot.boss;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.global.boot.core.Apps;
-import com.global.common.id.ID;
-import com.global.common.lang.exception.Exceptions;
-import com.global.common.util.ToString;
+import com.yjf.common.id.ID;
+import com.yjf.common.lang.exception.Exceptions;
+import com.yjf.common.util.ToString;
 import com.yjf.marmot.user.Item;
 import com.yjf.marmot.user.MarmotUser;
 import com.yjf.marmot.user.Menu;

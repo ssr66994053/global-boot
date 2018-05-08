@@ -13,7 +13,7 @@ import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.Appender;
 import com.global.boot.core.log.LogbackConfigurator;
-import com.global.common.log.BusinessLogger;
+import com.yjf.common.log.BusinessLogger;
 
 /**
  * @author qiubo@yiji.com

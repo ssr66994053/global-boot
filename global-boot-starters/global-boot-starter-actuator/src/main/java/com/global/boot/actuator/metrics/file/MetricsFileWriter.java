@@ -10,8 +10,8 @@
 package com.global.boot.actuator.metrics.file;
 
 import com.alibaba.fastjson.JSON;
-import com.global.common.log.BusinessLogger;
-import com.global.common.log.LoggerFactory;
+import com.yjf.common.log.BusinessLogger;
+import com.yjf.common.log.LoggerFactory;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;

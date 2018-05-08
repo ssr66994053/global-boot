@@ -13,10 +13,10 @@ package com.global.boot.rocketmq.message;
 
 import com.google.common.collect.Maps;
 import com.global.boot.core.Apps;
-import com.global.common.env.Env;
-import com.global.common.lang.constants.SplitConstants;
-import com.global.common.lang.validator.Validators;
-import com.global.common.util.ToString;
+import com.yjf.common.env.Env;
+import com.yjf.common.lang.constants.SplitConstants;
+import com.yjf.common.lang.validator.Validators;
+import com.yjf.common.util.ToString;
 import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.NotNull;

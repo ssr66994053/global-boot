@@ -15,7 +15,7 @@ import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.Appender;
 import com.global.boot.core.log.LogbackConfigurator;
 import com.global.boot.core.log.initializer.AbstractLogInitializer;
-import com.global.common.log.LogbackAsyncAppender;
+import com.yjf.common.log.LogbackAsyncAppender;
 
 /**
  * 打印慢sql和big result sql到sql-10dt.log文件

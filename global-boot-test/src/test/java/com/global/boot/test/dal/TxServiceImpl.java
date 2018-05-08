@@ -10,9 +10,9 @@
 package com.global.boot.test.dal;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.global.common.lang.result.SingleValueResult;
-import com.global.common.service.SingleValueOrder;
-import com.global.common.spring.ApplicationContextHolder;
+import com.yjf.common.lang.result.SingleValueResult;
+import com.yjf.common.service.SingleValueOrder;
+import com.yjf.common.spring.ApplicationContextHolder;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Random;

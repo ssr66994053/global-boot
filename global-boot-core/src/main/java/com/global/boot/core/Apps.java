@@ -11,8 +11,8 @@
 package com.global.boot.core;
 
 import com.global.boot.core.listener.YijiApplicationRunListener;
-import com.global.common.id.CodeGenerator;
-import com.global.common.spring.ApplicationContextHolder;
+import com.yjf.common.id.CodeGenerator;
+import com.yjf.common.spring.ApplicationContextHolder;
 import org.springframework.context.ApplicationContext;
 import org.springframework.core.env.Environment;
 import org.springframework.util.StringUtils;

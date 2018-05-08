@@ -15,7 +15,7 @@ import ch.qos.logback.core.util.OptionHelper;
 import com.global.boot.core.AppConfigException;
 import com.global.boot.core.listener.YijiApplicationRunListener;
 import com.global.boot.core.log.initializer.LogInitializer;
-import com.global.common.env.Env;
+import com.yjf.common.env.Env;
 import org.slf4j.ILoggerFactory;
 import org.slf4j.impl.StaticLoggerBinder;
 import org.springframework.boot.context.config.ConfigFileApplicationListener;

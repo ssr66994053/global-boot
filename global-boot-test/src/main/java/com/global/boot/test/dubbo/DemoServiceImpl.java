@@ -11,9 +11,9 @@
 package com.global.boot.test.dubbo;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.global.common.concurrent.MonitoredThreadPool;
-import com.global.common.lang.result.SingleValueResult;
-import com.global.common.service.SingleValueOrder;
+import com.yjf.common.concurrent.MonitoredThreadPool;
+import com.yjf.common.lang.result.SingleValueResult;
+import com.yjf.common.service.SingleValueOrder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

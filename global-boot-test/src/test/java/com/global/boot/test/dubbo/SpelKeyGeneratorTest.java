@@ -12,7 +12,7 @@ package com.global.boot.test.dubbo;
 import com.global.boot.dubbo.cache.CacheMeta;
 import com.global.boot.core.components.dubbo.DubboCache;
 import com.global.boot.dubbo.cache.SpelKeyGenerator;
-import com.global.common.service.OrderBase;
+import com.yjf.common.service.OrderBase;
 import org.junit.Assert;
 import org.junit.Test;
 

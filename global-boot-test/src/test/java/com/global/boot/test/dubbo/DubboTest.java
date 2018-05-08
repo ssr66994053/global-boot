@@ -14,7 +14,7 @@ import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.global.boot.test.TestBase;
-import com.global.common.dubbo.DubboRemoteProxyFacotry;
+import com.yjf.common.dubbo.DubboRemoteProxyFacotry;
 //import com.yiji.customer.service.api.UserService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

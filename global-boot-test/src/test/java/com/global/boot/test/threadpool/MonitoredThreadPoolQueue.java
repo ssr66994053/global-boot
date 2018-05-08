@@ -9,7 +9,7 @@
  */
 package com.global.boot.test.threadpool;
 
-import com.global.common.concurrent.MonitoredThreadPoolExecutor;
+import com.yjf.common.concurrent.MonitoredThreadPoolExecutor;
 
 import java.util.concurrent.LinkedBlockingQueue;
 
